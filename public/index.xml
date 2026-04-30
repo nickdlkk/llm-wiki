@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>LLM Wiki</title>
+      <link>https://nickdlkk.github.io/llm-wiki</link>
+      <description>最近的10条笔记 on LLM Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>feisou-search-skill</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/feisou-search-skill</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/feisou-search-skill</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 30 Apr 2026 07:38:26 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/llm-wiki/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts LLM Wiki — AI 維護的持久知識庫：Index、Hot Cache、知識溯源 Harness Engineering — AI 工程領域的第三次重心遷移：Prompt Eng → Context Eng → Harness Eng Cognitive Debt and LLM Use — 普通人用好大模型的核心框架：认知债务、认知摩擦、思... ]]></description>
+    <pubDate>Thu, 30 Apr 2026 07:38:26 GMT</pubDate>
+  </item><item>
+    <title>Mattpocock Skills 对比分析</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/mattpocock-skills-comparison</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/mattpocock-skills-comparison</guid>
+    <description><![CDATA[ Mattpocock Skills 对比分析 概览 mattpocock/skills 包含 16 个 skill，分布在三个目录： 目录Skillsengineering/diagnose, grill-with-docs, improve-codebase-architecture, setup-matt-pocock-skills, tdd, to-issues, to-prd, triage, zoom-outproductivity/caveman, grill-me, write-a-skillmisc/git-guardrails-claude-code, migrate-to-... ]]></description>
+    <pubDate>Tue, 28 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>grill-me</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/github-mattpocock-skills-grill-me</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/github-mattpocock-skills-grill-me</guid>
+    <description><![CDATA[ grill-me A skill that implements relentless Socratic questioning to stress-test plans and designs until shared understanding is reached. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>认知债务与 LLM 正确用法</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/cognitive-debt-and-llm-use</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/cognitive-debt-and-llm-use</guid>
+    <description><![CDATA[ 认知债务与 LLM 正确用法 核心论点 大模型正在被普通人以完全相反的方式使用——把它当答案引擎，而不是思考伙伴。这种用法不仅低效，更在神经层面造成认知债务（Cognitive Debt）：短期效率换来长期认知能力的萎缩。 正确用法的两条核心原则： 保留认知摩擦 — 不让 AI 把思考过程抹平 把大模型定位为”临时思考伙伴” — 先有自己的判断，再让 AI 来挑战 研究证据 MIT Media Lab：EEG 实验 习惯让 ChatGPT 代写的人，大脑额叶和颞顶叶区域活动显著下降。这两个区域负责注意力、工作记忆和语言处理。当被要求脱离 AI 独立写作时，其神经连接度明显弱于从未用过 AI 的... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>PAS-AI SD + OpenSpec 工作流</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/pas-workflow-SD-OpenSpec</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/pas-workflow-SD-OpenSpec</guid>
+    <description><![CDATA[ PAS-AI SD + OpenSpec 工作流 PAS-AI 项目专属的 SD 文档 + OpenSpec 端到端工作流，是 superpowers-openspec-workflow 的 PAS-AI 落地实现版本。 与标准 superpowers-openspec 的差异 维度标准 superpowers-openspecPAS-AI 落地版SD 文档无专门流程Phase 2 强制生成 SD 文档，人审通过后才能进 Phase 3文档存放docs/solutions/ 临时目录openspec/changes/&lt;name&gt;/working-refs/ 受 git 管理变更管理... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Superpowers + OpenSpec Workflow</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers-openspec-workflow</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers-openspec-workflow</guid>
+    <description><![CDATA[ Superpowers + OpenSpec Workflow superpowers-zh + OpenSpec + superpowers-openspec 组合，形成一个从任务识别 → 需求澄清 → 方案确认 → 规范落地 → 计划执行 → 代码实现的完整工作流。这是目前最完整的 AI Coding 端到端方法论栈。 核心定位 组件职责产出superpowers-zh工作流方法论（何时用哪个 skill）Skill 调用决策superpowers-openspec中文意图 → OpenSpec 路由OpenSpec 阶段选择OpenSpec规范产物管理（CLI + 模板）proposal... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>OpenSpec-Chinese</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/OpenSpec-Chinese</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/OpenSpec-Chinese</guid>
+    <description><![CDATA[ OpenSpec-Chinese OpenLoaf/OpenSpec-Chinese — OpenSpec 的中文本地化版本，为 AI 编程助手提供规范驱动的开发流程，完整中文界面支持。MIT License。 核心定位 基于 org-hex/openspec-chinese 的中文本地化版本。OpenSpec 本身是一个 AI 驱动的系统化开发规范管理框架——在写代码前先与 AI 达成规范共识。 关键特性 中文界面支持 — 完整中文 UI 和文档 零侵入性设计 — 原有代码一行不改，完全独立实现 规范驱动开发 — 在编写代码前与 AI 达成规范共识 支持 20+ AI 工具 — Claude... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>spec-first-superpowers</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/spec-first-superpowers</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/spec-first-superpowers</guid>
+    <description><![CDATA[ spec-first-superpowers Cursor Agent Skill，强制”规范先行”工作流，防止 AI 跳过设计直接写代码。v5 版本整合了 Superpowers + Spec-Kit + OpenSpec 三大规范体系。 核心定位 “先规范再实现” 的端到端工作流，通过 /super-spec 命令激活，覆盖从规范到归档的完整链路。 工作流链路 /super-spec → Mode Selection（Spec-Kit vs OpenSpec） → Complexity Triage（quick / standard / thorough） → Session Recove... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>speccoding-template</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/speccoding-template</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/speccoding-template</guid>
+    <description><![CDATA[ speccoding-template beautifulSoup/speccoding-template — 基于 Claude Code + OpenSpec + Superpowers 三件套的全栈 AI 开发模板。让 AI 稳定交付全栈项目，告别”AI 改崩代码 / 失忆 / 跑偏”。MIT License。 核心定位 可直接 Clone 即用的项目骨架，实现文章《让 AI 稳定交付全栈项目》里的完整工作流。包含两级 Spec 体系 + 七阶段工作流 + 三工具协同。 两级 Spec 体系 层级位置作用项目级spec/整体需求、设计、任务清单、开发日志需求级openspec/chang... ]]></description>
+    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
