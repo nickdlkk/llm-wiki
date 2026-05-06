@@ -45,6 +45,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
 - [[Three Engineering Primitives]] — 隔离 / 分解 / 协调
 - [[Cognitive Debt and LLM Use]] — 普通人用好大模型：认知债务 + 认知摩擦 + 思考伙伴定位
+- [[Hermes Skill Nudge]] — Hermes 自动建议生成 Skill 的机制：iteration-based 触发、异步投递链路、已知 bug（send() 静默失败）
 
 ### Entities
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
@@ -61,6 +62,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - 什么样的 `init.sh` 起步最轻量且有效？
 - 多 Agent 协作中，Supervisor Agent 的信任边界如何量化？
 - 技术债务清理的"阈值"怎么定？Agent 什么时候该停下来重构而不是继续堆功能？
+- Hermes Skill Nudge: `_deliver_bg_review_message` 调用 `.send()` 而非 `.send_message()` — 是 Feishu adapter 的接口命名问题还是 caller 的调用错误？需要确认 BasePlatformAdapter 是否正确定义了 `send()` 接口。
 
 ## Research gaps
 
