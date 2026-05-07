@@ -51,6 +51,7 @@
 - [[github-hermes-lcm]] — Hermes 無損上下文管理插件：SQLite 不可變存儲 + DAG 摘要 + 3 層 escalation（L1→L2→L3）
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[github-open-ralph-wiggum]] — Ralph Wiggum technique 开源实现：将 Claude Code/Codex/Copilot/OpenCode 包装在持久自参照循环中（Bun + TypeScript）
+- [[github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
@@ -62,6 +63,7 @@
 
 ## Summaries (chronological)
 
+- 2026-05-07 — [[summaries/github-zcf]] — zcf 蒸馏：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - 2026-05-03 — [[summaries/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉3.5h访谈摘要：AI范式从Chat时代转向Agent时代，3:1:1算力分配，OpenClaw三天认知转变
 - 2026-04-27 — [[summaries/ralph-claude-code]] — Bash Autonomous Loop 实现：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - 2026-04-21 — [[summaries/claude-code-agentic-harness]] — Anthropic 官方定义 Claude Code 本身即完整 agentic harness
