@@ -7,6 +7,12 @@
 
 ## Concepts
 
+### AI行业趋势
+- [[算力分配-311/index|算力分配-311]] — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从"砸预训练"转向"研究驱动"
+- [[Agent框架/index|Agent框架]] — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板
+- [[生产力变革时代/index|生产力变革时代]] — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适）
+
+### Harness Engineering
 - [[LLM Wiki]] — AI 維護的持久知識庫：Index、Hot Cache、知識溯源
 - [[Harness Engineering]] — AI 工程領域的第三次重心遷移：Prompt Eng → Context Eng → Harness Eng
 - [[Cognitive Debt and LLM Use]] — 普通人用好大模型的核心框架：认知债务、认知摩擦、思考伙伴定位
@@ -19,8 +25,12 @@
 - [[Context Window Management]] — Claude Code 的上下文稀缺性与压缩策略
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
-## Entities
+### AI人物
+- [[罗福莉]] — 小米大模型负责人，前DeepSeek核心，MiMo-V2系列主导者
+- [[OpenClaw]] — 开源Agent框架：分层记忆、多模型编排、源码可改
+- [[小米_MiMo]] — 小米大模型产品线：MiMo-V2（1T参数，42B激活，1M context）
 
+### Tools
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
 - [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
@@ -52,7 +62,7 @@
 
 ## Summaries (chronological)
 
-- 2026-04-21 — [[summaries/anthropic-agent-sdk-architecture]] — Anthropic Agent SDK 六大组件：Tools/Hooks/Subagents/MCP/Permissions/Sessions
+- 2026-05-03 — [[summaries/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉3.5h访谈摘要：AI范式从Chat时代转向Agent时代，3:1:1算力分配，OpenClaw三天认知转变
 - 2026-04-27 — [[summaries/ralph-claude-code]] — Bash Autonomous Loop 实现：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - 2026-04-21 — [[summaries/claude-code-agentic-harness]] — Anthropic 官方定义 Claude Code 本身即完整 agentic harness
 - 2026-04-21 — [[summaries/harness-core-concept]] — 一句话定义 + 五点讲透 Harness 核心：约束/反馈环/质量闸门三层架构

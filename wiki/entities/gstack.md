@@ -3,7 +3,7 @@ title: gstack
 type: entity
 entity_type: tool
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-05-07
 sources: [gstack-skills, gstack-loc-controversy, gstack-architecture]
 tags: [claude-code, yc, harness-engineering, workflow, multi-agent]
 ---
@@ -70,6 +70,74 @@ gstack 和 Hermes 的 acp-client 项目解决的是同一类问题：**如何让
 
 **gstack 的优势**: 完整的产品化（79k stars 验证），skill 生态丰富，开箱即用
 **Hermes 的优势**: 更灵活的 agent 抽象，LLM wiki 作为 memory layer，browser 可复用 OpenClaw
+
+## Commands
+
+gstack 通过 Claude Code 的 `/` 命令触发，所有 skill 存储为 `SKILL.md`，日志自动写入 `~/.gstack/projects/<slug>/learnings.jsonl`。
+
+### Product & Planning
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/office-hours` | YC Office Hours | 6 个强制问题，在写代码前重新审视产品方向 |
+| `/plan-ceo-review` | CEO/Founder | 找到 10 星产品；4 种模式：Expansion/SelExp/Hold/Reduction |
+| `/plan-eng-review` | Eng Manager | 锁定架构、数据流、图表、边界情况、测试 |
+| `/plan-design-review` | Senior Designer | Plan 模式设计审查，0-10 评分，7 轮设计审查 |
+| `/design-consultation` | Design Partner | 从零构建设计系统，识别创意风险 |
+| `/design-review` | Designer Who Codes | 实时网站 80 项视觉审计 + 修复循环 |
+| `/design-shotgun` | Design Explorer | 多个 AI 变体，对比板，迭代至批准 |
+| `/design-html` | Design Engineer | 从已批准设计稿生成生产级 Pretext HTML |
+| `/autoplan` | Review Pipeline | CEO → Design → Eng 审查链，自动决议 |
+
+### Execution & Verification
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/review` | Staff Engineer | 结构性审查：N+1、竞态条件、信任边界、完整性缺口 |
+| `/investigate` | Debugger | 根因调试，铁律：未调查不修复 |
+| `/qa` | QA Lead | Playwright 测试，diff 感知，自动回归测试 |
+| `/qa-only` | QA Reporter | 同方法论，纯报告 |
+| `/browse` | QA Engineer | 持久化 Chromium daemon，约 100ms/命令，真实浏览器状态 |
+| `/setup-browser-cookies` | Session Manager | 从真实浏览器（Chrome/Arc/Brave/Edge）导入 cookies |
+| `/canary` | SRE | 部署后监控循环，控制台错误，性能回归 |
+| `/benchmark` | Performance Engineer | Core Web Vitals，真实 Chromium 测量，对比 diff |
+
+### Release & Operations
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/ship` | Release Engineer | 同步 → 测试 → 覆盖率审计 → 推送 → PR |
+| `/land-and-deploy` | Release Engineer | 合并 → CI → 部署 → canary 验证，一命令完成 |
+| `/setup-deploy` | Deploy Configurator | 检测平台（Fly/Render/Vercel/Netlify/Heroku/GHA），写入 CLAUDE.md |
+| `/cso` | Chief Security Officer | OWASP Top 10 + STRIDE 威胁模型 |
+| `/document-release` | Technical Writer | 同步文档与 diff，捕捉过时 README |
+| `/retro` | Eng Manager | 周回顾：commit 历史、发版速度、测试健康趋势 |
+
+### Memory & Learning
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/learn` | Memory | 管理 learnings.jsonl — 搜索、裁剪、导出、按类型统计（pattern/pitfall/preference/architecture） |
+
+### Multi-AI
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/codex` | Second Opinion | OpenAI Codex CLI 审查，3 种模式：review/challenge/consult |
+
+### Safety
+
+| Command | Role | 功能 |
+|---------|------|------|
+| `/careful` | Safety Guardrails | 危险命令警告（`rm -rf`、`DROP TABLE`、force-push） |
+| `/freeze` | Edit Lock | 限制编辑至单一目录 |
+| `/guard` | Full Safety | `/careful` + `/freeze` 组合 |
+| `/unfreeze` | Unlock | 解除冻结边界 |
+| `/open-gstack-browser` | Co-presence | 有头 Chromium + 侧边栏，实时观察 agent 行为 |
+| `/gstack-upgrade` | Self-Updater | 升级全局 + vendored 安装，显示 changelog |
+
+> **Usage stats**（2026-04）：75k+ ⭐ · 14,965 安装 · 305,309 总调用 · 95.2% 成功率
+> Top skills: `/qa` (57,650)、`/plan-eng-review` (28,014)、`/office-hours` (24,817)、`/ship` (18,899)
 
 ## 相关概念
 

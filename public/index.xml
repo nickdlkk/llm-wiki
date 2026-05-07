@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>feisou-search-skill</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/feisou-search-skill</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/feisou-search-skill</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 30 Apr 2026 07:38:26 GMT</pubDate>
+    <title>gstack</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/gstack</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/gstack</guid>
+    <description><![CDATA[ gstack gstack 是 Y Combinator CEO Garry Tan 开源的 Claude Code 技能包（79k+ GitHub ⭐），将单个 AI 助手转变为多角色虚拟工程团队。核心定位：Harness Engineering 的生产级实现。 Key facts 作者: Garry Tan — Y Combinator CEO / Founder @garryslist / Palantir early eng / Posterous cofounder GitHub: garrytan/gstack — 75k+ stars, 14,965 installations,... ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>OneClickVirt</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/oneclickvirt</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/oneclickvirt</guid>
+    <description><![CDATA[ OneClickVirt OneClickVirt 是一个基于 Proxmox VE (PVE) 的一键虚拟化管理平台，支持通过 Web UI 或 API 创建/管理 LXC 容器和 QEMU 虚拟机。核心场景是在 PVE 上批量交付隔离的云实例。 核心概念 架构分层 ┌─────────────────────────────────────────┐ │ Web UI (port 8000) / API │ ├─────────────────────────────────────────┤ │ Task Service (Worker Pool) │ │ - 任务调度：pending ... ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Hermes Skill Nudge</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/hermes-skill-nudge</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/hermes-skill-nudge</guid>
+    <description><![CDATA[ Hermes Skill Nudge Hermes Gateway 的”技能建议”自动生成机制 — 每 N 次 iteration 主动建议用户保存当前会话中的操作模式为可复用 Skill 机制概述 Skill Nudge 是 Hermes 的内置反馈闭环：当用户在一次会话中反复做同类操作（tool call 达到一定次数）时，自动建议用户把操作模式固化为 Skill，下次同类任务无需重复描述。 核心逻辑在 run_agent.py 的 run_conversation() 末尾。 触发条件 # run_agent.py:13919 if (self._skill_nudge_interval... ]]></description>
+    <pubDate>Tue, 05 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://nickdlkk.github.io/llm-wiki/</link>
     <guid>https://nickdlkk.github.io/llm-wiki/</guid>
-    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts LLM Wiki — AI 維護的持久知識庫：Index、Hot Cache、知識溯源 Harness Engineering — AI 工程領域的第三次重心遷移：Prompt Eng → Context Eng → Harness Eng Cognitive Debt and LLM Use — 普通人用好大模型的核心框架：认知债务、认知摩擦、思... ]]></description>
-    <pubDate>Thu, 30 Apr 2026 07:38:26 GMT</pubDate>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Sun, 03 May 2026 06:42:02 GMT</pubDate>
   </item><item>
-    <title>Mattpocock Skills 对比分析</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/mattpocock-skills-comparison</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/mattpocock-skills-comparison</guid>
-    <description><![CDATA[ Mattpocock Skills 对比分析 概览 mattpocock/skills 包含 16 个 skill，分布在三个目录： 目录Skillsengineering/diagnose, grill-with-docs, improve-codebase-architecture, setup-matt-pocock-skills, tdd, to-issues, to-prd, triage, zoom-outproductivity/caveman, grill-me, write-a-skillmisc/git-guardrails-claude-code, migrate-to-... ]]></description>
-    <pubDate>Tue, 28 Apr 2026 16:00:00 GMT</pubDate>
+    <title>Agent框架</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</guid>
+    <description><![CDATA[ Agent框架 定义 Agent 框架是位于人和模型之间的”厚中间层”，负责： 定义交互层 定义怎么跟模型沟通 感知模型能力的长板短板 成本优化调度 前端 UI 是最薄的一层，已经不关键了。 OpenClaw vs Claude Code Claude CodeOpenClaw设计目标For 软件工程For 端到端所有任务源码黑盒开源可改记忆系统Session级压缩分层分级持久化多模型协作需手动配自动调度适用场景严肃编程非严肃编程、日常生活、研究 核心机制： System MD：每轮 Context 前拼当前时间，让模型感知时间 分层记忆：Memory 分层分级，比 Claude Code 更... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>grill-me</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/github-mattpocock-skills-grill-me</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/github-mattpocock-skills-grill-me</guid>
-    <description><![CDATA[ grill-me A skill that implements relentless Socratic questioning to stress-test plans and designs until shared understanding is reached. ]]></description>
-    <pubDate>Tue, 28 Apr 2026 16:00:00 GMT</pubDate>
+    <title>生产力变革时代</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</guid>
+    <description><![CDATA[ 生产力变革时代 “26年的主要旋律是生产力变革，高生产力场景的持续突破。” — 罗福莉，2026-04-24 核心定义 2026 年是从”预训练主导的 Chat 时代”转向”后训练、Agent 框架、系统工程主导的 Agent 时代”的拐点。 两个演变方向 高价值路径 追求更强的智能，替代顶尖人群的任务： 更长的 Context 更多的 Token 消耗量 能替代最顶尖那一群人的智能就够了 “下面那群人的智能可以慢慢以另外的方式替代掉（比如 Robotics）“ 社会普适路径 做一个对全社会更有益、对所有人都有帮助的模型： 更注重多模态（尤其是对视频的理解、对细微环境的理解） 注重成本——成本... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>认知债务与 LLM 正确用法</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/cognitive-debt-and-llm-use</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/cognitive-debt-and-llm-use</guid>
-    <description><![CDATA[ 认知债务与 LLM 正确用法 核心论点 大模型正在被普通人以完全相反的方式使用——把它当答案引擎，而不是思考伙伴。这种用法不仅低效，更在神经层面造成认知债务（Cognitive Debt）：短期效率换来长期认知能力的萎缩。 正确用法的两条核心原则： 保留认知摩擦 — 不让 AI 把思考过程抹平 把大模型定位为”临时思考伙伴” — 先有自己的判断，再让 AI 来挑战 研究证据 MIT Media Lab：EEG 实验 习惯让 ChatGPT 代写的人，大脑额叶和颞顶叶区域活动显著下降。这两个区域负责注意力、工作记忆和语言处理。当被要求脱离 AI 独立写作时，其神经连接度明显弱于从未用过 AI 的... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+    <title>3:1:1算力分配公式</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</guid>
+    <description><![CDATA[ 3:1:1算力分配公式 “For研究、For Pre-train和For Post-train，我自己觉得一个非常合理的卡的比例可能是 3:1:1。” — 罗福莉，2026-04-24 数字含义 研究 : 预训练 : 后训练 = 3 : 1 : 1 换算：研究阶段占 60%，预训练 20%，后训练 20%。 旧时代 vs 新时代 旧时代（GPT-4时代）新时代分配3:1 或 5:1，全砸预训练3:1:1主菜预训练研究本身逻辑scale law 砸卡训练研究决定方向，训练跑方向 背后的技术压力 MoE + RL 已经训不动了：Dense 时代 GRPO 一招鲜，MoE 时代不够了 Loss Sp... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>PAS-AI SD + OpenSpec 工作流</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/pas-workflow-SD-OpenSpec</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/pas-workflow-SD-OpenSpec</guid>
-    <description><![CDATA[ PAS-AI SD + OpenSpec 工作流 PAS-AI 项目专属的 SD 文档 + OpenSpec 端到端工作流，是 superpowers-openspec-workflow 的 PAS-AI 落地实现版本。 与标准 superpowers-openspec 的差异 维度标准 superpowers-openspecPAS-AI 落地版SD 文档无专门流程Phase 2 强制生成 SD 文档，人审通过后才能进 Phase 3文档存放docs/solutions/ 临时目录openspec/changes/&lt;name&gt;/working-refs/ 受 git 管理变更管理... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+    <title>OpenClaw</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/OpenClaw</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/OpenClaw</guid>
+    <description><![CDATA[ OpenClaw 概述 开源 Agent 框架，由罗福莉定义为”划时代”。核心逻辑是通过复杂的系统编排（分层记忆体系）弥补模型能力的不足，而非单纯依赖模型本身。 关键特性 特性说明System MD每轮 Context 前拼当前时间，让模型感知时间，有”温度”分层记忆Memory 分层分级，比 Claude Code 更持久多模型编排自动调度最好的模型处理不同任务可改源码开源，可以改 Memory 系统和整个 Agent 架构Skill Hub社区贡献 Skills，激发创造力 与 Claude Code 的关键区别 Claude Code = For 软件工程（黑盒，改不了） OpenCla... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Superpowers + OpenSpec Workflow</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers-openspec-workflow</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers-openspec-workflow</guid>
-    <description><![CDATA[ Superpowers + OpenSpec Workflow superpowers-zh + OpenSpec + superpowers-openspec 组合，形成一个从任务识别 → 需求澄清 → 方案确认 → 规范落地 → 计划执行 → 代码实现的完整工作流。这是目前最完整的 AI Coding 端到端方法论栈。 核心定位 组件职责产出superpowers-zh工作流方法论（何时用哪个 skill）Skill 调用决策superpowers-openspec中文意图 → OpenSpec 路由OpenSpec 阶段选择OpenSpec规范产物管理（CLI + 模板）proposal... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+    <title>小米_MiMo</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/%E5%B0%8F%E7%B1%B3_MiMo</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/%E5%B0%8F%E7%B1%B3_MiMo</guid>
+    <description><![CDATA[ 小米_MiMo 产品线 MiMo-V2 总参数超过 1T，激活参数 42B 支持最高 1M token 上下文 Hybrid Attention + MTP（Multi-Token Prediction） MiMo-V2-Pro 对标 1T 级模型入场圈。 MiMo-V2-Flash 罗福莉评价：达到 AGI 的 20%。 团队 100人（含所有链路） 实习生比例高 语言/多模态/语音三个方向 评测反馈 “我试过 mimo v2.5 pro 的大模型，确实还行，整体能力可以和 kimi k2.6 持平，没有网传的刷分那么严重。” — 知乎用户 与 OpenClaw 的关系 小米团队将 MiMo... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>OpenSpec-Chinese</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/OpenSpec-Chinese</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/OpenSpec-Chinese</guid>
-    <description><![CDATA[ OpenSpec-Chinese OpenLoaf/OpenSpec-Chinese — OpenSpec 的中文本地化版本，为 AI 编程助手提供规范驱动的开发流程，完整中文界面支持。MIT License。 核心定位 基于 org-hex/openspec-chinese 的中文本地化版本。OpenSpec 本身是一个 AI 驱动的系统化开发规范管理框架——在写代码前先与 AI 达成规范共识。 关键特性 中文界面支持 — 完整中文 UI 和文档 零侵入性设计 — 原有代码一行不改，完全独立实现 规范驱动开发 — 在编写代码前与 AI 达成规范共识 支持 20+ AI 工具 — Claude... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>spec-first-superpowers</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/spec-first-superpowers</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/spec-first-superpowers</guid>
-    <description><![CDATA[ spec-first-superpowers Cursor Agent Skill，强制”规范先行”工作流，防止 AI 跳过设计直接写代码。v5 版本整合了 Superpowers + Spec-Kit + OpenSpec 三大规范体系。 核心定位 “先规范再实现” 的端到端工作流，通过 /super-spec 命令激活，覆盖从规范到归档的完整链路。 工作流链路 /super-spec → Mode Selection（Spec-Kit vs OpenSpec） → Complexity Triage（quick / standard / thorough） → Session Recove... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>speccoding-template</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/speccoding-template</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/speccoding-template</guid>
-    <description><![CDATA[ speccoding-template beautifulSoup/speccoding-template — 基于 Claude Code + OpenSpec + Superpowers 三件套的全栈 AI 开发模板。让 AI 稳定交付全栈项目，告别”AI 改崩代码 / 失忆 / 跑偏”。MIT License。 核心定位 可直接 Clone 即用的项目骨架，实现文章《让 AI 稳定交付全栈项目》里的完整工作流。包含两级 Spec 体系 + 七阶段工作流 + 三工具协同。 两级 Spec 体系 层级位置作用项目级spec/整体需求、设计、任务清单、开发日志需求级openspec/chang... ]]></description>
-    <pubDate>Mon, 27 Apr 2026 16:00:00 GMT</pubDate>
+    <title>罗福莉</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/%E7%BD%97%E7%A6%8F%E8%8E%89</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/%E7%BD%97%E7%A6%8F%E8%8E%89</guid>
+    <description><![CDATA[ 罗福莉（Luo Fuli） 背景 前阿里达摩院 NLP 研究者 前 DeepSeek 核心贡献者（参与过几代核心模型） 现小米大模型团队负责人，主导 MiMo-V2 系列 媒体称”AI天才少女”，本人不喜欢这个称呼 核心观点 关于 OpenClaw 春节三天高强度使用后认知发生巨变：从”有灵魂的产品”到”研究助手”到”数字分身”。认为 OpenClaw 是划时代的 Agent 框架，核心是框架设计弥补模型短板。 关于 AGI “我认为 Mimo-v2-Flash 达到了 AGI 的 20%，2-3年内会实现 AGI。“ 关于团队 小米 100人含所有链路（数据/Infra/Post-train... ]]></description>
+    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
