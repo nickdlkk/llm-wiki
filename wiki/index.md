@@ -51,9 +51,9 @@
 - [[github-hermes-lcm]] — Hermes 無損上下文管理插件：SQLite 不可變存儲 + DAG 摘要 + 3 層 escalation（L1→L2→L3）
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[github-open-ralph-wiggum]] — Ralph Wiggum technique 开源实现：将 Claude Code/Codex/Copilot/OpenCode 包装在持久自参照循环中（Bun + TypeScript）
-- [[github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
+- [[entities/github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
-- [[ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
+- [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
 - [[superpowers-openspec]] — superpowers ↔ OpenSpec 桥接 skill：中文意图路由 + 方案先行门禁
 - [[speccoding-template]] — Claude Code + OpenSpec + Superpowers 三件套全栈模板：两级 Spec + 七阶段工作流
