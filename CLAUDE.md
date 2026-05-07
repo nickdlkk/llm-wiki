@@ -52,7 +52,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
 - [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
-- [[ralph-claude-code]] — Bash Autonomous Loop 实现（v0.11.5）：Dual-condition exit gate + Circuit Breaker
+- [[agent-skills]] — Addy Osmani 出品：20 工程技能库（Define/Plan/Build/Verify/Review/Ship），Claude Code/Gemini CLI/OpenCode 多平台，MIT License，Google eng-practices 深度嵌入
 
 ### Summaries
 *(none yet)*
