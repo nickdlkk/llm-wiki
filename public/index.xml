@@ -6,6 +6,48 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/llm-wiki/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Fri, 08 May 2026 07:52:55 GMT</pubDate>
+  </item><item>
+    <title>Aegis</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/aegis</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/aegis</guid>
+    <description><![CDATA[ Aegis Aegis 是 Architecture-Driven Development (ADD) 方法包，为 AI 编程 Agent 提供架构驱动的开发纪律。基于 superpowers 方法论，叠加证据驱动治理、TLREF 执行流和双轨修复/退役规则。 GitHub: GanyuanRan/Aegis — 113 ⭐, Shell 技术栈 解决的问题 AI 编程 Agent 擅长本地执行，但长任务或高风险软件工作常因过程原因失败： 任务边界和基线不清就开始改代码 声称完成但缺乏新鲜证据 Bug fix 加新 fallback 逻辑，但老代码没人负责退役 长任务在 compaction/... ]]></description>
+    <pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>cc-connect</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/cc-connect</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/cc-connect</guid>
+    <description><![CDATA[ cc-connect cc-connect 是开源的 AI Coding Agent 桥接工具，将本地运行的 Agent（Claude Code、Codex、Cursor 等）接入聊天平台（飞书、钉钉、Telegram、Discord、微信等），实现从任何设备远程控制本地 AI 编程助手。 Key facts 作者: chenhg5 GitHub: chenhg5/cc-connect — 7.9k ⭐, 731 forks License: MIT 技术栈: Go 1.22+ 安装方式: npm (npm install -g cc-connect)、Homebrew、二进制下载、源码编译 ... ]]></description>
+    <pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>cc-connect &amp; Aegis — AI Coding Agent 工具双雄</title>
+    <link>https://nickdlkk.github.io/llm-wiki/summaries/cc-connect-aegis</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/summaries/cc-connect-aegis</guid>
+    <description><![CDATA[ cc-connect &amp; Aegis — AI Coding Agent 工具双雄 快速概览 工具GitHub定位技术栈cc-connect7.9k ⭐AI Agent 桥接聊天平台GoAegis113 ⭐架构驱动开发方法包Shell cc-connect cc-connect 是将本地 AI Agent 接到聊天平台的桥梁。类比：让本地 AI Agent 获得”微信/飞书/钉钉/Telegram 的手机号”。 核心价值：不在电脑前也能远程操控本地 AI 编程助手。 支持 Agent：Claude Code、Codex、Cursor Agent、Kimi CLI、OpenCode、Ge... ]]></description>
+    <pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>SDLC Agent Skills Pattern</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/SDLC-Agent-Skills</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/SDLC-Agent-Skills</guid>
+    <description><![CDATA[ SDLC Agent Skills Pattern 把软件开发生命周期（SDLC）的每个阶段封装成 AI Agent 可执行的结构化 Skill，是当前 agent-skills 生态的主流范式。 核心思想 传统 SDLC：Define → Plan → Build → Verify → Review → Ship Agent 适配：每个阶段对应一个/多个可执行的 SKILL.md，含触发条件、步骤、验证门禁、反理智化表格。 六阶段详解 1. ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>agent-skills</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/agent-skills</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/agent-skills</guid>
+    <description><![CDATA[ agent-skills GitHub: addyosmani/agent-skills Addy Osmani（Google 工程师，Chrome Team）出品的 AI Coding Agent 工程技能库。MIT License。 基本信息 作者: Addy Osmani Stars: 持续增长中（2026-05-07 接入时为公开库） License: MIT 平台支持: Claude Code, Cursor, Gemini CLI, Windsurf, OpenCode, GitHub Copilot, Kiro IDE 核心架构 skills/ — 20 个 SKILL.md（D... ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>zcf</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/github-zcf</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/github-zcf</guid>
+    <description><![CDATA[ Zero-Config Code Flow — Claude Code / Codex 环境自动化配置 CLI ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>gstack</title>
     <link>https://nickdlkk.github.io/llm-wiki/entities/gstack</link>
     <guid>https://nickdlkk.github.io/llm-wiki/entities/gstack</guid>
@@ -18,53 +60,11 @@
     <description><![CDATA[ OneClickVirt OneClickVirt 是一个基于 Proxmox VE (PVE) 的一键虚拟化管理平台，支持通过 Web UI 或 API 创建/管理 LXC 容器和 QEMU 虚拟机。核心场景是在 PVE 上批量交付隔离的云实例。 核心概念 架构分层 ┌─────────────────────────────────────────┐ │ Web UI (port 8000) / API │ ├─────────────────────────────────────────┤ │ Task Service (Worker Pool) │ │ - 任务调度：pending ... ]]></description>
     <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Hermes Skill Nudge</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/hermes-skill-nudge</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/hermes-skill-nudge</guid>
-    <description><![CDATA[ Hermes Skill Nudge Hermes Gateway 的”技能建议”自动生成机制 — 每 N 次 iteration 主动建议用户保存当前会话中的操作模式为可复用 Skill 机制概述 Skill Nudge 是 Hermes 的内置反馈闭环：当用户在一次会话中反复做同类操作（tool call 达到一定次数）时，自动建议用户把操作模式固化为 Skill，下次同类任务无需重复描述。 核心逻辑在 run_agent.py 的 run_conversation() 末尾。 触发条件 # run_agent.py:13919 if (self._skill_nudge_interval... ]]></description>
-    <pubDate>Tue, 05 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>index</title>
-    <link>https://nickdlkk.github.io/llm-wiki/</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/</guid>
-    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
-    <pubDate>Sun, 03 May 2026 06:42:02 GMT</pubDate>
-  </item><item>
-    <title>Agent框架</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</guid>
-    <description><![CDATA[ Agent框架 定义 Agent 框架是位于人和模型之间的”厚中间层”，负责： 定义交互层 定义怎么跟模型沟通 感知模型能力的长板短板 成本优化调度 前端 UI 是最薄的一层，已经不关键了。 OpenClaw vs Claude Code Claude CodeOpenClaw设计目标For 软件工程For 端到端所有任务源码黑盒开源可改记忆系统Session级压缩分层分级持久化多模型协作需手动配自动调度适用场景严肃编程非严肃编程、日常生活、研究 核心机制： System MD：每轮 Context 前拼当前时间，让模型感知时间 分层记忆：Memory 分层分级，比 Claude Code 更... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>生产力变革时代</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</guid>
-    <description><![CDATA[ 生产力变革时代 “26年的主要旋律是生产力变革，高生产力场景的持续突破。” — 罗福莉，2026-04-24 核心定义 2026 年是从”预训练主导的 Chat 时代”转向”后训练、Agent 框架、系统工程主导的 Agent 时代”的拐点。 两个演变方向 高价值路径 追求更强的智能，替代顶尖人群的任务： 更长的 Context 更多的 Token 消耗量 能替代最顶尖那一群人的智能就够了 “下面那群人的智能可以慢慢以另外的方式替代掉（比如 Robotics）“ 社会普适路径 做一个对全社会更有益、对所有人都有帮助的模型： 更注重多模态（尤其是对视频的理解、对细微环境的理解） 注重成本——成本... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>3:1:1算力分配公式</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</guid>
-    <description><![CDATA[ 3:1:1算力分配公式 “For研究、For Pre-train和For Post-train，我自己觉得一个非常合理的卡的比例可能是 3:1:1。” — 罗福莉，2026-04-24 数字含义 研究 : 预训练 : 后训练 = 3 : 1 : 1 换算：研究阶段占 60%，预训练 20%，后训练 20%。 旧时代 vs 新时代 旧时代（GPT-4时代）新时代分配3:1 或 5:1，全砸预训练3:1:1主菜预训练研究本身逻辑scale law 砸卡训练研究决定方向，训练跑方向 背后的技术压力 MoE + RL 已经训不动了：Dense 时代 GRPO 一招鲜，MoE 时代不够了 Loss Sp... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>OpenClaw</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/OpenClaw</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/OpenClaw</guid>
-    <description><![CDATA[ OpenClaw 概述 开源 Agent 框架，由罗福莉定义为”划时代”。核心逻辑是通过复杂的系统编排（分层记忆体系）弥补模型能力的不足，而非单纯依赖模型本身。 关键特性 特性说明System MD每轮 Context 前拼当前时间，让模型感知时间，有”温度”分层记忆Memory 分层分级，比 Claude Code 更持久多模型编排自动调度最好的模型处理不同任务可改源码开源，可以改 Memory 系统和整个 Agent 架构Skill Hub社区贡献 Skills，激发创造力 与 Claude Code 的关键区别 Claude Code = For 软件工程（黑盒，改不了） OpenCla... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>小米_MiMo</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/%E5%B0%8F%E7%B1%B3_MiMo</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/%E5%B0%8F%E7%B1%B3_MiMo</guid>
-    <description><![CDATA[ 小米_MiMo 产品线 MiMo-V2 总参数超过 1T，激活参数 42B 支持最高 1M token 上下文 Hybrid Attention + MTP（Multi-Token Prediction） MiMo-V2-Pro 对标 1T 级模型入场圈。 MiMo-V2-Flash 罗福莉评价：达到 AGI 的 20%。 团队 100人（含所有链路） 实习生比例高 语言/多模态/语音三个方向 评测反馈 “我试过 mimo v2.5 pro 的大模型，确实还行，整体能力可以和 kimi k2.6 持平，没有网传的刷分那么严重。” — 知乎用户 与 OpenClaw 的关系 小米团队将 MiMo... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>罗福莉</title>
-    <link>https://nickdlkk.github.io/llm-wiki/entities/%E7%BD%97%E7%A6%8F%E8%8E%89</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/entities/%E7%BD%97%E7%A6%8F%E8%8E%89</guid>
-    <description><![CDATA[ 罗福莉（Luo Fuli） 背景 前阿里达摩院 NLP 研究者 前 DeepSeek 核心贡献者（参与过几代核心模型） 现小米大模型团队负责人，主导 MiMo-V2 系列 媒体称”AI天才少女”，本人不喜欢这个称呼 核心观点 关于 OpenClaw 春节三天高强度使用后认知发生巨变：从”有灵魂的产品”到”研究助手”到”数字分身”。认为 OpenClaw 是划时代的 Agent 框架，核心是框架设计弥补模型短板。 关于 AGI “我认为 Mimo-v2-Flash 达到了 AGI 的 20%，2-3年内会实现 AGI。“ 关于团队 小米 100人含所有链路（数据/Infra/Post-train... ]]></description>
-    <pubDate>Sat, 02 May 2026 16:00:00 GMT</pubDate>
+    <title>agent-skills</title>
+    <link>https://nickdlkk.github.io/llm-wiki/summaries/agent-skills</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/summaries/agent-skills</guid>
+    <description><![CDATA[ Summary — addyosmani/agent-skills Addy Osmani 出品的 AI Coding Agent 工程技能库，把资深工程师的开发流程封装成 20 个可执行的 SKILL.md，覆盖软件开发生命周期（SDLC）的六个阶段。 核心价值 把”资深工程师的判断力”编码成结构化工作流——每个 skill 有明确步骤、验证门禁、反理智化表格（防止 agent 跳过关键步骤）。 六阶段 SDLC DEFINE → PLAN → BUILD → VERIFY → REVIEW → SHIP /spec /plan /build /test /review /ship 20 S... ]]></description>
+    <pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

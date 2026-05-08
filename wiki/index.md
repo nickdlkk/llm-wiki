@@ -53,6 +53,8 @@
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库，6阶段 SDLC，Claude Code/Gemini CLI/OpenCode 多平台，MIT License
 - [[entities/github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
+- [[cc-connect]] — 开源 AI Agent 桥接工具（7.9k ⭐）：将 Claude Code/Codex/Cursor 接入飞书/钉钉/微信/Telegram 等 11 个聊天平台
+- [[aegis]] — Architecture-Driven Development 方法包（113 ⭐）：让 AI 编程 Agent 在动手前先理解项目基线、架构边界和验证路径
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
@@ -64,6 +66,7 @@
 
 ## Summaries (chronological)
 
+- 2026-05-08 — [[summaries/cc-connect-aegis]] — cc-connect（7.9k ⭐）AI Agent 桥接 11 个聊天平台 + Aegis（113 ⭐）架构驱动开发方法包
 - 2026-05-07 — [[summaries/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
 - 2026-05-07 — [[summaries/github-zcf]] — zcf 蒸馏：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - 2026-05-03 — [[summaries/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉3.5h访谈摘要：AI范式从Chat时代转向Agent时代，3:1:1算力分配，OpenClaw三天认知转变

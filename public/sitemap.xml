@@ -8,6 +8,9 @@
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/SDD-Tool-Landscape</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/SDLC-Agent-Skills</loc>
+    <lastmod>2026-05-06T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/agent-review-pattern</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
   </url><url>
@@ -55,6 +58,15 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/OpenSpec-Chinese</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/aegis</loc>
+    <lastmod>2026-05-07T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-skills</loc>
+    <lastmod>2026-05-06T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/cc-connect</loc>
+    <lastmod>2026-05-07T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/chorus</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
@@ -116,6 +128,9 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/github-vibe-skills</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/github-zcf</loc>
+    <lastmod>2026-05-06T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/gstack</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
   </url><url>
@@ -159,13 +174,22 @@
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/</loc>
-    <lastmod>2026-05-03T06:42:02.655Z</lastmod>
+    <lastmod>2026-05-08T07:52:55.409Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/agent-skills</loc>
+    <lastmod>2026-05-06T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/anthropic-agent-sdk-architecture-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/cc-connect-aegis</loc>
+    <lastmod>2026-05-07T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/claude-code-agentic-harness-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/github-zcf</loc>
+    <lastmod>2026-05-06T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-core-concept-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>
