@@ -59,6 +59,7 @@
 - [[aegis]] — Architecture-Driven Development 方法包（113 ⭐）：让 AI 编程 Agent 在动手前先理解项目基线、架构边界和验证路径
 - [[slock-ai]] — 商业人类+AI Agent 平等队友协作平台（需自托管替代：multica/clawith）
 - [[clawith]] — OpenClaw for Teams（3.5k ⭐）：多 Agent 持久身份+共享记忆+团队协作
+- [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 Claude Code/Codex/Hermes 等 11 种 Agent CLI
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
@@ -72,6 +73,8 @@
 
 - 2026-05-09 — [[summaries/tessera]] — Tessera 蒸馏：AI 编码 Agent 可视化工作区，支持 Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪
 - 2026-05-09 — [[summaries/ruflo]] — ruflo 蒸馏：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作
+- 2026-05-09 — [[summaries/multica]] — Multica 蒸馏：开源多 Agent 队友平台（26k ⭐），Go+Next.js全栈，pgvector知识积累，支持 11 种 Agent CLI 自托管
+- 2026-05-09 — [[summaries/multica-vs-vibepro]] — Multica vs VibeKanBan 对比：Multica 面向 Agent 调度（底层扎实，UI 残），VibeKanBan 面向人审代码（看板体验好），两者定位不同但 Nick 认为 Multica 文件浏览体验明显落后
 - 2026-05-08 — [[summaries/slock-ai-alternatives]] — slock.ai 竞品：Multica（26k ⭐）任务管理型 + Clawith（3.5k ⭐）团队协作型 + Canopy 本地优先 + AgentDM 协议层
 - 2026-05-07 — [[summaries/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
 - 2026-05-07 — [[summaries/github-zcf]] — zcf 蒸馏：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
