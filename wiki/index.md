@@ -33,6 +33,7 @@
 
 ### Tools
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
+- [[tessera]] — AI 编码 Agent 可视化工作区：Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪，Electron 桌面 + npm 双模式
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
 - [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
 - [[github-spec-kit]] — GitHub's programmable SDD workflow engine (Python)
@@ -69,6 +70,7 @@
 
 ## Summaries (chronological)
 
+- 2026-05-09 — [[summaries/tessera]] — Tessera 蒸馏：AI 编码 Agent 可视化工作区，支持 Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪
 - 2026-05-09 — [[summaries/ruflo]] — ruflo 蒸馏：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作
 - 2026-05-08 — [[summaries/slock-ai-alternatives]] — slock.ai 竞品：Multica（26k ⭐）任务管理型 + Clawith（3.5k ⭐）团队协作型 + Canopy 本地优先 + AgentDM 协议层
 - 2026-05-07 — [[summaries/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
