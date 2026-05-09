@@ -48,6 +48,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Hermes Skill Nudge]] — Hermes 自动建议生成 Skill 的机制：iteration-based 触发、异步投递链路、已知 bug（send() 静默失败）
 
 ### Entities
+- [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 11 种 Agent CLI，Go+Next.js 自托管
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
 - [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
