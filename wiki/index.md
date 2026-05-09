@@ -52,6 +52,7 @@
 - [[github-hermes-lcm]] — Hermes 無損上下文管理插件：SQLite 不可變存儲 + DAG 摘要 + 3 層 escalation（L1→L2→L3）
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库，6阶段 SDLC，Claude Code/Gemini CLI/OpenCode 多平台，MIT License
+- [[entities/ruflo]] — Multi-agent AI orchestration for Claude Code：100+ agents + Swarm 协调 + AgentDB/HNSW 向量记忆 + 联邦安全协作，原名 Claude Flow，MIT License
 - [[entities/github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - [[cc-connect]] — 开源 AI Agent 桥接工具（7.9k ⭐）：将 Claude Code/Codex/Cursor 接入飞书/钉钉/微信/Telegram 等 11 个聊天平台
 - [[aegis]] — Architecture-Driven Development 方法包（113 ⭐）：让 AI 编程 Agent 在动手前先理解项目基线、架构边界和验证路径
@@ -68,7 +69,7 @@
 
 ## Summaries (chronological)
 
-- 2026-05-08 — [[summaries/cc-connect-aegis]] — cc-connect（7.9k ⭐）AI Agent 桥接 11 个聊天平台 + Aegis（113 ⭐）架构驱动开发方法包
+- 2026-05-09 — [[summaries/ruflo]] — ruflo 蒸馏：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作
 - 2026-05-08 — [[summaries/slock-ai-alternatives]] — slock.ai 竞品：Multica（26k ⭐）任务管理型 + Clawith（3.5k ⭐）团队协作型 + Canopy 本地优先 + AgentDM 协议层
 - 2026-05-07 — [[summaries/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
 - 2026-05-07 — [[summaries/github-zcf]] — zcf 蒸馏：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
