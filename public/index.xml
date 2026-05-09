@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>LLM Wiki</title>
+      <link>https://nickdlkk.github.io</link>
+      <description>最近的10条笔记 on LLM Wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Multica</title>
+    <link>https://nickdlkk.github.io/entities/Multica</link>
+    <guid>https://nickdlkk.github.io/entities/Multica</guid>
+    <description><![CDATA[ Open-source managed agents platform — turns coding agents into real teammates ]]></description>
+    <pubDate>Sat, 09 May 2026 06:09:49 GMT</pubDate>
+  </item><item>
+    <title>feisou-search-skill</title>
+    <link>https://nickdlkk.github.io/entities/feisou-search-skill</link>
+    <guid>https://nickdlkk.github.io/entities/feisou-search-skill</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 09 May 2026 06:09:49 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/</link>
+    <guid>https://nickdlkk.github.io/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Sat, 09 May 2026 06:09:49 GMT</pubDate>
+  </item><item>
+    <title>ruflo</title>
+    <link>https://nickdlkk.github.io/entities/ruflo</link>
+    <guid>https://nickdlkk.github.io/entities/ruflo</guid>
+    <description><![CDATA[ ruflo GitHub: ruvnet/ruflo 原名 Claude Flow，v3.5 (2026-02) 更名为 Ruflo。MIT License。 Multi-agent AI orchestration for Claude Code — 让 100+ 专业 agents 跨机器、跨团队、跨信任边界协作的编排框架。 基本信息 作者: RuvNet（@rUv） 最新版本: 3.7.0-alpha.18 License: MIT 入口: npx ruflo@latest init 或 Claude Code 插件市场安装 核心依赖: Node.js ≥20，@claude-flow/... ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Tessera</title>
+    <link>https://nickdlkk.github.io/entities/tessera</link>
+    <guid>https://nickdlkk.github.io/entities/tessera</guid>
+    <description><![CDATA[ Tessera GitHub: github.com/horang-labs/tessera Apache-2.0 · v0.1.3 · Horang Labs, Inc. ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Multica vs VibeKanBan 对比</title>
+    <link>https://nickdlkk.github.io/summaries/multica-vs-vibepro</link>
+    <guid>https://nickdlkk.github.io/summaries/multica-vs-vibepro</guid>
+    <description><![CDATA[ 多 Agent 任务平台横向对比：Multica 26k stars vs VibeKanBan，聚焦代码浏览、Git 分支管理、UI 体验 ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Multica — Open-Source Managed Agents Platform</title>
+    <link>https://nickdlkk.github.io/summaries/multica</link>
+    <guid>https://nickdlkk.github.io/summaries/multica</guid>
+    <description><![CDATA[ Multica — Summary Multica is an open-source platform (26K GitHub stars, Jan 2026) that manages AI coding agents as first-class team members — assigning them issues, tracking progress, and compounding reusable skills across the team. ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>ruflo</title>
+    <link>https://nickdlkk.github.io/summaries/ruflo</link>
+    <guid>https://nickdlkk.github.io/summaries/ruflo</guid>
+    <description><![CDATA[ Summary — ruvnet/ruflo 为 Claude Code 增加多 agent 编排能力的 npm 包/CLI 框架（原名 Claude Flow，v3.5 更名）。MIT License。 一句话 在 Claude Code 上叠加蜂群协调 + 向量记忆 + 联邦安全 = 让 100+ agents 跨机器协作。 核心要点 蜂群编排: hierarchical/mesh/adaptive 拓扑，Raft 共识，Anti-drift 机制防止 agent 漂移 三层模型路由: Tier 1 WASM 旁路 LLM（&lt;1ms/$0）→ Tier 2 Haiku → Tier ... ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>tessera</title>
+    <link>https://nickdlkk.github.io/summaries/tessera</link>
+    <guid>https://nickdlkk.github.io/summaries/tessera</guid>
+    <description><![CDATA[ Summary — horang-labs/tessera 开源 AI 编码 Agent 可视化工作区，同时运行 Claude Code / Codex / OpenCode 并行面板，支持 Git worktree 管理、实时 WebSocket 状态推送、Kanban 任务板、PR 追踪，Electron 桌面 + npm 浏览器双模式。 核心要点 Provider Adapter 统一协议：三个 CLI（Claude Code stream-json、Codex app-server、OpenCode ACP）各自封装为 CliProvider Adapter，协议归一化为共享实时消息模... ]]></description>
+    <pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Aegis</title>
+    <link>https://nickdlkk.github.io/entities/aegis</link>
+    <guid>https://nickdlkk.github.io/entities/aegis</guid>
+    <description><![CDATA[ Aegis Aegis 是 Architecture-Driven Development (ADD) 方法包，为 AI 编程 Agent 提供架构驱动的开发纪律。基于 superpowers 方法论，叠加证据驱动治理、TLREF 执行流和双轨修复/退役规则。 GitHub: GanyuanRan/Aegis — 113 ⭐, Shell 技术栈 解决的问题 AI 编程 Agent 擅长本地执行，但长任务或高风险软件工作常因过程原因失败： 任务边界和基线不清就开始改代码 声称完成但缺乏新鲜证据 Bug fix 加新 fallback 逻辑，但老代码没人负责退役 长任务在 compaction/... ]]></description>
+    <pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
