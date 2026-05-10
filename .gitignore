@@ -3,9 +3,5 @@ public/
 .quartz-cache/
 
 # Raw distillation repos (cloned locally for analysis)
-raw/byterover/
-raw/honcho-memory/
-raw/mem0/
-raw/openviking/
-raw/retaindb/
-raw/supermemory-claude/
+# Ignore all raw/ subdirectories — they contain cloned git repos for wiki distillation
+raw/
