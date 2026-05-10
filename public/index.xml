@@ -10,7 +10,7 @@
     <link>https://nickdlkk.github.io/concepts/Memory-Systems</link>
     <guid>https://nickdlkk.github.io/concepts/Memory-Systems</guid>
     <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位LoCoMo部署许可Supermemory通用记忆引擎（#1 基准）#1（SOTA）云优先MITHonchoHermes 专用记忆层86.9%自托管/云—Hindsight向量记忆存储—Docker 本地/云—Holographic全息记忆范式———RetainDBPostgres 自托管记忆—Docker（自托管）Apache 2.0/BSLByteRover编程 Agent 记忆 CLI96.1%CLI + 云Elastic 2.0OpenV... ]]></description>
-    <pubDate>Sun, 10 May 2026 14:49:13 GMT</pubDate>
+    <pubDate>Sun, 10 May 2026 14:50:10 GMT</pubDate>
   </item><item>
     <title>ByteRover</title>
     <link>https://nickdlkk.github.io/entities/ByteRover</link>
