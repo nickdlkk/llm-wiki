@@ -6,10 +6,46 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Cognee</title>
+    <link>https://nickdlkk.github.io/entities/Cognee</link>
+    <guid>https://nickdlkk.github.io/entities/Cognee</guid>
+    <description><![CDATA[ Cognee Memory control plane for AI agents. Six lines of code to add memory to any agent. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Graphiti</title>
+    <link>https://nickdlkk.github.io/entities/Graphiti</link>
+    <guid>https://nickdlkk.github.io/entities/Graphiti</guid>
+    <description><![CDATA[ Graphiti Build temporal context graphs for AI agents. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Letta</title>
+    <link>https://nickdlkk.github.io/entities/Letta</link>
+    <guid>https://nickdlkk.github.io/entities/Letta</guid>
+    <description><![CDATA[ Letta Build AI with advanced memory that can learn and self-improve over time. GitHub: letta-ai/letta · ★22,604 · Apache 2.0 · Python Formerly MemGPT. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Mem0</title>
+    <link>https://nickdlkk.github.io/entities/Mem0</link>
+    <guid>https://nickdlkk.github.io/entities/Mem0</guid>
+    <description><![CDATA[ Mem0 Universal memory layer for AI Agents. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>MemMachine</title>
+    <link>https://nickdlkk.github.io/entities/MemMachine</link>
+    <guid>https://nickdlkk.github.io/entities/MemMachine</guid>
+    <description><![CDATA[ MemMachine Universal memory layer for AI Agents — open-source, scalable, and interoperable. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Memori</title>
+    <link>https://nickdlkk.github.io/entities/Memori</link>
+    <guid>https://nickdlkk.github.io/entities/Memori</guid>
+    <description><![CDATA[ Memori Agent-native memory infrastructure. Memory from what agents do, not just what they say. ]]></description>
+    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>AI Agent 记忆系统对比</title>
     <link>https://nickdlkk.github.io/concepts/Memory-Systems</link>
     <guid>https://nickdlkk.github.io/concepts/Memory-Systems</guid>
-    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位LoCoMo部署许可Supermemory通用记忆引擎（#1 基准）#1（SOTA）云优先MITHonchoHermes 专用记忆层86.9%自托管/云—Hindsight向量记忆存储—Docker 本地/云—Holographic全息记忆范式———RetainDBPostgres 自托管记忆—Docker（自托管）Apache 2.0/BSLByteRover编程 Agent 记忆 CLI96.1%CLI + 云Elastic 2.0OpenV... ]]></description>
+    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位★Stars许可架构Supermemory通用记忆引擎（#1 基准）~22kMITVector + SemanticMem0通用记忆层（行业标杆）55kApache 2.0Vector + Graph (hybrid)LettaLLM-as-OS（模型自管理记忆）22kApache 2.0Block-based self-editingGraphiti时序知识图谱26kApache 2.0Temporal KG (Neo4... ]]></description>
     <pubDate>Sun, 10 May 2026 14:50:10 GMT</pubDate>
   </item><item>
     <title>ByteRover</title>
@@ -29,42 +65,6 @@
     <guid>https://nickdlkk.github.io/entities/Hindsight</guid>
     <description><![CDATA[ Hindsight Hindsight 是 vectorize.io 提供的记忆系统，提供本地部署（Embedded）和云端（Cloud）两种模式。Nick 当前在 PVE LXC（192.168.3.241）上使用 Docker 部署了 Hindsight 本地版本，已成功对接 MiniMax LLM（通过 HINDSIGHT_API_LLM_BASE_URL=api.minimaxi.com/v1 配置）。 部署模式 模式说明配置方式Cloud官方托管，需注册获取 API KeyHINDSIGHT_MODE=cloudEmbedded（本地）Docker 部署到自有服务器HINDSIGHT... ]]></description>
     <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Holographic</title>
-    <link>https://nickdlkk.github.io/entities/Holographic</link>
-    <guid>https://nickdlkk.github.io/entities/Holographic</guid>
-    <description><![CDATA[ Holographic Holographic 是一类 AI Agent 记忆架构理念，其核心思想是将记忆建模为高维向量空间中的”全息投影”——记忆的每个片段都包含与其他片段的关联信息，检索时通过向量运算重建上下文。 ⚠️ 状态：Holographic 更多是一种架构范式而非单一产品。GitHub 上存在多个相关项目/实现，但具体产品形态（GitHub repo、公司官网）需进一步确认。 核心思想 全息记忆原理：类比全息摄影——全息图的任何碎片都包含整体图像的信息。在记忆系统中，每个记忆向量都编码了与其他记忆的关联关系，而非孤立的原子事实。 记忆向量 = 内容编码 + 关系编码 检索时：给定查... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Honcho</title>
-    <link>https://nickdlkk.github.io/entities/Honcho</link>
-    <guid>https://nickdlkk.github.io/entities/Honcho</guid>
-    <description><![CDATA[ Honcho Honcho 是 Plastic Labs 开发的记忆层（Memory Layer），为 AI Agent 提供跨会话持久记忆。Hermes Agent 的 L4 记忆层由 Honcho 驱动。 核心概念 Neuromancer 模型 Honcho 默认使用 Plastic Labs 自研的 Neuromancer XR 模型（8B 参数，从 Qwen3-8B 微调），专门用于从对话中提取逻辑结论： LoCoMo 基准: 86.9%（vs Qwen3-8B 基线 69.6%，vs Claude 4 Sonnet 80.0%） 训练数据：~10,000 条精选社会推理轨迹 专精逻辑... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>OpenViking</title>
-    <link>https://nickdlkk.github.io/entities/OpenViking</link>
-    <guid>https://nickdlkk.github.io/entities/OpenViking</guid>
-    <description><![CDATA[ OpenViking OpenViking 是字节跳动（Volcengine）开源的 AI Agent 上下文数据库（Context Database），定位为记忆与上下文管理的完整解决方案。许可协议：AGPLv3。 核心问题与解法 挑战OpenViking 解法上下文碎片化统一记忆/资源/技能管理上下文需求激增分层存储 + 按需按层级注入检索效果差图结构 + 层级摘要（L0/L1/L2）上下文黑盒可观测的检索链记忆迭代困难记忆图支持增量化 分层上下文架构 OpenViking 实现了 三级上下文层级： 层级名称说明L0Abstract目录/文件的功能摘要L1Overview详细概览，含文件结... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>RetainDB</title>
-    <link>https://nickdlkk.github.io/entities/RetainDB</link>
-    <guid>https://nickdlkk.github.io/entities/RetainDB</guid>
-    <description><![CDATA[ RetainDB RetainDB 是开源的 AI Agent 记忆与上下文基础设施，可自托管，通过单个 docker compose up 即可运行。 核心功能 记忆存储: 从对话中提取记忆 — 带类型、版本、置信度评分 记忆检索: 语义搜索 + BM25 + Rerank，一次调用返回可直接注入 LLM 的上下文字符串 记忆图: 记忆之间可建立关系（updates/contradicts/supports/derives） 时序有效性: 事实带 validFrom/validUntil，过期知识被新知识取代而非丢失 MCP Server: 开箱即用，支持 Claude Desktop 和任... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Supermemory (mem0)</title>
-    <link>https://nickdlkk.github.io/entities/Supermemory</link>
-    <guid>https://nickdlkk.github.io/entities/Supermemory</guid>
-    <description><![CDATA[ Supermemory (mem0) Supermemory 是 supermemory.ai 研究实验室构建的 SOTA 记忆与上下文引擎。在 LongMemEval、LoCoMo、ConvoMem 三大 AI 记忆基准上均排名第一。 注：Supermemory 早期名为 mem0，GitHub 仓库仍保留 supermemoryai/supermemory 名称，npm 包名为 supermemory。 核心能力 能力说明🧠 记忆提取从对话中提取事实，处理时序变化、矛盾和自动遗忘👤 用户画像自动维护用户上下文 — 稳定事实 + 最近活动，单次调用 ~50ms🔍 混合搜索RAG + M... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Multica</title>
-    <link>https://nickdlkk.github.io/entities/Multica</link>
-    <guid>https://nickdlkk.github.io/entities/Multica</guid>
-    <description><![CDATA[ Open-source managed agents platform — turns coding agents into real teammates ]]></description>
-    <pubDate>Sat, 09 May 2026 06:09:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
