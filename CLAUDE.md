@@ -55,6 +55,16 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库（Define/Plan/Build/Verify/Review/Ship），Claude Code/Gemini CLI/OpenCode 多平台，MIT License，Google eng-practices 深度嵌入
 
+### Memory Systems (记忆系统)
+- [[Supermemory]] — 基准第一（SOTA），#1 on LongMemEval/LoCoMo/ConvoMem，Research Lab + 多 SDK
+- [[Honcho]] — Hermes Agent 专用记忆层，Neuromancer XR 推理模型，LoCoMo 86.9%
+- [[Hindsight]] — Nick 当前本地部署方案，向量记忆存储，Docker 部署
+- [[Holographic]] — 全息记忆范式，分布式记忆编码理念（架构范式，非单一产品）
+- [[RetainDB]] — Postgres/pgvector 自托管，关系图记忆，MCP Server，开源 Apache 2.0/BSL
+- [[ByteRover]] — 编程 Agent CLI，LoCoMo 96.1%，Git 式版本控制，支持 22+ 编程工具
+- [[OpenViking]] — 字节跳动上下文数据库，AGPLv3，多租户，L0/L1/L2 分层架构
+- [[Claude-Mem]] — Claude Code 专用插件，勿与 Supermemory 混淆
+
 ### Summaries
 *(none yet)*
 
