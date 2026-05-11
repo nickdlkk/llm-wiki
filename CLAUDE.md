@@ -66,9 +66,9 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Claude-Mem]] — Claude Code 专用插件，勿与 Supermemory 混淆
 
 ### Summaries
-*(none yet)*
+- [[harness-engineering-java-brownfield-20260507]] — 存量 Java 工程的 AI Coding 率从 25% 提升至 90% 的完整实战
 
-## Open research questions
+### Open research questions
 
 - 什么样的 `init.sh` 起步最轻量且有效？
 - 多 Agent 协作中，Supervisor Agent 的信任边界如何量化？
@@ -78,8 +78,8 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 ## Research gaps
 
 Sources to ingest:
-- [ ] Anthropic: Effective harnesses for long-running agents — 官方 harness 设计指南
-- [ ] Anthropic: Harness design for long-running application development — 实际案例
+- [x] [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) — 已在 [[harness-engineering-java-brownfield-20260507]] 摄入
+- [x] [Anthropic: Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) — 已在 [[harness-engineering-java-brownfield-20260507]] 摄入
 - [ ] baoyu.io AI First 文章 — 还未摄入
 
 ## Audit backlog
