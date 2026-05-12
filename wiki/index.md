@@ -68,6 +68,7 @@
 - [[OpenSpec-Chinese]] — OpenSpec 中文本地化版：零侵入 + 完整中文 UI
 - [[github-mattpocock-skills-grill-me]] — Socratic 面试式 skill：递归追问设计决策树，直至达成共识
 - [[Mattpocock Skills 对比分析]] — 16 个 skills 横向对比：复杂度光谱、设计模式、grill-me 定位
+- [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 
 ## Summaries (chronological)
 
@@ -83,6 +84,8 @@
 - 2026-04-21 — [[summaries/claude-code-agentic-harness]] — Anthropic 官方定义 Claude Code 本身即完整 agentic harness
 - 2026-04-21 — [[summaries/harness-core-concept]] — 一句话定义 + 五点讲透 Harness 核心：约束/反馈环/质量闸门三层架构
 - 2026-02-11 — [[summaries/openai-harness-engineering-codex]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
+
+- 2026-05-13 — [[summaries/memorizz]] — Memorizz 蒸馏：10种记忆类型 × 3种存储后端（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial 禁止商用
 
 ## Open Questions
 

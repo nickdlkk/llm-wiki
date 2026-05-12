@@ -64,6 +64,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[ByteRover]] — 编程 Agent CLI，LoCoMo 96.1%，Git 式版本控制，支持 22+ 编程工具
 - [[OpenViking]] — 字节跳动上下文数据库，AGPLv3，多租户，L0/L1/L2 分层架构
 - [[Claude-Mem]] — Claude Code 专用插件，勿与 Supermemory 混淆
+- [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 
 ### Summaries
 - [[harness-engineering-java-brownfield-20260507]] — 存量 Java 工程的 AI Coding 率从 25% 提升至 90% 的完整实战
