@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>AI Agent 记忆系统对比</title>
+    <link>https://nickdlkk.github.io/concepts/Memory-Systems</link>
+    <guid>https://nickdlkk.github.io/concepts/Memory-Systems</guid>
+    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位★Stars许可架构Supermemory通用记忆引擎（#1 基准）~22kMITVector + SemanticMem0通用记忆层（行业标杆）55kApache 2.0Vector + Graph (hybrid)LettaLLM-as-OS（模型自管理记忆）22kApache 2.0Block-based self-editingGraphiti时序知识图谱26kApache 2.0Temporal KG (Neo4... ]]></description>
+    <pubDate>Sun, 10 May 2026 16:08:09 GMT</pubDate>
+  </item><item>
     <title>Cognee</title>
     <link>https://nickdlkk.github.io/entities/Cognee</link>
     <guid>https://nickdlkk.github.io/entities/Cognee</guid>
@@ -41,12 +47,6 @@
     <guid>https://nickdlkk.github.io/entities/Memori</guid>
     <description><![CDATA[ Memori Agent-native memory infrastructure. Memory from what agents do, not just what they say. ]]></description>
     <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>AI Agent 记忆系统对比</title>
-    <link>https://nickdlkk.github.io/concepts/Memory-Systems</link>
-    <guid>https://nickdlkk.github.io/concepts/Memory-Systems</guid>
-    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位★Stars许可架构Supermemory通用记忆引擎（#1 基准）~22kMITVector + SemanticMem0通用记忆层（行业标杆）55kApache 2.0Vector + Graph (hybrid)LettaLLM-as-OS（模型自管理记忆）22kApache 2.0Block-based self-editingGraphiti时序知识图谱26kApache 2.0Temporal KG (Neo4... ]]></description>
-    <pubDate>Sun, 10 May 2026 14:50:10 GMT</pubDate>
   </item><item>
     <title>ByteRover</title>
     <link>https://nickdlkk.github.io/entities/ByteRover</link>
