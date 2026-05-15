@@ -6,9 +6,15 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/</link>
+    <guid>https://nickdlkk.github.io/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:02:13 GMT</pubDate>
+  </item><item>
     <title>tencentdb-agent-memory</title>
-    <link>https://nickdlkk.github.io/entities/tencentdb-agent-memory</link>
-    <guid>https://nickdlkk.github.io/entities/tencentdb-agent-memory</guid>
+    <link>https://nickdlkk.github.io/entities/memory-systems/tencentdb-agent-memory</link>
+    <guid>https://nickdlkk.github.io/entities/memory-systems/tencentdb-agent-memory</guid>
     <description><![CDATA[ TencentDB Agent Memory 记忆不是让 AI 囤积一切，而是让人不必重复一切。 概述 TencentDB Agent Memory 是腾讯开发的一个四层记忆系统插件，为 AI Agent 提供长期记忆和短期上下文压缩能力。 核心理念：拒绝扁平向量堆砌，通过符号化短期记忆和分层长期记忆，让 Agent 记住该记的，让人专注判断、创造和真正有价值的工作。 集成效果（对比裸 OpenClaw）： Token 消耗最高节省 61.38%（WideSearch 场景） 任务通过率相对提升 51.52% PersonaMem 准确率从 48% 提升到 76% GitHub: Tencen... ]]></description>
     <pubDate>Fri, 15 May 2026 16:01:05 GMT</pubDate>
   </item><item>
@@ -58,12 +64,6 @@
     <link>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</link>
     <guid>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</guid>
     <description><![CDATA[ dispatching-parallel-agents 当有 2+ 独立任务且无共享状态或顺序依赖时，并行调度子 agent 调查，每个问题域一个 agent。 何时使用 digraph when_to_use { &quot;Multiple failures?&quot; [shape=diamond]; &quot;Are they independent?&quot; [shape=diamond]; &quot;Single agent investigates all&quot; [shape=box]; &quot;One agent per problem domain&quo... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>finishing-a-development-branch</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</guid>
-    <description><![CDATA[ finishing-a-development-branch 实现完成，所有测试通过，需要决定如何集成工作时使用。引导完成开发工作，呈现结构化选项用于合并、PR 或清理。 流程 Step 1: 验证测试 呈现选项前必须验证测试通过： npm test / cargo test / pytest / go test ./.. ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
