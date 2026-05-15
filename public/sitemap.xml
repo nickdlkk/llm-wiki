@@ -2,8 +2,11 @@
     <loc>https://nickdlkk.github.io/concepts/Agent%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/concepts/Linux-Kernel-Privilege-Escalation</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/concepts/Memory-Systems</loc>
-    <lastmod>2026-05-10T16:08:09.000Z</lastmod>
+    <lastmod>2026-05-10T15:16:39.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/OpenSpec</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
@@ -122,8 +125,11 @@
     <loc>https://nickdlkk.github.io/entities/clawith</loc>
     <lastmod>2026-05-07T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/coder-studio</loc>
+    <lastmod>2026-05-15T10:37:23.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/feisou-search-skill</loc>
-    <lastmod>2026-05-09T06:09:49.000Z</lastmod>
+    <lastmod>2026-04-30T07:38:26.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/github-architecture-diagram-generator</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
@@ -185,14 +191,29 @@
     <loc>https://nickdlkk.github.io/entities/gstack</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/kandev</loc>
+    <lastmod>2026-05-15T11:06:03.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/learn-claude-code</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/learn-harness-engineering</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/memorizz</loc>
+    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/oneclickvirt</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/openhands</loc>
+    <lastmod>2026-05-15T11:47:42.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/paperclip</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/perplexity-agent-skills</loc>
+    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/ralph-claude-code</loc>
     <lastmod>2026-04-26T16:00:00.000Z</lastmod>
@@ -227,6 +248,9 @@
     <loc>https://nickdlkk.github.io/entities/vibe-kanban-multi-agent</loc>
     <lastmod>2026-04-22T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/xians-ai</loc>
+    <lastmod>2026-05-15T12:37:19.055Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/%E5%B0%8F%E7%B1%B3_MiMo</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
@@ -234,7 +258,7 @@
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/</loc>
-    <lastmod>2026-05-09T06:09:49.000Z</lastmod>
+    <lastmod>2026-05-15T11:47:42.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/agent-skills</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
@@ -254,8 +278,14 @@
     <loc>https://nickdlkk.github.io/summaries/harness-core-concept-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/summaries/harness-engineering-java-brownfield-20260507</loc>
+    <lastmod>2026-05-10T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/summaries/luo-fuli-3h-interview-zhangxiaojun-2026</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/summaries/memorizz</loc>
+    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/multica-vs-vibepro</loc>
     <lastmod>2026-05-08T16:00:00.000Z</lastmod>
@@ -265,6 +295,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/openai-harness-engineering-codex-20260211</loc>
     <lastmod>2026-02-10T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/summaries/perplexity-agent-skills-design</loc>
+    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/ralph-claude-code</loc>
     <lastmod>2026-04-26T16:00:00.000Z</lastmod>

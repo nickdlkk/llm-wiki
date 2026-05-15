@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>AI Agent 记忆系统对比</title>
-    <link>https://nickdlkk.github.io/concepts/Memory-Systems</link>
-    <guid>https://nickdlkk.github.io/concepts/Memory-Systems</guid>
-    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位★Stars许可架构Supermemory通用记忆引擎（#1 基准）~22kMITVector + SemanticMem0通用记忆层（行业标杆）55kApache 2.0Vector + Graph (hybrid)LettaLLM-as-OS（模型自管理记忆）22kApache 2.0Block-based self-editingGraphiti时序知识图谱26kApache 2.0Temporal KG (Neo4... ]]></description>
-    <pubDate>Sun, 10 May 2026 16:08:09 GMT</pubDate>
+    <title>xians-ai</title>
+    <link>https://nickdlkk.github.io/entities/xians-ai</link>
+    <guid>https://nickdlkk.github.io/entities/xians-ai</guid>
+    <description><![CDATA[ Xians.ai Enterprise-grade Agent Development Kit — 构建、部署、编排 AI Agent 的开源平台 概述 Xians.ai 是由 XiansAiPlatform 开发的开源 Agent 平台，定位为”Enterprise-grade Agent Development Kit”。核心特性是 Temporal.io 工作流引擎 + LLM-agnostic 多模型支持 + 多租户 + 多渠道通信。 官网：xians.ai | 文档：xiansaiplatform.github.io/XiansAi.PublicDocs | Docker Hub：9... ]]></description>
+    <pubDate>Fri, 15 May 2026 12:37:19 GMT</pubDate>
   </item><item>
-    <title>Cognee</title>
-    <link>https://nickdlkk.github.io/entities/Cognee</link>
-    <guid>https://nickdlkk.github.io/entities/Cognee</guid>
-    <description><![CDATA[ Cognee Memory control plane for AI agents. Six lines of code to add memory to any agent. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>OpenHands</title>
+    <link>https://nickdlkk.github.io/entities/openhands</link>
+    <guid>https://nickdlkk.github.io/entities/openhands</guid>
+    <description><![CDATA[ OpenHands Repo: All-Hands-AI/OpenHands SDK: OpenHands/software-agent-sdk License: MIT（核心）；enterprise/ 目录为商业许可 Benchmark: SWEBench 77.6% 定位: AI驱动开发平台 — 软件Agent SDK + CLI + Local GUI + Cloud + Enterprise 核心定位 OpenHands 是 All-Hands-AI 社区的产品，定位是 AI-Driven Development，被 TikTok/Amazon/Google/Netflix/NVIDI... ]]></description>
+    <pubDate>Fri, 15 May 2026 11:47:42 GMT</pubDate>
   </item><item>
-    <title>Graphiti</title>
-    <link>https://nickdlkk.github.io/entities/Graphiti</link>
-    <guid>https://nickdlkk.github.io/entities/Graphiti</guid>
-    <description><![CDATA[ Graphiti Build temporal context graphs for AI agents. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/</link>
+    <guid>https://nickdlkk.github.io/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Fri, 15 May 2026 11:47:42 GMT</pubDate>
   </item><item>
-    <title>Letta</title>
-    <link>https://nickdlkk.github.io/entities/Letta</link>
-    <guid>https://nickdlkk.github.io/entities/Letta</guid>
-    <description><![CDATA[ Letta Build AI with advanced memory that can learn and self-improve over time. GitHub: letta-ai/letta · ★22,604 · Apache 2.0 · Python Formerly MemGPT. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>Kandev</title>
+    <link>https://nickdlkk.github.io/entities/kandev</link>
+    <guid>https://nickdlkk.github.io/entities/kandev</guid>
+    <description><![CDATA[ Kandev Repo: kdlbs/kandev License: AGPL-3.0 定位: 多Agent并行任务编排 + Kanban工作流 + 集成工作区（编辑器/终端/Git变更），支持自托管 核心定位 Humans stay in control. ]]></description>
+    <pubDate>Fri, 15 May 2026 11:06:03 GMT</pubDate>
   </item><item>
-    <title>Mem0</title>
-    <link>https://nickdlkk.github.io/entities/Mem0</link>
-    <guid>https://nickdlkk.github.io/entities/Mem0</guid>
-    <description><![CDATA[ Mem0 Universal memory layer for AI Agents. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>Coder Studio</title>
+    <link>https://nickdlkk.github.io/entities/coder-studio</link>
+    <guid>https://nickdlkk.github.io/entities/coder-studio</guid>
+    <description><![CDATA[ Coder Studio Repo: spencerkit/coder-studio Stars: 20 | Language: TypeScript | License: MIT 定位: 浏览器里的 AI 编程工作台，支持 Supervisor 监督循环、多设备切换、跨平台一致体验 核心定位 Deploy once, coding everywhere. ]]></description>
+    <pubDate>Fri, 15 May 2026 10:37:23 GMT</pubDate>
   </item><item>
-    <title>MemMachine</title>
-    <link>https://nickdlkk.github.io/entities/MemMachine</link>
-    <guid>https://nickdlkk.github.io/entities/MemMachine</guid>
-    <description><![CDATA[ MemMachine Universal memory layer for AI Agents — open-source, scalable, and interoperable. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>Linux Kernel Privilege Escalation</title>
+    <link>https://nickdlkk.github.io/concepts/Linux-Kernel-Privilege-Escalation</link>
+    <guid>https://nickdlkk.github.io/concepts/Linux-Kernel-Privilege-Escalation</guid>
+    <description><![CDATA[ Linux Kernel Privilege Escalation Linux 内核特权提升漏洞是获取 root 权限的主要攻击面。以下是近年来最重要的几类内核提权漏洞的公开技术摘要。 漏洞分类 内存竞态条件 (Race Conditions) 通过并发时序漏洞修改只读内存页面或内核数据结构。 CVE名称影响版本漏洞类型CVE-2016-5195Dirty COW2.6.22 – 4.8.3写时复制 (COW) 竞态CVE-2022-0847Dirty Pipe5.8 – 5.16.11 / 5.15.25 / 5.10.102Pipe 缓冲区竞态 CVE-2016-5195 (Dirty C... ]]></description>
+    <pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Memori</title>
-    <link>https://nickdlkk.github.io/entities/Memori</link>
-    <guid>https://nickdlkk.github.io/entities/Memori</guid>
-    <description><![CDATA[ Memori Agent-native memory infrastructure. Memory from what agents do, not just what they say. ]]></description>
-    <pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate>
+    <title>Paperclip</title>
+    <link>https://nickdlkk.github.io/entities/paperclip</link>
+    <guid>https://nickdlkk.github.io/entities/paperclip</guid>
+    <description><![CDATA[ Paperclip Autonomous Agent Orchestration Platform — 自主 Agent 编排平台，通过心跳机制管理 AI Agent 的执行、任务分配和预算治理。 一句话定义 Paperclip 是一个心跳驱动的 Agent 编排平台（非 Agent 运行时），以公司为租户隔离单位，以 Issue 为工作单元，以心跳为执行粒度，通过适配器层对接各种 Agent 运行时（Claude Code、Codex、OpenClaw 等），提供企业级的治理、预算、审计能力。 定位 Paperclip = Agent 编排平台（控制平面） ≠ Agent 运行时（执行平面）... ]]></description>
+    <pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>ByteRover</title>
-    <link>https://nickdlkk.github.io/entities/ByteRover</link>
-    <guid>https://nickdlkk.github.io/entities/ByteRover</guid>
-    <description><![CDATA[ ByteRover ByteRover（CLI 工具 brv）是一个为 AI 编程 Agent 提供持久、结构化记忆的交互式 REPL CLI。支持 22+ 款 AI 编程工具（Cursor、Claude Code、Windsurf、Cline 等）。 核心能力 能力说明🌐 Web Dashboardbrv webui — 可视化管理记忆🖥️ TUI REPLReact/Ink 驱动的交互式终端界面🧠 上下文树将项目知识组织为可查询的上下文树🔀 Git 式版本控制记忆分支、提交、合并、推送/拉取🤖 20 个 LLM 提供商Anthropic、OpenAI、Google、Groq、Mi... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
+    <title>Memorizz</title>
+    <link>https://nickdlkk.github.io/entities/memorizz</link>
+    <guid>https://nickdlkk.github.io/entities/memorizz</guid>
+    <description><![CDATA[ Memorizz RichmondAlake/memorizz · 723 ⭐ · Python · PolyForm Noncommercial 1.0.0 MemoRizz 是一个 Python 记忆层框架，为 AI 应用提供多种记忆系统和可插拔存储后端。定位为实验性/教育性框架，API 可能变更，未经过生产级安全加固。 核心架构 记忆类型（10种）： 类型用途LONG_TERM_MEMORY语义知识库事实ENTITY_MEMORY结构化实体属性（profile-style facts）TOOLBOX可执行工具和元数据WORKFLOW_MEMORY流程/任务状态CONVERSATION_M... ]]></description>
+    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Claude-Mem</title>
-    <link>https://nickdlkk.github.io/entities/Claude-Mem</link>
-    <guid>https://nickdlkk.github.io/entities/Claude-Mem</guid>
-    <description><![CDATA[ Claude-Mem Claude-Mem（GitHub: thedotmack/claude-mem）是专为 Claude Code 设计的持久记忆压缩系统。不是独立的记忆产品，而是 Claude Code 的插件/扩展。 ⚠️ 注意：不要将 Claude-Mem 与 Supermemory（mem0）混淆——两者都是 AI 记忆工具，但定位不同：Claude-Mem 是 Claude Code 的本地插件，Supermemory 是通用多 Agent 记忆平台。 核心功能 自动记忆捕捉: Claude Code 的每次对话自动压缩并存储 上下文压缩: 将长对话压缩为结构化记忆，节省上下文窗... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
+    <title>Perplexity Agent Skills</title>
+    <link>https://nickdlkk.github.io/entities/perplexity-agent-skills</link>
+    <guid>https://nickdlkk.github.io/entities/perplexity-agent-skills</guid>
+    <description><![CDATA[ Perplexity Agent Skills Public research guide + internal engineering framework from Perplexity’s Agents team for designing, refining, and maintaining Agent Skills. ]]></description>
+    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Hindsight</title>
-    <link>https://nickdlkk.github.io/entities/Hindsight</link>
-    <guid>https://nickdlkk.github.io/entities/Hindsight</guid>
-    <description><![CDATA[ Hindsight Hindsight 是 vectorize.io 提供的记忆系统，提供本地部署（Embedded）和云端（Cloud）两种模式。Nick 当前在 PVE LXC（192.168.3.241）上使用 Docker 部署了 Hindsight 本地版本，已成功对接 MiniMax LLM（通过 HINDSIGHT_API_LLM_BASE_URL=api.minimaxi.com/v1 配置）。 部署模式 模式说明配置方式Cloud官方托管，需注册获取 API KeyHINDSIGHT_MODE=cloudEmbedded（本地）Docker 部署到自有服务器HINDSIGHT... ]]></description>
-    <pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate>
+    <title>Memorizz Summary</title>
+    <link>https://nickdlkk.github.io/summaries/memorizz</link>
+    <guid>https://nickdlkk.github.io/summaries/memorizz</guid>
+    <description><![CDATA[ memorizz — 蒸馏笔记 基本信息 Repo: RichmondAlake/memorizz Stars: 723 语言: Python License: PolyForm Noncommercial 1.0.0（非商业用途） 定位: 实验性/教育性框架，API 可能变更，未生产加固 核心价值 MemoRizz 的设计亮点是存储后端抽象（MemoryProvider 接口）和多种记忆类型正交组合。通过 MemAgentBuilder 可按需组合： agent = ( MemAgentBuilder() .with_application_mode(ApplicationMode.DEEP... ]]></description>
+    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
