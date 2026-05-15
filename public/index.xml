@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>tencentdb-agent-memory</title>
+    <link>https://nickdlkk.github.io/entities/tencentdb-agent-memory</link>
+    <guid>https://nickdlkk.github.io/entities/tencentdb-agent-memory</guid>
+    <description><![CDATA[ TencentDB Agent Memory 记忆不是让 AI 囤积一切，而是让人不必重复一切。 概述 TencentDB Agent Memory 是腾讯开发的一个四层记忆系统插件，为 AI Agent 提供长期记忆和短期上下文压缩能力。 核心理念：拒绝扁平向量堆砌，通过符号化短期记忆和分层长期记忆，让 Agent 记住该记的，让人专注判断、创造和真正有价值的工作。 集成效果（对比裸 OpenClaw）： Token 消耗最高节省 61.38%（WideSearch 场景） 任务通过率相对提升 51.52% PersonaMem 准确率从 48% 提升到 76% GitHub: Tencen... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:01:05 GMT</pubDate>
+  </item><item>
     <title>gstack /investigate</title>
     <link>https://nickdlkk.github.io/concepts/gstack/investigate</link>
     <guid>https://nickdlkk.github.io/concepts/gstack/investigate</guid>
@@ -58,12 +64,6 @@
     <link>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</link>
     <guid>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</guid>
     <description><![CDATA[ finishing-a-development-branch 实现完成，所有测试通过，需要决定如何集成工作时使用。引导完成开发工作，呈现结构化选项用于合并、PR 或清理。 流程 Step 1: 验证测试 呈现选项前必须验证测试通过： npm test / cargo test / pytest / go test ./.. ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>planning-with-files</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</guid>
-    <description><![CDATA[ planning-with-files Manus 风格基于文件的规划——用持久化 markdown 文件作为 AI 的”磁盘工作内存”。任何 5+ 工具调用的复杂任务必须使用。 核心模式 上下文窗口 = RAM（易失，有限） 文件系统 = 磁盘（持久，无限） → 任何重要信息必须写入磁盘 文件职责 文件用途更新时机task_plan.md阶段 + 进度 + 决策每个阶段后findings.md研究 + 发现任何发现后progress.mdSession 日志 + 测试结果全程 关键规则 规则 1：先创建计划 复杂任务开始前必须创建 task_plan.md。不可协商。 规则 2：2-Acti... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
