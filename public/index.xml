@@ -6,22 +6,28 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>openspawn</title>
+    <link>https://nickdlkk.github.io/entities/openspawn</link>
+    <guid>https://nickdlkk.github.io/entities/openspawn</guid>
+    <description><![CDATA[ OpenSpawn The control plane for AI agent organizations — 用 ORG.md 定义整个 Agent 组织，基础设施而非框架 概述 OpenSpawn 是开源的多 Agent 协调平台，定位为”AI Agent 组织的基础设施层”：不替换现有 Agent 框架（CrewAI / LangGraph / AutoGen / OpenClaw），而是在其上做任务路由、层级管理、经济激励、实时监控。 核心理念：一个 ORG.md Markdown 文件定义整个 Agent 组织——角色、层级、文化、政策、工作流。OpenSpawn 解析它，生成 A... ]]></description>
+    <pubDate>Fri, 15 May 2026 12:46:46 GMT</pubDate>
+  </item><item>
     <title>xians-ai</title>
     <link>https://nickdlkk.github.io/entities/xians-ai</link>
     <guid>https://nickdlkk.github.io/entities/xians-ai</guid>
     <description><![CDATA[ Xians.ai Enterprise-grade Agent Development Kit — 构建、部署、编排 AI Agent 的开源平台 概述 Xians.ai 是由 XiansAiPlatform 开发的开源 Agent 平台，定位为”Enterprise-grade Agent Development Kit”。核心特性是 Temporal.io 工作流引擎 + LLM-agnostic 多模型支持 + 多租户 + 多渠道通信。 官网：xians.ai | 文档：xiansaiplatform.github.io/XiansAi.PublicDocs | Docker Hub：9... ]]></description>
-    <pubDate>Fri, 15 May 2026 12:37:19 GMT</pubDate>
-  </item><item>
-    <title>OpenHands</title>
-    <link>https://nickdlkk.github.io/entities/openhands</link>
-    <guid>https://nickdlkk.github.io/entities/openhands</guid>
-    <description><![CDATA[ OpenHands Repo: All-Hands-AI/OpenHands SDK: OpenHands/software-agent-sdk License: MIT（核心）；enterprise/ 目录为商业许可 Benchmark: SWEBench 77.6% 定位: AI驱动开发平台 — 软件Agent SDK + CLI + Local GUI + Cloud + Enterprise 核心定位 OpenHands 是 All-Hands-AI 社区的产品，定位是 AI-Driven Development，被 TikTok/Amazon/Google/Netflix/NVIDI... ]]></description>
-    <pubDate>Fri, 15 May 2026 11:47:42 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 12:38:19 GMT</pubDate>
   </item><item>
     <title>index</title>
     <link>https://nickdlkk.github.io/</link>
     <guid>https://nickdlkk.github.io/</guid>
     <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Fri, 15 May 2026 12:38:19 GMT</pubDate>
+  </item><item>
+    <title>OpenHands</title>
+    <link>https://nickdlkk.github.io/entities/openhands</link>
+    <guid>https://nickdlkk.github.io/entities/openhands</guid>
+    <description><![CDATA[ OpenHands Repo: All-Hands-AI/OpenHands SDK: OpenHands/software-agent-sdk License: MIT（核心）；enterprise/ 目录为商业许可 Benchmark: SWEBench 77.6% 定位: AI驱动开发平台 — 软件Agent SDK + CLI + Local GUI + Cloud + Enterprise 核心定位 OpenHands 是 All-Hands-AI 社区的产品，定位是 AI-Driven Development，被 TikTok/Amazon/Google/Netflix/NVIDI... ]]></description>
     <pubDate>Fri, 15 May 2026 11:47:42 GMT</pubDate>
   </item><item>
     <title>Kandev</title>
@@ -58,12 +64,6 @@
     <link>https://nickdlkk.github.io/entities/perplexity-agent-skills</link>
     <guid>https://nickdlkk.github.io/entities/perplexity-agent-skills</guid>
     <description><![CDATA[ Perplexity Agent Skills Public research guide + internal engineering framework from Perplexity’s Agents team for designing, refining, and maintaining Agent Skills. ]]></description>
-    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Memorizz Summary</title>
-    <link>https://nickdlkk.github.io/summaries/memorizz</link>
-    <guid>https://nickdlkk.github.io/summaries/memorizz</guid>
-    <description><![CDATA[ memorizz — 蒸馏笔记 基本信息 Repo: RichmondAlake/memorizz Stars: 723 语言: Python License: PolyForm Noncommercial 1.0.0（非商业用途） 定位: 实验性/教育性框架，API 可能变更，未生产加固 核心价值 MemoRizz 的设计亮点是存储后端抽象（MemoryProvider 接口）和多种记忆类型正交组合。通过 MemAgentBuilder 可按需组合： agent = ( MemAgentBuilder() .with_application_mode(ApplicationMode.DEEP... ]]></description>
     <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>

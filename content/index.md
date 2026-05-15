@@ -66,6 +66,7 @@
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[entities/xians-ai]] — Xians.ai（Enterprise Agent ADK）：.NET 9 + Temporal.io + MongoDB，多租户多渠道通信，Chat/Data双消息模式，Semantic Kernel + RAG/CAG
+- [[entities/openspawn]] — OpenSpawn（Control Plane）：ORG.md定义Agent组织 + L1-L10层级 + Autonomy Dial + MCP/A2A协议，Built on OpenClaw，无需Docker本地运行
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
 - [[superpowers-openspec]] — superpowers ↔ OpenSpec 桥接 skill：中文意图路由 + 方案先行门禁
