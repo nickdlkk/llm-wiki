@@ -48,6 +48,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Hermes Skill Nudge]] — Hermes 自动建议生成 Skill 的机制：iteration-based 触发、异步投递链路、已知 bug（send() 静默失败）
 
 ### Entities
+- [[Cua]] — Open-source infrastructure for Computer-Use Agents（16.7k ⭐）：Cua Driver后台macOS、Cua Sandbox跨平台沙箱、CuaBot协作式计算机使用、Cua-Bench基准测试、Lume macOS虚拟化
 - [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 11 种 Agent CLI，Go+Next.js 自托管
 - [[paperclip]] — 心跳驱动的 Agent 编排平台：通过适配器层对接 Claude Code/Codex/OpenClaw，支持多租户、预算治理、实时监控
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）

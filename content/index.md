@@ -68,6 +68,7 @@
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
+- [[entities/Cua]] — Open-source infrastructure for Computer-Use Agents（16.7k ⭐）：Cua Driver后台控制macOS、Cua Sandbox跨平台沙箱、CuaBot协作式计算机使用、Cua-Bench基准测试、Lume macOS虚拟化
 - [[entities/vibe-kanban]] — Vibe Kanban（**已关闭**）：Rust+TypeScript monorepo，看板+AI Agent Workspace协作平台，支持10+种Agent（Claude Code/Codex/Gemini CLI等），Git Worktree隔离，MCP服务器
 - [[entities/xians-ai]] — Xians.ai（Enterprise Agent ADK）：.NET 9 + Temporal.io + MongoDB，多租户多渠道通信，Chat/Data双消息模式，Semantic Kernel + RAG/CAG
 - [[entities/openspawn]] — OpenSpawn（Control Plane）：ORG.md定义Agent组织 + L1-L10层级 + Autonomy Dial + MCP/A2A协议，Built on OpenClaw，无需Docker本地运行
