@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://nickdlkk.github.io/</link>
-    <guid>https://nickdlkk.github.io/</guid>
-    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:02:13 GMT</pubDate>
+    <title>plan-ceo-review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</guid>
+    <description><![CDATA[ Find 10-star product (4 modes: Expansion/SelExp/Hold/Reduction) ]]></description>
+    <pubDate>Fri, 15 May 2026 16:40:31 GMT</pubDate>
   </item><item>
-    <title>tencentdb-agent-memory</title>
-    <link>https://nickdlkk.github.io/entities/memory-systems/tencentdb-agent-memory</link>
-    <guid>https://nickdlkk.github.io/entities/memory-systems/tencentdb-agent-memory</guid>
-    <description><![CDATA[ TencentDB Agent Memory 记忆不是让 AI 囤积一切，而是让人不必重复一切。 概述 TencentDB Agent Memory 是腾讯开发的一个四层记忆系统插件，为 AI Agent 提供长期记忆和短期上下文压缩能力。 核心理念：拒绝扁平向量堆砌，通过符号化短期记忆和分层长期记忆，让 Agent 记住该记的，让人专注判断、创造和真正有价值的工作。 集成效果（对比裸 OpenClaw）： Token 消耗最高节省 61.38%（WideSearch 场景） 任务通过率相对提升 51.52% PersonaMem 准确率从 48% 提升到 76% GitHub: Tencen... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:01:05 GMT</pubDate>
+    <title>autoplan</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/autoplan</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/autoplan</guid>
+    <description><![CDATA[ CEO+Design+Eng+DX review pipeline ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:12 GMT</pubDate>
   </item><item>
-    <title>gstack /investigate</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/investigate</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/investigate</guid>
-    <description><![CDATA[ /investigate Systematic debugging with root cause investigation — 四阶段：investigate → analyze → hypothesize → implement。铁律：未完成根因调查不得尝试修复。与 gstack /review 的核心区别：review 是预防，investigate 是治疗。 核心职责 何时触发： 用户说 “debug this”、“fix this bug”、“why is this broken”、“investigate this error”、“root cause analysis” 用户报... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>unfreeze</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/unfreeze</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/unfreeze</guid>
+    <description><![CDATA[ Clear freeze boundary ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>gstack /learn</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/learn</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/learn</guid>
-    <description><![CDATA[ /learn Manage learnings.jsonl — 搜索、裁剪、导出、按类型统计 AI 在当前 repo 中学到的 pattern/pitfall/preference/architecture。跨 session 的持久化记忆，让 AI 不重复犯错。 核心职责 learnings.jsonl 是 gstack 的跨会话记忆文件，位于 ~/.gstack/projects/{slug}/learnings.jsonl。每条记录包含： 类型：pattern（有效做法）/ pitfall（踩过的坑）/ preference（用户偏好）/ architecture（架构决策） 内容：具体... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>setup-gbrain</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/setup-gbrain</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/setup-gbrain</guid>
+    <description><![CDATA[ Install gbrain CLI+PGLite/Supabase+MCP ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>gstack /office-hours</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/office-hours</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/office-hours</guid>
-    <description><![CDATA[ /office-hours YC Office Hours skill — 两个模式：Startup mode（6 个强制问题暴露需求现实） + Builder mode（设计思维头脑风暴）。保存设计文档。在写任何代码之前使用。 核心职责 何时触发： 用户说 “brainstorm this”、“I have an idea”、“help me think through”、“office hours”、“is this worth building” 用户描述新产品想法、问某事是否值得做、探索还不存在的设计决策 使用顺序：/office-hours → /plan-ceo-review 或 ... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>skillify</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/skillify</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/skillify</guid>
+    <description><![CDATA[ Codify scrape flow to disk ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>gstack /qa</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/qa</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/qa</guid>
-    <description><![CDATA[ /qa Systematically QA test a web application and fix bugs found — 用真实 Playwright Chromium 打开网站、找 bug、修复 bug、原子提交、重新验证。测试 → 修复 → 测试闭环，直到 site 达到 ship-ready。 核心职责 何时触发： 用户说 “qa”、“QA”、“test this site”、“find bugs”、“test and fix”、“fix what’s broken” 用户说某功能”ready for testing”或问”does this work?”时主动建议 核心创新：... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>setup-deploy</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/setup-deploy</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/setup-deploy</guid>
+    <description><![CDATA[ Configure Fly.io/Render/Vercel/Netlify/Heroku ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>gstack /review</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/review</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/review</guid>
-    <description><![CDATA[ /review Pre-landing PR review — 分析 diff 相对于 base branch 的 SQL 安全、LLM trust boundary 违规、条件副作用、结构性问题。在代码合并 landing 前运行，是 CI 通过但生产挂掉的 bug 的最后一道防线。 核心职责 何时触发： 用户说 “review this PR”、“code review”、“check my diff”、“pre-landing review” 用户准备合并或 landing 代码变更时主动建议 检查维度（Staff Engineer 视角）： 维度检查内容N+1 查询数据库查询是否有多次... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>sync-gbrain</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/sync-gbrain</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/sync-gbrain</guid>
+    <description><![CDATA[ Keep gbrain current+CLAUDE.md update ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>gstack /ship</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/ship</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/ship</guid>
-    <description><![CDATA[ /ship Release Engineer skill — 同步 base branch → 运行测试 → 审查 diff → bump VERSION → 更新 CHANGELOG → commit → push → 创建 PR。Workspace-aware version queue 支持按顺序发版多个 PR。 核心职责 何时触发： 用户说 “ship”、“deploy”、“push to main”、“create a PR”、“merge and push”、“get it deployed” 当代码 ready、用户要求部署或创建 PR 时主动建议（不自己 push/PR） 安全... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>retro</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/retro</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/retro</guid>
+    <description><![CDATA[ Weekly engineering retrospective ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>brainstorming</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</guid>
-    <description><![CDATA[ brainstorming 任何创造性工作前的强制 gate——创建功能、构建组件、添加功能或修改行为之前必须执行。通过自然协作对话将创意探索为完整设计和规格。 硬性门槛（HARD-GATE） 在呈现设计并获得用户批准之前，不得调用任何实现 skill、不得写任何代码、不得搭建任何项目、或采取任何实现行动。 这适用于每个项目，无论感知复杂度。 Anti-Pattern：不需要设计？ 每个项目都走这个流程。 Todo list、单函数工具、配置变更——全部。“简单”项目正是未审视假设造成最大浪费的地方。设计可以很短（真正简单的项目几句话），但必须呈现并获得批准。 流程 digraph brain... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>setup-browser-cookies</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/setup-browser-cookies</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/setup-browser-cookies</guid>
+    <description><![CDATA[ Import cookies to browse ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item><item>
-    <title>dispatching-parallel-agents</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</guid>
-    <description><![CDATA[ dispatching-parallel-agents 当有 2+ 独立任务且无共享状态或顺序依赖时，并行调度子 agent 调查，每个问题域一个 agent。 何时使用 digraph when_to_use { &quot;Multiple failures?&quot; [shape=diamond]; &quot;Are they independent?&quot; [shape=diamond]; &quot;Single agent investigates all&quot; [shape=box]; &quot;One agent per problem domain&quo... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <title>scrape</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/scrape</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/scrape</guid>
+    <description><![CDATA[ Pull web page data (first=prototype, subsequent=permanent skill) ]]></description>
+    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -139,16 +139,56 @@ gstack 通过 Claude Code 的 `/` 命令触发，所有 skill 存储为 `SKILL.m
 > **Usage stats**（2026-04）：75k+ ⭐ · 14,965 安装 · 305,309 总调用 · 95.2% 成功率
 > Top skills: `/qa` (57,650)、`/plan-eng-review` (28,014)、`/office-hours` (24,817)、`/ship` (18,899)
 
-## Skill Concept Pages（详细文档）
+## Skill Concept Pages（46 个，详细文档）
 
-| Skill | Concept | 职责 |
+| Skill | Concept | 描述 |
 |-------|---------|------|
-| `/office-hours` | [[concepts/gstack/office-hours]] | YC Office Hours — 6 个强制问题重新审视产品想法 |
-| `/review` | [[concepts/gstack/review]] | Pre-landing PR 审查 — N+1/竞态/信任边界/完整性 |
-| `/investigate` | [[concepts/gstack/investigate]] | 根因调试 — 四阶段，铁律：未调查不修复 |
-| `/qa` | [[concepts/gstack/qa]] | 真实浏览器 QA — Playwright 三层测试深度 |
-| `/ship` | [[concepts/gstack/ship]] | Release Engineer — sync → test → review → PR |
-| `/learn` | [[concepts/gstack/learn]] | 跨会话记忆 — learnings.jsonl 管理 |
+| /autoplan | [[concepts/gstack/autoplan]] | Auto-review pipeline — reads CEO + Design + Eng + DX review skills sequentially |
+| /benchmark | [[concepts/gstack/benchmark]] | Performance regression detection using browse daemon |
+| /benchmark-models | [[concepts/gstack/benchmark-models]] | Cross-model benchmark for gstack skills (Claude/Codex/Gemini) |
+| /browse | [[concepts/gstack/browse]] | Fast headless browser for QA testing |
+| /canary | [[concepts/gstack/canary]] | Post-deploy monitoring: console errors + performance regression |
+| /careful | [[concepts/gstack/careful]] | Safety guardrails for destructive commands |
+| /codex | [[concepts/gstack/codex]] | OpenAI Codex CLI wrapper — code review + challenge mode + pair |
+| /connect-chrome | [[concepts/gstack/connect-chrome]] | Launch GStack Browser — AI-controlled Chromium with sidebar |
+| /context-restore | [[concepts/gstack/context-restore]] | Restore saved context across branches |
+| /context-save | [[concepts/gstack/context-save]] | Save working context (git state + decisions + remaining work) |
+| /cso | [[concepts/gstack/cso]] | Chief Security Officer mode — secrets archaeology + supply chain audit |
+| /design-consultation | [[concepts/gstack/design-consultation]] | Design consultation — propose complete design system |
+| /design-html | [[concepts/gstack/design-html]] | Design finalization — production Pretext HTML/CSS |
+| /design-review | [[concepts/gstack/design-review]] | Designer's eye QA — visual inconsistency + AI slop detection |
+| /design-shotgun | [[concepts/gstack/design-shotgun]] | Generate multiple AI design variants + comparison board |
+| /devex-review | [[concepts/gstack/devex-review]] | Live developer experience audit — navigate docs, try SDKs |
+| /document-generate | [[concepts/gstack/document-generate]] | Generate missing documentation via Diataxis framework |
+| /document-release | [[concepts/gstack/document-release]] | Post-ship documentation update via Diataxis coverage map |
+| /freeze | [[concepts/gstack/freeze]] | Restrict file edits to specific directory |
+| /gstack-upgrade | [[concepts/gstack/gstack-upgrade]] | Upgrade gstack globally or vendored |
+| /guard | [[concepts/gstack/guard]] | Full safety mode — careful + freeze combined |
+| /health | [[concepts/gstack/health]] | Code quality dashboard — type checker + linter + test runner |
+| /investigate | [[concepts/gstack/investigate]] | Systematic debugging — four phases, iron law: no root cause no fix |
+| /land-and-deploy | [[concepts/gstack/land-and-deploy]] | Land + deploy workflow — merge → CI → canary |
+| /landing-report | [[concepts/gstack/landing-report]] | Read-only queue dashboard for workspace-aware ship |
+| /learn | [[concepts/gstack/learn]] | Manage learnings.jsonl — pattern/pitfall/preference/architecture |
+| /make-pdf | [[concepts/gstack/make-pdf]] | Turn markdown into publication-quality PDF |
+| /office-hours | [[concepts/gstack/office-hours]] | YC Office Hours — 6 forcing questions or design brainstorming |
+| /pair-agent | [[concepts/gstack/pair-agent]] | Pair remote AI agent with browser via setup key |
+| /plan-ceo-review | [[concepts/gstack/plan-ceo-review]] | CEO/founder plan review — find 10-star product |
+| /plan-design-review | [[concepts/gstack/plan-design-review]] | Designer's eye plan review with 0-10 ratings |
+| /plan-devex-review | [[concepts/gstack/plan-devex-review]] | Developer experience plan review |
+| /plan-eng-review | [[concepts/gstack/plan-eng-review]] | Eng manager plan review — lock architecture + data flow |
+| /plan-tune | [[concepts/gstack/plan-tune]] | Self-tuning question sensitivity for gstack |
+| /qa | [[concepts/gstack/qa]] | Systematically QA test + fix bugs found |
+| /qa-only | [[concepts/gstack/qa-only]] | Report-only QA testing (no code changes) |
+| /retro | [[concepts/gstack/retro]] | Weekly engineering retrospective |
+| /review | [[concepts/gstack/review]] | Pre-landing PR review — N+1/竞态/信任边界/完整性 |
+| /scrape | [[concepts/gstack/scrape]] | Pull data from web page, prototype → permanent skill |
+| /setup-browser-cookies | [[concepts/gstack/setup-browser-cookies]] | Import Chromium cookies to browse session |
+| /setup-deploy | [[concepts/gstack/setup-deploy]] | Configure deployment for Fly.io/Render/Vercel/Netlify/Heroku |
+| /setup-gbrain | [[concepts/gstack/setup-gbrain]] | Set up gbrain CLI + PGLite/Supabase + MCP |
+| /ship | [[concepts/gstack/ship]] | Ship workflow — sync → test → review → bump → PR |
+| /skillify | [[concepts/gstack/skillify]] | Codify /scrape flow into permanent browser skill |
+| /sync-gbrain | [[concepts/gstack/sync-gbrain]] | Keep gbrain current with repo code |
+| /unfreeze | [[concepts/gstack/unfreeze]] | Clear /freeze boundary |
 
 ## 相关概念
 
