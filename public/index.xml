@@ -6,6 +6,42 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>gstack /investigate</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/investigate</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/investigate</guid>
+    <description><![CDATA[ /investigate Systematic debugging with root cause investigation — 四阶段：investigate → analyze → hypothesize → implement。铁律：未完成根因调查不得尝试修复。与 gstack /review 的核心区别：review 是预防，investigate 是治疗。 核心职责 何时触发： 用户说 “debug this”、“fix this bug”、“why is this broken”、“investigate this error”、“root cause analysis” 用户报... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>gstack /learn</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/learn</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/learn</guid>
+    <description><![CDATA[ /learn Manage learnings.jsonl — 搜索、裁剪、导出、按类型统计 AI 在当前 repo 中学到的 pattern/pitfall/preference/architecture。跨 session 的持久化记忆，让 AI 不重复犯错。 核心职责 learnings.jsonl 是 gstack 的跨会话记忆文件，位于 ~/.gstack/projects/{slug}/learnings.jsonl。每条记录包含： 类型：pattern（有效做法）/ pitfall（踩过的坑）/ preference（用户偏好）/ architecture（架构决策） 内容：具体... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>gstack /office-hours</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/office-hours</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/office-hours</guid>
+    <description><![CDATA[ /office-hours YC Office Hours skill — 两个模式：Startup mode（6 个强制问题暴露需求现实） + Builder mode（设计思维头脑风暴）。保存设计文档。在写任何代码之前使用。 核心职责 何时触发： 用户说 “brainstorm this”、“I have an idea”、“help me think through”、“office hours”、“is this worth building” 用户描述新产品想法、问某事是否值得做、探索还不存在的设计决策 使用顺序：/office-hours → /plan-ceo-review 或 ... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>gstack /qa</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/qa</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/qa</guid>
+    <description><![CDATA[ /qa Systematically QA test a web application and fix bugs found — 用真实 Playwright Chromium 打开网站、找 bug、修复 bug、原子提交、重新验证。测试 → 修复 → 测试闭环，直到 site 达到 ship-ready。 核心职责 何时触发： 用户说 “qa”、“QA”、“test this site”、“find bugs”、“test and fix”、“fix what’s broken” 用户说某功能”ready for testing”或问”does this work?”时主动建议 核心创新：... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>gstack /review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/review</guid>
+    <description><![CDATA[ /review Pre-landing PR review — 分析 diff 相对于 base branch 的 SQL 安全、LLM trust boundary 违规、条件副作用、结构性问题。在代码合并 landing 前运行，是 CI 通过但生产挂掉的 bug 的最后一道防线。 核心职责 何时触发： 用户说 “review this PR”、“code review”、“check my diff”、“pre-landing review” 用户准备合并或 landing 代码变更时主动建议 检查维度（Staff Engineer 视角）： 维度检查内容N+1 查询数据库查询是否有多次... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>gstack /ship</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/ship</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/ship</guid>
+    <description><![CDATA[ /ship Release Engineer skill — 同步 base branch → 运行测试 → 审查 diff → bump VERSION → 更新 CHANGELOG → commit → push → 创建 PR。Workspace-aware version queue 支持按顺序发版多个 PR。 核心职责 何时触发： 用户说 “ship”、“deploy”、“push to main”、“create a PR”、“merge and push”、“get it deployed” 当代码 ready、用户要求部署或创建 PR 时主动建议（不自己 push/PR） 安全... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
     <title>brainstorming</title>
     <link>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</link>
     <guid>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</guid>
@@ -28,42 +64,6 @@
     <link>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</link>
     <guid>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</guid>
     <description><![CDATA[ planning-with-files Manus 风格基于文件的规划——用持久化 markdown 文件作为 AI 的”磁盘工作内存”。任何 5+ 工具调用的复杂任务必须使用。 核心模式 上下文窗口 = RAM（易失，有限） 文件系统 = 磁盘（持久，无限） → 任何重要信息必须写入磁盘 文件职责 文件用途更新时机task_plan.md阶段 + 进度 + 决策每个阶段后findings.md研究 + 发现任何发现后progress.mdSession 日志 + 测试结果全程 关键规则 规则 1：先创建计划 复杂任务开始前必须创建 task_plan.md。不可协商。 规则 2：2-Acti... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>receiving-code-review</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/receiving-code-review</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/receiving-code-review</guid>
-    <description><![CDATA[ receiving-code-review 收到代码审查反馈后，实现建议前使用。需要技术严谨和核实，不是表演性同意或盲目实现。 响应模式 收到代码审查反馈时： 1. READ: 完全读反馈不反应 2. UNDERSTAND: 用自己的话重述要求（或问） 3. VERIFY: 对照代码库实际检查 4. ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>requesting-code-review</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/requesting-code-review</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/requesting-code-review</guid>
-    <description><![CDATA[ requesting-code-review 完成任务、实现重要功能、或合并前验证工作时，发起代码审查请求。 核心原则：早审查，常审查。 何时请求审查 强制： Subagent-driven development 中每任务完成后 重要功能完成后 合并到 main 前 可选但有价值： 卡住时（fresh perspective） 重构前（baseline check） 复杂 bug 修复后 如何请求 1. ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>spf-exec-plan</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/spf-exec-plan</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/spf-exec-plan</guid>
-    <description><![CDATA[ spf-exec-plan 有书面实现计划时使用。在单独 session 中批次执行，批次间有审查检查点。 流程 Step 1: 加载和审查计划 读计划文件 严格审查 — 识别任何问题或担忧 有担忧？在开始前向用户提出 无担忧？创建 TodoWrite 并继续 Step 2: 执行批次 默认：前 3 个任务 每任务： 标记为 in_progress 严格按步骤执行（计划有咬碎步骤） 按指定运行验证 标记为 completed Step 3: 报告 批次完成后： 展示实现了什么 展示验证输出 说：“Ready for feedback.” Step 4: 继续 基于反馈： 按需应用变更 执行下一... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>spf-write-plan</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/spf-write-plan</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/spf-write-plan</guid>
-    <description><![CDATA[ spf-write-plan 有规格或需求的多步任务时，在接触代码前使用。产出：咬碎的可执行实现计划，每步 2-5 分钟。 概述 写全面实现计划，假设工程师对代码库零上下文、味觉可疑。记录他们需要知道的一切：每个任务改哪些文件、代码、测试、可能需要检查的文档。怎么测试它。给他们完整计划作为咬碎任务。DRY。YAGNI。TDD。频繁提交。 计划文档头部 每个计划必须以此头部开始： # [Feature Name] Implementation Plan &gt; **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans... ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>subagent-driven-development</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/subagent-driven-development</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/subagent-driven-development</guid>
-    <description><![CDATA[ subagent-driven-development 在当前 session 内执行实现计划，通过 fresh subagent per task 实现，每任务两阶段审查（spec 合规先，code quality 后）。 核心原则：每任务 fresh subagent + 两阶段审查 = 高质量、快迭代。 vs. ]]></description>
-    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>systematic-debugging</title>
-    <link>https://nickdlkk.github.io/concepts/superpower-with-files/systematic-debugging</link>
-    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/systematic-debugging</guid>
-    <description><![CDATA[ systematic-debugging 铁律：NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST。随机修复浪费且制造新 bug。在提出修复前必须找到根因。 何时使用 用于任何技术问题： 测试失败 生产 bug 意外行为 性能问题 构建失败 集成问题 尤其使用当： 时间压力大（紧急情况容易猜测） “就一个 quick fix”看起来很明显 已经尝试多种修复 之前的修复没用 不完全理解问题 四阶段 Phase 1: 根因调查 在尝试任何修复前： 仔细读错误信息 不跳过 errors 或 warnings 通常包含准确解决方案 读完 stack trac... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
