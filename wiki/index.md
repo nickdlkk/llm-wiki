@@ -63,6 +63,7 @@
 - [[slock-ai]] — 商业人类+AI Agent 平等队友协作平台（需自托管替代：multica/clawith）
 - [[clawith]] — OpenClaw for Teams（3.5k ⭐）：多 Agent 持久身份+共享记忆+团队协作
 - [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 Claude Code/Codex/Hermes 等 11 种 Agent CLI
+- [[paperclip]] — 心跳驱动的 Agent 编排平台：通过适配器层对接 Claude Code/Codex/OpenClaw，支持多租户、预算治理、实时监控
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
