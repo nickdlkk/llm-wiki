@@ -64,6 +64,7 @@
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
+- [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
 - [[superpowers-openspec]] — superpowers ↔ OpenSpec 桥接 skill：中文意图路由 + 方案先行门禁
