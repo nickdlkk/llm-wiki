@@ -56,6 +56,9 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库（Define/Plan/Build/Verify/Review/Ship），Claude Code/Gemini CLI/OpenCode 多平台，MIT License，Google eng-practices 深度嵌入
 
+### AI Systems / Projects
+- [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统，8层架构，验证 AI 连续执行 4-8 小时可行性
+
 ### Memory Systems (记忆系统)
 - [[Supermemory]] — 基准第一（SOTA），#1 on LongMemEval/LoCoMo/ConvoMem，Research Lab + 多 SDK
 - [[Honcho]] — Hermes Agent 专用记忆层，Neuromancer XR 推理模型，LoCoMo 86.9%
@@ -68,6 +71,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 
 ### Summaries
+- [[ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统
 - [[harness-engineering-java-brownfield-20260507]] — 存量 Java 工程的 AI Coding 率从 25% 提升至 90% 的完整实战
 
 ### Open research questions

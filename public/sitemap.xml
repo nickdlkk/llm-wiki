@@ -20,8 +20,17 @@
     <loc>https://nickdlkk.github.io/concepts/agent-review-pattern</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/concepts/brainstorming</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/concepts/cognitive-debt-and-llm-use</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/dispatching-parallel-agents</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/finishing-a-development-branch</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/four-layer-feedback-loop</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
@@ -42,22 +51,58 @@
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/planning-with-files</loc>
-    <lastmod>2026-04-26T16:00:00.000Z</lastmod>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/receiving-code-review</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/requesting-code-review</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/se-and-llm-harness</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/concepts/spf-exec-plan</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/spf-write-plan</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/subagent-driven-development</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/concepts/superpowers-openspec-workflow</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/concepts/systematic-debugging</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/test-driven-development</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/concepts/three-engineering-primitives</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/using-git-worktrees</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/using-superpowers</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/verification-before-completion</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/concepts/writing-skills</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/AI-DevOS</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/ByteRover</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
@@ -70,6 +115,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/entities/Graphiti</loc>
     <lastmod>2026-05-10T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/Hephaestus</loc>
+    <lastmod>2026-05-15T14:19:16.057Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/Hindsight</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
@@ -92,6 +140,9 @@
     <loc>https://nickdlkk.github.io/entities/Memori</loc>
     <lastmod>2026-05-10T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/Mercury-Agent</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/Multica</loc>
     <lastmod>2026-05-09T06:09:49.000Z</lastmod>
   </url><url>
@@ -103,6 +154,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/entities/OpenViking</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/Paseo</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/RetainDB</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
@@ -210,7 +264,7 @@
     <lastmod>2026-05-15T11:47:42.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/openspawn</loc>
-    <lastmod>2026-05-15T12:46:46.608Z</lastmod>
+    <lastmod>2026-05-15T12:47:39.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/paperclip</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
@@ -236,6 +290,9 @@
     <loc>https://nickdlkk.github.io/entities/speccoding-template</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/superpower-with-files</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/superpowers-openspec-team-skills</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
   </url><url>
@@ -251,8 +308,14 @@
     <loc>https://nickdlkk.github.io/entities/vibe-kanban-multi-agent</loc>
     <lastmod>2026-04-22T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/entities/vibe-kanban</loc>
+    <lastmod>2026-05-15T14:30:46.657Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/entities/xians-ai</loc>
     <lastmod>2026-05-15T12:38:19.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/entities/zeroshot</loc>
+    <lastmod>2026-05-15T14:20:05.425Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/entities/%E5%B0%8F%E7%B1%B3_MiMo</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
@@ -261,10 +324,13 @@
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/</loc>
-    <lastmod>2026-05-15T12:38:19.000Z</lastmod>
+    <lastmod>2026-05-15T12:47:39.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/agent-skills</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/summaries/ai-devos-prd</loc>
+    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/summaries/anthropic-agent-sdk-architecture-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>

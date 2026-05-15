@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>openspawn</title>
-    <link>https://nickdlkk.github.io/entities/openspawn</link>
-    <guid>https://nickdlkk.github.io/entities/openspawn</guid>
-    <description><![CDATA[ OpenSpawn The control plane for AI agent organizations — 用 ORG.md 定义整个 Agent 组织，基础设施而非框架 概述 OpenSpawn 是开源的多 Agent 协调平台，定位为”AI Agent 组织的基础设施层”：不替换现有 Agent 框架（CrewAI / LangGraph / AutoGen / OpenClaw），而是在其上做任务路由、层级管理、经济激励、实时监控。 核心理念：一个 ORG.md Markdown 文件定义整个 Agent 组织——角色、层级、文化、政策、工作流。OpenSpawn 解析它，生成 A... ]]></description>
-    <pubDate>Fri, 15 May 2026 12:46:46 GMT</pubDate>
+    <title>brainstorming</title>
+    <link>https://nickdlkk.github.io/concepts/brainstorming</link>
+    <guid>https://nickdlkk.github.io/concepts/brainstorming</guid>
+    <description><![CDATA[ brainstorming 任何创造性工作前的强制 gate——创建功能、构建组件、添加功能或修改行为之前必须执行。通过自然协作对话将创意探索为完整设计和规格。 硬性门槛（HARD-GATE） 在呈现设计并获得用户批准之前，不得调用任何实现 skill、不得写任何代码、不得搭建任何项目、或采取任何实现行动。 这适用于每个项目，无论感知复杂度。 Anti-Pattern：不需要设计？ 每个项目都走这个流程。 Todo list、单函数工具、配置变更——全部。“简单”项目正是未审视假设造成最大浪费的地方。设计可以很短（真正简单的项目几句话），但必须呈现并获得批准。 流程 digraph brain... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>xians-ai</title>
-    <link>https://nickdlkk.github.io/entities/xians-ai</link>
-    <guid>https://nickdlkk.github.io/entities/xians-ai</guid>
-    <description><![CDATA[ Xians.ai Enterprise-grade Agent Development Kit — 构建、部署、编排 AI Agent 的开源平台 概述 Xians.ai 是由 XiansAiPlatform 开发的开源 Agent 平台，定位为”Enterprise-grade Agent Development Kit”。核心特性是 Temporal.io 工作流引擎 + LLM-agnostic 多模型支持 + 多租户 + 多渠道通信。 官网：xians.ai | 文档：xiansaiplatform.github.io/XiansAi.PublicDocs | Docker Hub：9... ]]></description>
-    <pubDate>Fri, 15 May 2026 12:38:19 GMT</pubDate>
+    <title>dispatching-parallel-agents</title>
+    <link>https://nickdlkk.github.io/concepts/dispatching-parallel-agents</link>
+    <guid>https://nickdlkk.github.io/concepts/dispatching-parallel-agents</guid>
+    <description><![CDATA[ dispatching-parallel-agents 当有 2+ 独立任务且无共享状态或顺序依赖时，并行调度子 agent 调查，每个问题域一个 agent。 何时使用 digraph when_to_use { &quot;Multiple failures?&quot; [shape=diamond]; &quot;Are they independent?&quot; [shape=diamond]; &quot;Single agent investigates all&quot; [shape=box]; &quot;One agent per problem domain&quo... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://nickdlkk.github.io/</link>
-    <guid>https://nickdlkk.github.io/</guid>
-    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
-    <pubDate>Fri, 15 May 2026 12:38:19 GMT</pubDate>
+    <title>finishing-a-development-branch</title>
+    <link>https://nickdlkk.github.io/concepts/finishing-a-development-branch</link>
+    <guid>https://nickdlkk.github.io/concepts/finishing-a-development-branch</guid>
+    <description><![CDATA[ finishing-a-development-branch 实现完成，所有测试通过，需要决定如何集成工作时使用。引导完成开发工作，呈现结构化选项用于合并、PR 或清理。 流程 Step 1: 验证测试 呈现选项前必须验证测试通过： npm test / cargo test / pytest / go test ./.. ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>OpenHands</title>
-    <link>https://nickdlkk.github.io/entities/openhands</link>
-    <guid>https://nickdlkk.github.io/entities/openhands</guid>
-    <description><![CDATA[ OpenHands Repo: All-Hands-AI/OpenHands SDK: OpenHands/software-agent-sdk License: MIT（核心）；enterprise/ 目录为商业许可 Benchmark: SWEBench 77.6% 定位: AI驱动开发平台 — 软件Agent SDK + CLI + Local GUI + Cloud + Enterprise 核心定位 OpenHands 是 All-Hands-AI 社区的产品，定位是 AI-Driven Development，被 TikTok/Amazon/Google/Netflix/NVIDI... ]]></description>
-    <pubDate>Fri, 15 May 2026 11:47:42 GMT</pubDate>
+    <title>planning-with-files</title>
+    <link>https://nickdlkk.github.io/concepts/planning-with-files</link>
+    <guid>https://nickdlkk.github.io/concepts/planning-with-files</guid>
+    <description><![CDATA[ planning-with-files Manus 风格基于文件的规划——用持久化 markdown 文件作为 AI 的”磁盘工作内存”。任何 5+ 工具调用的复杂任务必须使用。 核心模式 上下文窗口 = RAM（易失，有限） 文件系统 = 磁盘（持久，无限） → 任何重要信息必须写入磁盘 文件职责 文件用途更新时机task_plan.md阶段 + 进度 + 决策每个阶段后findings.md研究 + 发现任何发现后progress.mdSession 日志 + 测试结果全程 关键规则 规则 1：先创建计划 复杂任务开始前必须创建 task_plan.md。不可协商。 规则 2：2-Acti... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Kandev</title>
-    <link>https://nickdlkk.github.io/entities/kandev</link>
-    <guid>https://nickdlkk.github.io/entities/kandev</guid>
-    <description><![CDATA[ Kandev Repo: kdlbs/kandev License: AGPL-3.0 定位: 多Agent并行任务编排 + Kanban工作流 + 集成工作区（编辑器/终端/Git变更），支持自托管 核心定位 Humans stay in control. ]]></description>
-    <pubDate>Fri, 15 May 2026 11:06:03 GMT</pubDate>
+    <title>receiving-code-review</title>
+    <link>https://nickdlkk.github.io/concepts/receiving-code-review</link>
+    <guid>https://nickdlkk.github.io/concepts/receiving-code-review</guid>
+    <description><![CDATA[ receiving-code-review 收到代码审查反馈后，实现建议前使用。需要技术严谨和核实，不是表演性同意或盲目实现。 响应模式 收到代码审查反馈时： 1. READ: 完全读反馈不反应 2. UNDERSTAND: 用自己的话重述要求（或问） 3. VERIFY: 对照代码库实际检查 4. ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Coder Studio</title>
-    <link>https://nickdlkk.github.io/entities/coder-studio</link>
-    <guid>https://nickdlkk.github.io/entities/coder-studio</guid>
-    <description><![CDATA[ Coder Studio Repo: spencerkit/coder-studio Stars: 20 | Language: TypeScript | License: MIT 定位: 浏览器里的 AI 编程工作台，支持 Supervisor 监督循环、多设备切换、跨平台一致体验 核心定位 Deploy once, coding everywhere. ]]></description>
-    <pubDate>Fri, 15 May 2026 10:37:23 GMT</pubDate>
+    <title>requesting-code-review</title>
+    <link>https://nickdlkk.github.io/concepts/requesting-code-review</link>
+    <guid>https://nickdlkk.github.io/concepts/requesting-code-review</guid>
+    <description><![CDATA[ requesting-code-review 完成任务、实现重要功能、或合并前验证工作时，发起代码审查请求。 核心原则：早审查，常审查。 何时请求审查 强制： Subagent-driven development 中每任务完成后 重要功能完成后 合并到 main 前 可选但有价值： 卡住时（fresh perspective） 重构前（baseline check） 复杂 bug 修复后 如何请求 1. ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Linux Kernel Privilege Escalation</title>
-    <link>https://nickdlkk.github.io/concepts/Linux-Kernel-Privilege-Escalation</link>
-    <guid>https://nickdlkk.github.io/concepts/Linux-Kernel-Privilege-Escalation</guid>
-    <description><![CDATA[ Linux Kernel Privilege Escalation Linux 内核特权提升漏洞是获取 root 权限的主要攻击面。以下是近年来最重要的几类内核提权漏洞的公开技术摘要。 漏洞分类 内存竞态条件 (Race Conditions) 通过并发时序漏洞修改只读内存页面或内核数据结构。 CVE名称影响版本漏洞类型CVE-2016-5195Dirty COW2.6.22 – 4.8.3写时复制 (COW) 竞态CVE-2022-0847Dirty Pipe5.8 – 5.16.11 / 5.15.25 / 5.10.102Pipe 缓冲区竞态 CVE-2016-5195 (Dirty C... ]]></description>
-    <pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate>
+    <title>spf-exec-plan</title>
+    <link>https://nickdlkk.github.io/concepts/spf-exec-plan</link>
+    <guid>https://nickdlkk.github.io/concepts/spf-exec-plan</guid>
+    <description><![CDATA[ spf-exec-plan 有书面实现计划时使用。在单独 session 中批次执行，批次间有审查检查点。 流程 Step 1: 加载和审查计划 读计划文件 严格审查 — 识别任何问题或担忧 有担忧？在开始前向用户提出 无担忧？创建 TodoWrite 并继续 Step 2: 执行批次 默认：前 3 个任务 每任务： 标记为 in_progress 严格按步骤执行（计划有咬碎步骤） 按指定运行验证 标记为 completed Step 3: 报告 批次完成后： 展示实现了什么 展示验证输出 说：“Ready for feedback.” Step 4: 继续 基于反馈： 按需应用变更 执行下一... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Paperclip</title>
-    <link>https://nickdlkk.github.io/entities/paperclip</link>
-    <guid>https://nickdlkk.github.io/entities/paperclip</guid>
-    <description><![CDATA[ Paperclip Autonomous Agent Orchestration Platform — 自主 Agent 编排平台，通过心跳机制管理 AI Agent 的执行、任务分配和预算治理。 一句话定义 Paperclip 是一个心跳驱动的 Agent 编排平台（非 Agent 运行时），以公司为租户隔离单位，以 Issue 为工作单元，以心跳为执行粒度，通过适配器层对接各种 Agent 运行时（Claude Code、Codex、OpenClaw 等），提供企业级的治理、预算、审计能力。 定位 Paperclip = Agent 编排平台（控制平面） ≠ Agent 运行时（执行平面）... ]]></description>
-    <pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate>
+    <title>spf-write-plan</title>
+    <link>https://nickdlkk.github.io/concepts/spf-write-plan</link>
+    <guid>https://nickdlkk.github.io/concepts/spf-write-plan</guid>
+    <description><![CDATA[ spf-write-plan 有规格或需求的多步任务时，在接触代码前使用。产出：咬碎的可执行实现计划，每步 2-5 分钟。 概述 写全面实现计划，假设工程师对代码库零上下文、味觉可疑。记录他们需要知道的一切：每个任务改哪些文件、代码、测试、可能需要检查的文档。怎么测试它。给他们完整计划作为咬碎任务。DRY。YAGNI。TDD。频繁提交。 计划文档头部 每个计划必须以此头部开始： # [Feature Name] Implementation Plan &gt; **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Memorizz</title>
-    <link>https://nickdlkk.github.io/entities/memorizz</link>
-    <guid>https://nickdlkk.github.io/entities/memorizz</guid>
-    <description><![CDATA[ Memorizz RichmondAlake/memorizz · 723 ⭐ · Python · PolyForm Noncommercial 1.0.0 MemoRizz 是一个 Python 记忆层框架，为 AI 应用提供多种记忆系统和可插拔存储后端。定位为实验性/教育性框架，API 可能变更，未经过生产级安全加固。 核心架构 记忆类型（10种）： 类型用途LONG_TERM_MEMORY语义知识库事实ENTITY_MEMORY结构化实体属性（profile-style facts）TOOLBOX可执行工具和元数据WORKFLOW_MEMORY流程/任务状态CONVERSATION_M... ]]></description>
-    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
+    <title>subagent-driven-development</title>
+    <link>https://nickdlkk.github.io/concepts/subagent-driven-development</link>
+    <guid>https://nickdlkk.github.io/concepts/subagent-driven-development</guid>
+    <description><![CDATA[ subagent-driven-development 在当前 session 内执行实现计划，通过 fresh subagent per task 实现，每任务两阶段审查（spec 合规先，code quality 后）。 核心原则：每任务 fresh subagent + 两阶段审查 = 高质量、快迭代。 vs. ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>Perplexity Agent Skills</title>
-    <link>https://nickdlkk.github.io/entities/perplexity-agent-skills</link>
-    <guid>https://nickdlkk.github.io/entities/perplexity-agent-skills</guid>
-    <description><![CDATA[ Perplexity Agent Skills Public research guide + internal engineering framework from Perplexity’s Agents team for designing, refining, and maintaining Agent Skills. ]]></description>
-    <pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate>
+    <title>systematic-debugging</title>
+    <link>https://nickdlkk.github.io/concepts/systematic-debugging</link>
+    <guid>https://nickdlkk.github.io/concepts/systematic-debugging</guid>
+    <description><![CDATA[ systematic-debugging 铁律：NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST。随机修复浪费且制造新 bug。在提出修复前必须找到根因。 何时使用 用于任何技术问题： 测试失败 生产 bug 意外行为 性能问题 构建失败 集成问题 尤其使用当： 时间压力大（紧急情况容易猜测） “就一个 quick fix”看起来很明显 已经尝试多种修复 之前的修复没用 不完全理解问题 四阶段 Phase 1: 根因调查 在尝试任何修复前： 仔细读错误信息 不跳过 errors 或 warnings 通常包含准确解决方案 读完 stack trac... ]]></description>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

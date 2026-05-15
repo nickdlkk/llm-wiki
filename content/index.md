@@ -26,6 +26,9 @@
 - [[Context Window Management]] — Claude Code 的上下文稀缺性与压缩策略
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
+### Security
+- [[Linux Kernel Privilege Escalation]] — 内核提权漏洞：CVE-2016-5195 (Dirty COW) / CVE-2022-0847 (Dirty Pipe) / io_uring 系列
+
 ### AI人物
 - [[罗福莉]] — 小米大模型负责人，前DeepSeek核心，MiMo-V2系列主导者
 - [[OpenClaw]] — 开源Agent框架：分层记忆、多模型编排、源码可改
@@ -65,6 +68,7 @@
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
+- [[entities/vibe-kanban]] — Vibe Kanban（**已关闭**）：Rust+TypeScript monorepo，看板+AI Agent Workspace协作平台，支持10+种Agent（Claude Code/Codex/Gemini CLI等），Git Worktree隔离，MCP服务器
 - [[entities/xians-ai]] — Xians.ai（Enterprise Agent ADK）：.NET 9 + Temporal.io + MongoDB，多租户多渠道通信，Chat/Data双消息模式，Semantic Kernel + RAG/CAG
 - [[entities/openspawn]] — OpenSpawn（Control Plane）：ORG.md定义Agent组织 + L1-L10层级 + Autonomy Dial + MCP/A2A协议，Built on OpenClaw，无需Docker本地运行
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
@@ -74,6 +78,8 @@
 - [[OpenSpec-Chinese]] — OpenSpec 中文本地化版：零侵入 + 完整中文 UI
 - [[github-mattpocock-skills-grill-me]] — Socratic 面试式 skill：递归追问设计决策树，直至达成共识
 - [[Mattpocock Skills 对比分析]] — 16 个 skills 横向对比：复杂度光谱、设计模式、grill-me 定位
+- [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
+- [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
 
 ## Summaries (chronological)
 
@@ -89,6 +95,9 @@
 - 2026-04-21 — [[summaries/claude-code-agentic-harness]] — Anthropic 官方定义 Claude Code 本身即完整 agentic harness
 - 2026-04-21 — [[summaries/harness-core-concept]] — 一句话定义 + 五点讲透 Harness 核心：约束/反馈环/质量闸门三层架构
 - 2026-02-11 — [[summaries/openai-harness-engineering-codex]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
+
+- 2026-05-13 — [[summaries/memorizz]] — Memorizz 蒸馏：10种记忆类型 × 3种存储后端（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial 禁止商用
+- 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统，8层架构，验证 4-8 小时连续执行可行性
 
 ## Open Questions
 
