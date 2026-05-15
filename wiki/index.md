@@ -26,6 +26,9 @@
 - [[Context Window Management]] — Claude Code 的上下文稀缺性与压缩策略
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
+### Security
+- [[Linux Kernel Privilege Escalation]] — 内核提权漏洞：CVE-2016-5195 (Dirty COW) / CVE-2022-0847 (Dirty Pipe) / io_uring 系列
+
 ### AI人物
 - [[罗福莉]] — 小米大模型负责人，前DeepSeek核心，MiMo-V2系列主导者
 - [[OpenClaw]] — 开源Agent框架：分层记忆、多模型编排、源码可改
