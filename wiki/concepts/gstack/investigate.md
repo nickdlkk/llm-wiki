@@ -65,4 +65,4 @@ Edit/Writes → check-freeze.sh → 验证调试范围边界
 ## 相关技能
 
 - [[concepts/gstack/review]] — pre-landing 代码审查（review 预防 bug）
-- [[entities/gstack]] — gstack 完整 entity 入口
+- [[entities/concepts-frameworks/gstack]] — gstack 完整 entity 入口

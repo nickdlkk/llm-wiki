@@ -152,13 +152,15 @@ gstack 通过 Claude Code 的 `/` 命令触发，所有 skill 存储为 `SKILL.m
 
 ## 相关概念
 
-- [[Harness Engineering]] — 让 Agent 可靠工作的五大子系统
-- [[Agent Review Pattern]] — Agent 审 Agent 的机制
-- [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
-- [[Chorus]] — Agent 任务管理系统
+- [[entities/concepts-frameworks/OpenClaw]] — gstack 与 OpenClaw ACP 深度集成（spawned session、Conductor MCP）
+- [[concepts/superpower-with-files/planning-with-files]] — 同样解决 AI coding harness，superpower 用 TDD，gstack 用 multi-role review pipeline
 
 ## Sources
 
-- [[gstack-skills]] — 完整 skill 参考（33 个 skill 列表、learnings 数据模型）
-- [[gstack-loc-controversy]] — Garry Tan 的 LOC 争议回应 + 生产力数据
-- [[gstack-architecture]] — 架构设计文档（daemon model、security、Bun 选型、ref system）
+- [[summaries/gstack]] — gstack 一句话总结、核心要点、架构图
+- [[concepts/gstack/office-hours]] — /office-hours 详细文档
+- [[concepts/gstack/review]] — /review 详细文档
+- [[concepts/gstack/investigate]] — /investigate 详细文档
+- [[concepts/gstack/qa]] — /qa 详细文档
+- [[concepts/gstack/ship]] — /ship 详细文档
+- [[concepts/gstack/learn]] — /learn 详细文档

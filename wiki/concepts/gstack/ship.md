@@ -54,10 +54,12 @@ new feature → MINOR (1.2.3 → 1.3.0)
 breaking    → MAJOR (1.2.3 → 2.0.0)
 ```
 
+## 与 /land-and-deploy 的区别
+
+/ship 到 PR 创建为止；/land-and-deploy 继续等 CI 通过 → 部署 → canary 监控。/ship 是人工合并，/land-and-deploy 是 full pipeline。
+
 ## 相关技能
 
-- [[concepts/gstack/land-and-deploy]] — 合并 → CI → 部署 → canary 完整 pipeline
-- [[concepts/gstack/canary]] — 部署后监控循环
-- [[concepts/gstack/review]] — /ship 前的代码审查 gate
+- [[entities/concepts-frameworks/gstack]] — gstack 完整 entity 入口
 - [[concepts/gstack/qa]] — /ship 前的 QA gate
-- [[entities/gstack]] — gstack 完整 entity 入口
+- [[entities/concepts-frameworks/gstack]] — gstack 完整 entity 入口

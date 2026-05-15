@@ -17,7 +17,7 @@ Systematically QA test a web application and fix bugs found — 用真实 Playwr
 - 用户说 "qa"、"QA"、"test this site"、"find bugs"、"test and fix"、"fix what's broken"
 - 用户说某功能"ready for testing"或问"does this work?"时**主动建议**
 
-**核心创新**：用 `/browse` skill 提供的 persistent Chromium daemon（约 100ms/命令），而非冷启动浏览器。
+**核心创新**：persistent Chromium daemon（约 100ms/命令），而非冷启动浏览器。这是 gstack 的 `/browse` skill 提供的。
 
 ## 三层测试深度
 
@@ -57,8 +57,7 @@ skill 设置了 proactive 模式：当用户说某功能"ready"或问"does this 
 
 ## 相关技能
 
-- [[concepts/gstack/browse]] — persistent Chromium daemon 底层（$B 命令）
 - [[concepts/gstack/review]] — pre-landing 代码审查（qa 前置 gate）
 - [[concepts/gstack/ship]] — QA 通过后合并+PR
 - [[concepts/gstack/investigate]] — QA 发现 bug 后根因调试
-- [[entities/gstack]] — gstack 完整 entity 入口
+- [[entities/concepts-frameworks/gstack]] — gstack 完整 entity 入口

@@ -47,4 +47,4 @@ GBrain 是 gstack 的 semantic search 层：
 
 ## 相关技能
 
-- [[entities/gstack]] — gstack 完整 entity 入口（包含 Browse、Review 等核心 skill）
+- [[entities/concepts-frameworks/gstack]] — gstack 完整 entity 入口（包含 Browse、Review 等核心 skill）

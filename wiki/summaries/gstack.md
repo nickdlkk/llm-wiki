@@ -47,10 +47,10 @@ flowchart LR
 
 ## 与 wiki 其他实体的关联
 
-- [[entities/gstack]] — 完整 entity（33 个 skill 表格、架构详解、 Hermes 对比）
-- [[entities/OpenClaw]] — gstack 与 OpenClaw ACP 深度集成，Claude Code sessions via ACP
-- [[entities/superpower-with-files]] — 同样解决 AI coding harness 问题，但 superpower 用 TDD loop，gstack 用 multi-role review pipeline
-- [[concepts/Harness-Engineering]] — gstack 是 Harness Engineering 的生产级参考实现
+- [[entities/concepts-frameworks/gstack]] — 完整 entity（skill 表格、架构详解、 Hermes 对比）
+- [[entities/concepts-frameworks/OpenClaw]] — gstack 与 OpenClaw ACP 深度集成，Claude Code sessions via ACP
+- [[entities/concepts-frameworks/superpower-with-files]] — 同样解决 AI coding harness，superpower 用 TDD，gstack 用 multi-role review pipeline
+- [[concepts/gstack/office-hours]] — gstack 核心 skill 之一，YC Office Hours 6 个强制问题
 
 ## 相关链接
 
