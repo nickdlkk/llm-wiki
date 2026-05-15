@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>plan-ceo-review</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</guid>
-    <description><![CDATA[ Find 10-star product (4 modes: Expansion/SelExp/Hold/Reduction) ]]></description>
-    <pubDate>Fri, 15 May 2026 16:40:31 GMT</pubDate>
-  </item><item>
     <title>autoplan</title>
     <link>https://nickdlkk.github.io/concepts/gstack/autoplan</link>
     <guid>https://nickdlkk.github.io/concepts/gstack/autoplan</guid>
     <description><![CDATA[ CEO+Design+Eng+DX review pipeline ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:12 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>unfreeze</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/unfreeze</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/unfreeze</guid>
-    <description><![CDATA[ Clear freeze boundary ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>land-and-deploy</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/land-and-deploy</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/land-and-deploy</guid>
+    <description><![CDATA[ Merges PR+waits CI+deploys+canary checks ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>setup-gbrain</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/setup-gbrain</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/setup-gbrain</guid>
-    <description><![CDATA[ Install gbrain CLI+PGLite/Supabase+MCP ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>landing-report</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/landing-report</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/landing-report</guid>
+    <description><![CDATA[ Queue dashboard for workspace-aware ship ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>skillify</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/skillify</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/skillify</guid>
-    <description><![CDATA[ Codify scrape flow to disk ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>make-pdf</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/make-pdf</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/make-pdf</guid>
+    <description><![CDATA[ Markdown to publication-quality PDF ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>setup-deploy</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/setup-deploy</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/setup-deploy</guid>
-    <description><![CDATA[ Configure Fly.io/Render/Vercel/Netlify/Heroku ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>pair-agent</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/pair-agent</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/pair-agent</guid>
+    <description><![CDATA[ Pair remote AI agent with browser ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>sync-gbrain</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/sync-gbrain</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/sync-gbrain</guid>
-    <description><![CDATA[ Keep gbrain current+CLAUDE.md update ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>plan-ceo-review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-ceo-review</guid>
+    <description><![CDATA[ Find 10-star product (4 modes: Expansion/SelExp/Hold/Reduction) ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>retro</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/retro</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/retro</guid>
-    <description><![CDATA[ Weekly engineering retrospective ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>plan-design-review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-design-review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-design-review</guid>
+    <description><![CDATA[ Designer's eye plan review 0-10 ratings ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>setup-browser-cookies</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/setup-browser-cookies</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/setup-browser-cookies</guid>
-    <description><![CDATA[ Import cookies to browse ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>plan-devex-review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-devex-review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-devex-review</guid>
+    <description><![CDATA[ Developer experience plan review ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item><item>
-    <title>scrape</title>
-    <link>https://nickdlkk.github.io/concepts/gstack/scrape</link>
-    <guid>https://nickdlkk.github.io/concepts/gstack/scrape</guid>
-    <description><![CDATA[ Pull web page data (first=prototype, subsequent=permanent skill) ]]></description>
-    <pubDate>Fri, 15 May 2026 16:35:11 GMT</pubDate>
+    <title>plan-eng-review</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-eng-review</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-eng-review</guid>
+    <description><![CDATA[ Lock architecture/data flow/edge cases ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+  </item><item>
+    <title>plan-tune</title>
+    <link>https://nickdlkk.github.io/concepts/gstack/plan-tune</link>
+    <guid>https://nickdlkk.github.io/concepts/gstack/plan-tune</guid>
+    <description><![CDATA[ Self-tuning question sensitivity ]]></description>
+    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
