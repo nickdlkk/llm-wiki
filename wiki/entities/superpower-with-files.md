@@ -39,21 +39,21 @@ superpower-with-files 将 **superpowers**（obra/superpowers，spec-first + TDD 
 
 | # | Skill | 职责 | 类型 |
 |---|-------|------|------|
-| 1 | [[using-superpowers]] | 技能发现与使用规范 | 流程规范 |
-| 2 | [[planning-with-files]] | Manus 风格持久化记忆循环 | 流程规范 |
-| 3 | [[brainstorming]] | 创意 → 设计，需求澄清 | 流程规范 |
-| 4 | [[spf-write-plan]] | 规格 → 可执行实现计划 | 执行技能 |
-| 5 | [[spf-exec-plan]] | 按计划批次执行，TDD 小步 | 执行技能 |
-| 6 | [[test-driven-development]] | 红 → 绿 → 重构 TDD 循环 | 流程规范 |
-| 7 | [[systematic-debugging]] | 根因分析 → 最小修复 | 流程规范 |
-| 8 | [[verification-before-completion]] | 证据门禁，伪状态预防 | 流程规范 |
-| 9 | [[dispatching-parallel-agents]] | 多独立问题并行调查 | 协调技能 |
-| 10 | [[subagent-driven-development]] | 子 agent 驱动开发，两阶段审查 | 执行技能 |
-| 11 | [[requesting-code-review]] | 发起代码审查请求 | 流程规范 |
-| 12 | [[receiving-code-review]] | 处理审查反馈，技术核实 | 流程规范 |
-| 13 | [[finishing-a-development-branch]] | 完成开发分支，合并/PR/清理选项 | 流程规范 |
-| 14 | [[using-git-worktrees]] | Git worktree 隔离工作区创建 | 工程原语 |
-| 15 | [[writing-skills]] | TDD 方式编写新技能 | 元技能 |
+| 1 | [[superpower-with-files/using-superpowers]] | 技能发现与使用规范 | 流程规范 |
+| 2 | [[superpower-with-files/planning-with-files]] | Manus 风格持久化记忆循环 | 流程规范 |
+| 3 | [[superpower-with-files/brainstorming]] | 创意 → 设计，需求澄清 | 流程规范 |
+| 4 | [[superpower-with-files/spf-write-plan]] | 规格 → 可执行实现计划 | 执行技能 |
+| 5 | [[superpower-with-files/spf-exec-plan]] | 按计划批次执行，TDD 小步 | 执行技能 |
+| 6 | [[superpower-with-files/test-driven-development]] | 红 → 绿 → 重构 TDD 循环 | 流程规范 |
+| 7 | [[superpower-with-files/systematic-debugging]] | 根因分析 → 最小修复 | 流程规范 |
+| 8 | [[superpower-with-files/verification-before-completion]] | 证据门禁，伪状态预防 | 流程规范 |
+| 9 | [[superpower-with-files/dispatching-parallel-agents]] | 多独立问题并行调查 | 协调技能 |
+| 10 | [[superpower-with-files/subagent-driven-development]] | 子 agent 驱动开发，两阶段审查 | 执行技能 |
+| 11 | [[superpower-with-files/requesting-code-review]] | 发起代码审查请求 | 流程规范 |
+| 12 | [[superpower-with-files/receiving-code-review]] | 处理审查反馈，技术核实 | 流程规范 |
+| 13 | [[superpower-with-files/finishing-a-development-branch]] | 完成开发分支，合并/PR/清理选项 | 流程规范 |
+| 14 | [[superpower-with-files/using-git-worktrees]] | Git worktree 隔离工作区创建 | 工程原语 |
+| 15 | [[superpower-with-files/writing-skills]] | TDD 方式编写新技能 | 元技能 |
 
 ## 架构：统一记忆路径
 

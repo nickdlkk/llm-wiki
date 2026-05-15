@@ -7,62 +7,62 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>brainstorming</title>
-    <link>https://nickdlkk.github.io/concepts/brainstorming</link>
-    <guid>https://nickdlkk.github.io/concepts/brainstorming</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/brainstorming</guid>
     <description><![CDATA[ brainstorming 任何创造性工作前的强制 gate——创建功能、构建组件、添加功能或修改行为之前必须执行。通过自然协作对话将创意探索为完整设计和规格。 硬性门槛（HARD-GATE） 在呈现设计并获得用户批准之前，不得调用任何实现 skill、不得写任何代码、不得搭建任何项目、或采取任何实现行动。 这适用于每个项目，无论感知复杂度。 Anti-Pattern：不需要设计？ 每个项目都走这个流程。 Todo list、单函数工具、配置变更——全部。“简单”项目正是未审视假设造成最大浪费的地方。设计可以很短（真正简单的项目几句话），但必须呈现并获得批准。 流程 digraph brain... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>dispatching-parallel-agents</title>
-    <link>https://nickdlkk.github.io/concepts/dispatching-parallel-agents</link>
-    <guid>https://nickdlkk.github.io/concepts/dispatching-parallel-agents</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/dispatching-parallel-agents</guid>
     <description><![CDATA[ dispatching-parallel-agents 当有 2+ 独立任务且无共享状态或顺序依赖时，并行调度子 agent 调查，每个问题域一个 agent。 何时使用 digraph when_to_use { &quot;Multiple failures?&quot; [shape=diamond]; &quot;Are they independent?&quot; [shape=diamond]; &quot;Single agent investigates all&quot; [shape=box]; &quot;One agent per problem domain&quo... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>finishing-a-development-branch</title>
-    <link>https://nickdlkk.github.io/concepts/finishing-a-development-branch</link>
-    <guid>https://nickdlkk.github.io/concepts/finishing-a-development-branch</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/finishing-a-development-branch</guid>
     <description><![CDATA[ finishing-a-development-branch 实现完成，所有测试通过，需要决定如何集成工作时使用。引导完成开发工作，呈现结构化选项用于合并、PR 或清理。 流程 Step 1: 验证测试 呈现选项前必须验证测试通过： npm test / cargo test / pytest / go test ./.. ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>planning-with-files</title>
-    <link>https://nickdlkk.github.io/concepts/planning-with-files</link>
-    <guid>https://nickdlkk.github.io/concepts/planning-with-files</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/planning-with-files</guid>
     <description><![CDATA[ planning-with-files Manus 风格基于文件的规划——用持久化 markdown 文件作为 AI 的”磁盘工作内存”。任何 5+ 工具调用的复杂任务必须使用。 核心模式 上下文窗口 = RAM（易失，有限） 文件系统 = 磁盘（持久，无限） → 任何重要信息必须写入磁盘 文件职责 文件用途更新时机task_plan.md阶段 + 进度 + 决策每个阶段后findings.md研究 + 发现任何发现后progress.mdSession 日志 + 测试结果全程 关键规则 规则 1：先创建计划 复杂任务开始前必须创建 task_plan.md。不可协商。 规则 2：2-Acti... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>receiving-code-review</title>
-    <link>https://nickdlkk.github.io/concepts/receiving-code-review</link>
-    <guid>https://nickdlkk.github.io/concepts/receiving-code-review</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/receiving-code-review</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/receiving-code-review</guid>
     <description><![CDATA[ receiving-code-review 收到代码审查反馈后，实现建议前使用。需要技术严谨和核实，不是表演性同意或盲目实现。 响应模式 收到代码审查反馈时： 1. READ: 完全读反馈不反应 2. UNDERSTAND: 用自己的话重述要求（或问） 3. VERIFY: 对照代码库实际检查 4. ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>requesting-code-review</title>
-    <link>https://nickdlkk.github.io/concepts/requesting-code-review</link>
-    <guid>https://nickdlkk.github.io/concepts/requesting-code-review</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/requesting-code-review</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/requesting-code-review</guid>
     <description><![CDATA[ requesting-code-review 完成任务、实现重要功能、或合并前验证工作时，发起代码审查请求。 核心原则：早审查，常审查。 何时请求审查 强制： Subagent-driven development 中每任务完成后 重要功能完成后 合并到 main 前 可选但有价值： 卡住时（fresh perspective） 重构前（baseline check） 复杂 bug 修复后 如何请求 1. ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>spf-exec-plan</title>
-    <link>https://nickdlkk.github.io/concepts/spf-exec-plan</link>
-    <guid>https://nickdlkk.github.io/concepts/spf-exec-plan</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/spf-exec-plan</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/spf-exec-plan</guid>
     <description><![CDATA[ spf-exec-plan 有书面实现计划时使用。在单独 session 中批次执行，批次间有审查检查点。 流程 Step 1: 加载和审查计划 读计划文件 严格审查 — 识别任何问题或担忧 有担忧？在开始前向用户提出 无担忧？创建 TodoWrite 并继续 Step 2: 执行批次 默认：前 3 个任务 每任务： 标记为 in_progress 严格按步骤执行（计划有咬碎步骤） 按指定运行验证 标记为 completed Step 3: 报告 批次完成后： 展示实现了什么 展示验证输出 说：“Ready for feedback.” Step 4: 继续 基于反馈： 按需应用变更 执行下一... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>spf-write-plan</title>
-    <link>https://nickdlkk.github.io/concepts/spf-write-plan</link>
-    <guid>https://nickdlkk.github.io/concepts/spf-write-plan</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/spf-write-plan</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/spf-write-plan</guid>
     <description><![CDATA[ spf-write-plan 有规格或需求的多步任务时，在接触代码前使用。产出：咬碎的可执行实现计划，每步 2-5 分钟。 概述 写全面实现计划，假设工程师对代码库零上下文、味觉可疑。记录他们需要知道的一切：每个任务改哪些文件、代码、测试、可能需要检查的文档。怎么测试它。给他们完整计划作为咬碎任务。DRY。YAGNI。TDD。频繁提交。 计划文档头部 每个计划必须以此头部开始： # [Feature Name] Implementation Plan &gt; **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>subagent-driven-development</title>
-    <link>https://nickdlkk.github.io/concepts/subagent-driven-development</link>
-    <guid>https://nickdlkk.github.io/concepts/subagent-driven-development</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/subagent-driven-development</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/subagent-driven-development</guid>
     <description><![CDATA[ subagent-driven-development 在当前 session 内执行实现计划，通过 fresh subagent per task 实现，每任务两阶段审查（spec 合规先，code quality 后）。 核心原则：每任务 fresh subagent + 两阶段审查 = 高质量、快迭代。 vs. ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item><item>
     <title>systematic-debugging</title>
-    <link>https://nickdlkk.github.io/concepts/systematic-debugging</link>
-    <guid>https://nickdlkk.github.io/concepts/systematic-debugging</guid>
+    <link>https://nickdlkk.github.io/concepts/superpower-with-files/systematic-debugging</link>
+    <guid>https://nickdlkk.github.io/concepts/superpower-with-files/systematic-debugging</guid>
     <description><![CDATA[ systematic-debugging 铁律：NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST。随机修复浪费且制造新 bug。在提出修复前必须找到根因。 何时使用 用于任何技术问题： 测试失败 生产 bug 意外行为 性能问题 构建失败 集成问题 尤其使用当： 时间压力大（紧急情况容易猜测） “就一个 quick fix”看起来很明显 已经尝试多种修复 之前的修复没用 不完全理解问题 四阶段 Phase 1: 根因调查 在尝试任何修复前： 仔细读错误信息 不跳过 errors 或 warnings 通常包含准确解决方案 读完 stack trac... ]]></description>
     <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
   </item>
