@@ -65,6 +65,7 @@
 - [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 Claude Code/Codex/Hermes 等 11 种 Agent CLI
 - [[paperclip]] — 心跳驱动的 Agent 编排平台：通过适配器层对接 Claude Code/Codex/OpenClaw，支持多租户、预算治理、实时监控
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
+- [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
 - [[superpowers-openspec]] — superpowers ↔ OpenSpec 桥接 skill：中文意图路由 + 方案先行门禁
