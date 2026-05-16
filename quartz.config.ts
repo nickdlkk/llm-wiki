@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
-    baseUrl: "nickdlkk.github.io",
+    baseUrl: "nickdlkk.github.io/llm-wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
