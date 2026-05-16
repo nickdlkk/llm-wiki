@@ -102,6 +102,7 @@
 - 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统，8层架构，验证 4-8 小时连续执行可行性
 - 2026-05-20 — [[summaries/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入最佳实践
 - 2026-05-20 — [[summaries/ai-native-org-design-20260520]] — AI Native 时代研发组织转型：Org Chart → Execution Graph（重组成本季度→week级）+ Platform 三柱架构 + Architect 最高杠杆点 + Death of ego 边界
+- 2026-05-20 — [[summaries/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库下 Claude Code 部署最佳实践：Agentic Search（去中心化 live codebase）+ Harness 五大扩展点（CLAUDE.md/Hooks/Skills/Plugins/MCP）+ 三大配置模式
 
 ## Open Questions
 
