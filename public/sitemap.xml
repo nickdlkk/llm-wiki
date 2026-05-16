@@ -1,5 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/Linux-Kernel-Privilege-Escalation</loc>
@@ -233,10 +233,10 @@
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/three-engineering-primitives</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/agentdm</loc>
@@ -257,11 +257,17 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/clawcolab</loc>
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/oh-my-openagent</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/openagents</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/openteams</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/superpower</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/tessera</loc>
     <lastmod>2026-05-08T16:00:00.000Z</lastmod>
@@ -271,6 +277,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/vibe-kanban</loc>
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/wegent</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-platforms/Mercury-Agent</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
@@ -389,6 +398,9 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/coder-studio</loc>
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/langcli</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/open-design</loc>
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
   </url><url>
@@ -397,6 +409,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/waza</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/yepanywhere</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/AI-DevOS</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
@@ -537,6 +552,9 @@
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/local-tools/antigravity-gateway</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/local-tools/claudecode-remote-control</loc>
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/local-tools/codeg</loc>
