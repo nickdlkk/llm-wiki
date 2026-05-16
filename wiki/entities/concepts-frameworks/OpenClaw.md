@@ -44,4 +44,4 @@ tags: [开源, Agent框架, Skills, Claude, 小米]
 ## 相关页面
 
 - [[entities/罗福莉]]
-- [[concepts/Agent框架/index|Agent框架]]
+- [[concepts/Agent框架]]

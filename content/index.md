@@ -8,9 +8,9 @@
 ## Concepts
 
 ### AI行业趋势
-- [[算力分配-311/index|算力分配-311]] — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从"砸预训练"转向"研究驱动"
-- [[Agent框架/index|Agent框架]] — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板
-- [[生产力变革时代/index|生产力变革时代]] — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适）
+- [[算力分配-311]] — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从"砸预训练"转向"研究驱动"
+- [[Agent框架]] — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板
+- [[生产力变革时代]] — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适）
 
 ### Harness Engineering
 - [[LLM Wiki]] — AI 維護的持久知識庫：Index、Hot Cache、知識溯源

@@ -43,5 +43,5 @@ tags: [小米, 大模型, MiMo, MoE, 罗福莉]
 ## 相关页面
 
 - [[entities/罗福莉]]
-- [[concepts/Agent框架/index|Agent框架]]
-- [[concepts/算力分配-311/index|算力分配-311]]
+- [[concepts/Agent框架]]
+- [[concepts/算力分配-311]]
