@@ -100,6 +100,7 @@
 
 - 2026-05-13 — [[summaries/memorizz]] — Memorizz 蒸馏：10种记忆类型 × 3种存储后端（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial 禁止商用
 - 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统，8层架构，验证 4-8 小时连续执行可行性
+- 2026-05-20 — [[summaries/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入最佳实践
 
 ## Open Questions
 
