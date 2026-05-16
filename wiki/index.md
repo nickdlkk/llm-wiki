@@ -83,26 +83,44 @@
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 - [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
 
-## Summaries (chronological)
+## Summaries (by category)
 
-- 2026-05-09 — [[summaries/tessera]] — Tessera 蒸馏：AI 编码 Agent 可视化工作区，支持 Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪
-- 2026-05-09 — [[summaries/ruflo]] — ruflo 蒸馏：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作
-- 2026-05-09 — [[summaries/multica]] — Multica 蒸馏：开源多 Agent 队友平台（26k ⭐），Go+Next.js全栈，pgvector知识积累，支持 11 种 Agent CLI 自托管
-- 2026-05-09 — [[summaries/multica-vs-vibepro]] — Multica vs VibeKanBan 对比：Multica 面向 Agent 调度（底层扎实，UI 残），VibeKanBan 面向人审代码（看板体验好），两者定位不同但 Nick 认为 Multica 文件浏览体验明显落后
-- 2026-05-08 — [[summaries/slock-ai-alternatives]] — slock.ai 竞品：Multica（26k ⭐）任务管理型 + Clawith（3.5k ⭐）团队协作型 + Canopy 本地优先 + AgentDM 协议层
-- 2026-05-07 — [[summaries/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
-- 2026-05-07 — [[summaries/github-zcf]] — zcf 蒸馏：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
-- 2026-05-03 — [[summaries/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉3.5h访谈摘要：AI范式从Chat时代转向Agent时代，3:1:1算力分配，OpenClaw三天认知转变
-- 2026-04-27 — [[summaries/ralph-claude-code]] — Bash Autonomous Loop 实现：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
-- 2026-04-21 — [[summaries/claude-code-agentic-harness]] — Anthropic 官方定义 Claude Code 本身即完整 agentic harness
-- 2026-04-21 — [[summaries/harness-core-concept]] — 一句话定义 + 五点讲透 Harness 核心：约束/反馈环/质量闸门三层架构
-- 2026-02-11 — [[summaries/openai-harness-engineering-codex]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
+### 🏗️ Harness Engineering
+- 2026-05-20 — [[summaries/harness-engineering/eval-harness-production-agents-20260520]] — 生产级 AI Agent 12 指标评估框架（检索/生成/Agent/生产健康），100+ 企业部署验证
+- 2026-05-20 — [[summaries/harness-engineering/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入
+- 2026-05-20 — [[summaries/harness-engineering/ai-native-org-design-20260520]] — AI Native 时代研发组织转型：Org Chart → Execution Graph（重组成本季度→week级）+ Platform 三柱架构 + Architect 最高杠杆点
+- 2026-04-21 — [[summaries/harness-engineering/harness-core-concept-20260421]] — Harness Engineering 一句话定义 + 五点核心：约束/反馈环/质量闸门三层架构
+- 2026-04-21 — [[summaries/harness-engineering/claude-code-agentic-harness-20260421]] — Anthropic 官方：Claude Code 本身即完整 agentic harness，Agentic Loop 三阶段（Gather Context / Take Action / Verify Results）
+- 2026-02-11 — [[summaries/harness-engineering/openai-harness-engineering-codex-20260211]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
+- 2026-05-07 — [[summaries/harness-engineering/harness-engineering-java-brownfield-20260507]] — 存量 Java 工程 AI Coding 率从 25% 提升至 90%：外部化约束体系（.harness/ 四要素：Rules + Skills + Wiki + Changes）
 
-- 2026-05-13 — [[summaries/memorizz]] — Memorizz 蒸馏：10种记忆类型 × 3种存储后端（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial 禁止商用
-- 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统，8层架构，验证 4-8 小时连续执行可行性
-- 2026-05-20 — [[summaries/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入最佳实践
-- 2026-05-20 — [[summaries/ai-native-org-design-20260520]] — AI Native 时代研发组织转型：Org Chart → Execution Graph（重组成本季度→week级）+ Platform 三柱架构 + Architect 最高杠杆点 + Death of ego 边界
-- 2026-05-20 — [[summaries/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库下 Claude Code 部署最佳实践：Agentic Search（去中心化 live codebase）+ Harness 五大扩展点（CLAUDE.md/Hooks/Skills/Plugins/MCP）+ 三大配置模式
+### 🤖 Claude Code 生态
+- 2026-05-20 — [[summaries/claude-code-ecosystem/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库部署最佳实践：Agentic Search + 五大扩展点 + 三大配置模式
+- 2026-04-21 — [[summaries/claude-code-ecosystem/anthropic-agent-sdk-architecture-20260421]] — Anthropic Agent SDK 架构解析：Tools/Hooks/Subagents/MCP/Permissions/Sessions 六大组件
+- 2026-04-27 — [[summaries/claude-code-ecosystem/ralph-claude-code]] — Ralph（Bash Autonomous Loop）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护，566 tests 100% pass
+
+### 🔀 Multi-Agent 编排平台
+- 2026-05-09 — [[summaries/multi-agent-platforms/multica]] — Multica：开源多 Agent 队友平台（26k ⭐），Go+Next.js，pgvector知识积累，支持 11 种 Agent CLI 自托管
+- 2026-05-09 — [[summaries/multi-agent-platforms/ruflo]] — ruflo：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作，MIT
+- 2026-05-09 — [[summaries/multi-agent-platforms/multica-vs-vibepro]] — Multica vs VibeKanBan 对比：Multica 面向 Agent 调度（底层扎实，UI 残），VibeKanBan 面向人审代码
+- 2026-05-08 — [[summaries/multi-agent-platforms/slock-ai-alternatives]] — slock.ai 竞品：Multica 任务管理型 + Clawith 团队协作型 + Canopy 本地优先 + AgentDM 协议层
+
+### 🧠 记忆与状态管理
+- 2026-05-03 — [[summaries/memory-state-management/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉 3.5h 访谈：AI 范式从 Chat 时代转向 Agent 时代，3:1:1 算力分配，OpenClaw 三天认知转变
+- 2026-05-13 — [[summaries/memory-state-management/memorizz]] — Memorizz：10种记忆类型 × 3种存储后端（Oracle/Mongo/FS），实验性/教育用
+
+### 🛠️ 开发者工具与基础设施
+- 2026-05-09 — [[summaries/devtools-infrastructure/tessera]] — Tessera：AI 编码 Agent 可视化工作区，Claude Code/Codex/OpenCode 并行 + Git worktree + Kanban + PR 追踪，Electron 桌面 + npm 双模式
+- 2026-05-07 — [[summaries/devtools-infrastructure/agent-skills]] — Addy Osmani 出品：20 工程技能库覆盖 SDLC 六阶段，Anti-rationalization 机制嵌入每个 Skill
+- 2026-05-07 — [[summaries/devtools-infrastructure/github-zcf]] — zcf（Zero-Config Code Flow）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow 一键初始化
+- 2026-05-09 — [[summaries/devtools-infrastructure/cc-connect-aegis]] — cc-connect（7.9k ⭐）+ Aegis（113 ⭐）：AI Coding Agent 工具双雄（通信桥接 + 架构先行验证）
+- — [[summaries/devtools-infrastructure/gstack]] — Garry Tan 的 Claude Code 技能包（79k+ ⭐）：多角色虚拟工程团队 + 持久化 Browser Daemon + 铁律审查链
+
+### 📚 通识
+- 2026-05-12 — [[summaries/general-knowledge/perplexity-agent-skills-design]] — Perplexity Agent Skills 设计实践：技能本质是上下文加载而非代码执行，三层渐进式加载，gotchas 最价值
+
+### ⏳ 待确认（无原文）
+- 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD：面向长任务自治的软件工程操作系统，8层架构——Nick 未提供原文，无法确认内容
 
 ## Open Questions
 
