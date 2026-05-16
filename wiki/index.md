@@ -87,6 +87,7 @@
 ## Summaries (by category)
 
 ### 🏗️ Harness Engineering
+- 2026-05-20 — [[summaries/harness-engineering/ai-coding-delivery-paradox-20260520]] — AI Coding 悖论：主观快 20% 客观慢 19%，根因是 Goldratt 瓶颈在 review 不在 coding；Spec/Rule/Skill 区分 + 验证闭环 + 并发才是破局路径
 - 2026-05-20 — [[summaries/harness-engineering/eval-harness-production-agents-20260520]] — 生产级 AI Agent 12 指标评估框架（检索/生成/Agent/生产健康），100+ 企业部署验证
 - 2026-05-20 — [[summaries/harness-engineering/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入
 - 2026-05-20 — [[summaries/harness-engineering/ai-native-org-design-20260520]] — AI Native 时代研发组织转型：Org Chart → Execution Graph（重组成本季度→week级）+ Platform 三柱架构 + Architect 最高杠杆点
