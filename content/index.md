@@ -24,6 +24,7 @@
 - [[Superpowers + OpenSpec Workflow]] — superpowers-zh + OpenSpec + superpowers-openspec 组合工作流：完整调用链 + 三层判断点 + 技能引用模式
 - [[Agentic Loop]] — Gather Context → Take Action → Verify Results 三阶段循环
 - [[Context Window Management]] — Claude Code 的上下文稀缺性与压缩策略
+- [[Dev vs Deploy Integration]] — 开发一体化（脚手架+热重载）vs 部署一体化（一键发布）框架对比：pinme / Dioxus / create-t3-app / Tauri / Better-Fullstack / Stacks.js
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
 ### Security
