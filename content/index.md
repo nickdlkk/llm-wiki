@@ -66,9 +66,9 @@
 - [[Multica]] — 开源多 Agent 队友平台（26k ⭐）：任务面板+Agent生命周期管理+Skills积累，支持 Claude Code/Codex/Hermes 等 11 种 Agent CLI
 - [[paperclip]] — 心跳驱动的 Agent 编排平台：通过适配器层对接 Claude Code/Codex/OpenClaw，支持多租户、预算治理、实时监控
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
+- [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
-- [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[entities/vibe-kanban]] — Vibe Kanban（**已关闭**）：Rust+TypeScript monorepo，看板+AI Agent Workspace协作平台，支持10+种Agent（Claude Code/Codex/Gemini CLI等），Git Worktree隔离，MCP服务器
 - [[entities/memory-systems/tencentdb-agent-memory]] — 腾讯四层记忆系统（MIT）：L0对话→L1原子→L2场景→L3画像分层架构，Mermaid符号化压缩短期记忆（Token省61%），OpenClaw/Hermes双平台支持，Host-Neutral TdaiCore设计
