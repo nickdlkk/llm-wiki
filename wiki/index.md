@@ -75,6 +75,7 @@
 - [[entities/xians-ai]] — Xians.ai（Enterprise Agent ADK）：.NET 9 + Temporal.io + MongoDB，多租户多渠道通信，Chat/Data双消息模式，Semantic Kernel + RAG/CAG
 - [[entities/openspawn]] — OpenSpawn（Control Plane）：ORG.md定义Agent组织 + L1-L10层级 + Autonomy Dial + MCP/A2A协议，Built on OpenClaw，无需Docker本地运行
 - [[entities/ralph-claude-code]] — Bash 实现的 Autonomous Loop（v0.11.5，566 tests）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护
+- [[superpower]] — Superpowers 原版（obra/superpowers，195k ⭐）：14 个技能的 Spec First + TDD + 双阶段审查方法论
 - [[superpowers-zh]] — AI 编程超能力中文增强版（20 skills，17款工具）
 - [[superpowers-openspec]] — superpowers ↔ OpenSpec 桥接 skill：中文意图路由 + 方案先行门禁
 - [[speccoding-template]] — Claude Code + OpenSpec + Superpowers 三件套全栈模板：两级 Spec + 七阶段工作流
