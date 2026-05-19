@@ -85,6 +85,7 @@
 - [[Mattpocock Skills 对比分析]] — 16 个 skills 横向对比：复杂度光谱、设计模式、grill-me 定位
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 - [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
+- [[Local Deep Research]] — 本地深度研究 Agent（★7.8k）：单卡 3090 + Qwen3.6-27B 达 95% SimpleQA，LangGraph Agent 自主决策，AES-256 加密知识库
 
 ## Summaries (by category)
 
