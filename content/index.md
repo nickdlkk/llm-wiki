@@ -86,6 +86,7 @@
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 - [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
 - [[Local Deep Research]] — 本地深度研究 Agent（★7.8k）：单卡 3090 + Qwen3.6-27B 达 95% SimpleQA，LangGraph Agent 自主决策，AES-256 加密知识库
+- [[AiMaMi]] — OpenAI Codex 原生桌面伴侣（★506，Apache 2.0）：多账号轮换 + 会话树管理 + 第三方模型注入，Tauri 2 + React + Rust
 
 ## Summaries (by category)
 
