@@ -78,13 +78,16 @@ brv checkout feature/new-memory
 
 ## 与其他系统的区别
 
-| 特性 | ByteRover | Supermemory | Honcho |
-|------|-----------|-------------|--------|
-| 定位 | 编程 Agent 记忆 | 通用 Agent 记忆 | 用户/会话记忆 |
-| 界面 | CLI + Web UI | 云 + SDK | 托管/自托管 |
-| 版本控制 | Git 式分支/合并 | 无 | 无 |
-| 基准成绩 | LoCoMo 96.1% | #1（LongMemEval等）| LoCoMo 86.9% |
-| 专注方向 | 代码上下文 | 知识管理 | 用户建模 |
+| 特性 | ByteRover | Supermemory | Honcho | agentmemory |
+|------|-----------|-------------|--------|-------------|
+| 定位 | 编程 Agent 记忆 | 通用 Agent 记忆 | 用户/会话记忆 | 本地 Markdown 记忆 |
+| 界面 | CLI + Web UI | 云 + SDK | 托管/自托管 | CLI + SKILL.md |
+| 版本控制 | Git 式分支/合并 | 无 | 无 | 无 |
+| 基准成绩 | LoCoMo 96.1% | #1（LongMemEval等）| LoCoMo 86.9% | 未公开 |
+| 专注方向 | 代码上下文 | 知识管理 | 用户建模 | 轻量本地笔记 |
+| 存储 | 自有存储 | 云端 | 云端/自托管 | 本地 Markdown |
+| 多 Agent 共享 | 部分 | ✅ | ✅ | ❌ |
+| Agent 集成 | MCP | MCP/SDK/API | Hermes L4 | Claude/Codex/Cursor |
 
 ## Hub 与连接器生态
 
@@ -98,3 +101,4 @@ ByteRover 提供 Skill Bundle 连接器市场，可以扩展：
 - [[Memory Systems]] — 记忆系统总体对比
 - [[Supermemory]] — 基准排名第一
 - [[OpenViking]] — Volcengine 出品的上下文数据库
+- [[agentmemory]] — 轻量本地 Markdown 记忆，SKILL.md 注入

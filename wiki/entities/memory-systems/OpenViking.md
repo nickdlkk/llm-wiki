@@ -167,6 +167,7 @@ docker-compose up -d
 | **MemMachine** | 会话摘要压缩 | Session → Compressed Summary | 轻量嵌入 | 未公开基准 | MIT | ❌ 平台管理 | ✅ Claude Code |
 | **Memori** | 多模态持久记忆 | 无固定层级 | 自有存储 | 未公开基准 | 专有 | ❌ 平台管理 | 部分 |
 | **memorizz** | 多类型 × 多存储 | 10 种记忆类型 | Oracle / Mongo / FS | 未公开基准 | PolyForm（非商用） | ❌ 平台管理 | ❌ |
+| **agentmemory** | 本地 Markdown 记忆 | Markdown + qmd 本地向量 | ~/.agent-memory/ | 未公开基准 | MIT | ❌ 独立记忆（各 Agent 隔离）| ❌（SKILL.md 注入）|
 
 ### 范式分类
 
@@ -205,3 +206,4 @@ Honcho（Neuromancer XR）：用专用 8B 微调模型（Qwen3-8B → Neuromance
 - [[Hindsight]] — Nick 当前本地方案
 - [[RetainDB]] — Postgres 原生
 - [[ByteRover]] — 96.1% LoCoMo，Git 式版本控制
+- [[agentmemory]] — 轻量本地 Markdown 记忆，SKILL.md 注入
