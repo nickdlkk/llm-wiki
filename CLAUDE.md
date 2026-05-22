@@ -71,6 +71,14 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Claude-Mem]] — Claude Code 专用插件，勿与 Supermemory 混淆
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
 
+### Code Indexing（代码索引）
+- [[code-indexing-comparison]] — 代码索引工具横向对比：CodeGraph / GitNexus / semblent / cocoindex / claude-context
+- [[CodeGraph]] — 符号图谱，84-96% 工具调用减少，100% 本地 SQLite
+- [[GitNexus]] — 零服务端知识图谱，Tree-sitter + MCP + Web UI，39.7k ⭐
+- [[semble]] — ~98% 更少 token 的嵌入向量代码搜索
+- [[cocoindex]] — 轻量 AST 搜索 CLI，70% token 节省，1 分钟安装
+- [[claude-context]] — Zilliz/Milvus 向量数据库驱动，深度语义搜索
+
 ### Summaries
 - [[ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统
 - [[harness-engineering-java-brownfield-20260507]] — 存量 Java 工程的 AI Coding 率从 25% 提升至 90% 的完整实战
