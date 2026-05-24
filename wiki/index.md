@@ -21,6 +21,7 @@
 - [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
 - [[Three Engineering Primitives]] — 隔离 / 分解 / 协调
 - [[SDD Tool Landscape]] — Comparison of 12 spec-driven development tools
+- [[sddw]] — Spec-Driven Development Workflow for Claude Code (56 ⭐): 7-step链路：Requirements→Design→Taskify→Implement→Verify→Self-Improve，模块化架构，MIT Shell
 - [[Superpowers + OpenSpec Workflow]] — superpowers-zh + OpenSpec + superpowers-openspec 组合工作流：完整调用链 + 三层判断点 + 技能引用模式
 - [[Agentic Loop]] — Gather Context → Take Action → Verify Results 三阶段循环
 - [[Context Window Management]] — Claude Code 的上下文稀缺性与压缩策略
