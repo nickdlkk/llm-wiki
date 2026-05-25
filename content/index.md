@@ -101,6 +101,7 @@
 - 2026-04-21 — [[summaries/harness-engineering/claude-code-agentic-harness-20260421]] — Anthropic 官方：Claude Code 本身即完整 agentic harness，Agentic Loop 三阶段（Gather Context / Take Action / Verify Results）
 - 2026-02-11 — [[summaries/harness-engineering/openai-harness-engineering-codex-20260211]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
 - 2026-05-07 — [[summaries/harness-engineering/harness-engineering-java-brownfield-20260507]] — 存量 Java 工程 AI Coding 率从 25% 提升至 90%：外部化约束体系（.harness/ 四要素：Rules + Skills + Wiki + Changes）
+- 2026-05-25 — [[summaries/harness-engineering/qqmusic-harness-engineering-20260525]] — QQ音乐 Harness Engineering 实践：50+ 微服务场景下的五阶段+四门禁+三层知识+三仓联动框架，补齐 L5 工程治理层
 
 ### 🤖 Claude Code 生态
 - 2026-05-20 — [[summaries/claude-code-ecosystem/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库部署最佳实践：Agentic Search + 五大扩展点 + 三大配置模式
