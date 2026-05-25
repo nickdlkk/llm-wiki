@@ -13,6 +13,8 @@ tags:
   - context-engineering
 ---
 
+> 📄 **原文**：[《都是AI Coding，为什么Java体验差了一个量级》](https://mp.weixin.qq.com/s/3-hQ4vHYErfpIzYPC6wJwg)
+
 # 都是AI Coding，为什么Java体验差了一个量级
 
 ## 一句话总结

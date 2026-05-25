@@ -13,6 +13,8 @@ tags:
   - self-refinement
 ---
 
+> 📄 **原文**：[《QQ音乐Harness Engineering实践》](https://mp.weixin.qq.com/s/yw3DvqKBIV5fIZkSG12zdA)
+
 # QQ音乐Harness Engineering实践
 
 ## 一句话总结
