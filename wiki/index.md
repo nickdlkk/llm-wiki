@@ -94,6 +94,8 @@
 
 ## Summaries (by category)
 - 2026-05-26 — [[summaries/andrej-karpathy-skills]] — Karpathy 四条编码准则：先想再写、极简优先、手术式修改、目标驱动
+- 2026-05-26 — [[summaries/ralph]] — snarktank/ralph：自主 Agent 循环，每轮新上下文防污染
+- 2026-05-26 — [[summaries/ralphy]] — ralphy：增强版 CLI，8 种引擎 + 并行 + sandbox
 
 ### 🏗️ Harness Engineering
 - 2026-05-20 — [[summaries/harness-engineering/ai-coding-delivery-paradox-20260520]] — AI Coding 悖论：主观快 20% 客观慢 19%，根因是 Goldratt 瓶颈在 review 不在 coding；Spec/Rule/Skill 区分 + 验证闭环 + 并发才是破局路径
@@ -111,6 +113,8 @@
 - 2026-05-20 — [[summaries/claude-code-ecosystem/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库部署最佳实践：Agentic Search + 五大扩展点 + 三大配置模式
 - 2026-04-21 — [[summaries/claude-code-ecosystem/anthropic-agent-sdk-architecture-20260421]] — Anthropic Agent SDK 架构解析：Tools/Hooks/Subagents/MCP/Permissions/Sessions 六大组件
 - 2026-04-27 — [[summaries/claude-code-ecosystem/ralph-claude-code]] — Ralph（Bash Autonomous Loop）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护，566 tests 100% pass
+- [[entities/concepts-frameworks/ralph]] — snarktank/ralph，Ralph Wiggum 模式社区主流实现（19.5k stars）：每轮新 AI 实例 + 干净上下文，prd.json / progress.txt / Git 历史跨迭代持久化
+- [[entities/concepts-frameworks/ralphy]] — ralphy，增强版 CLI（2.9k stars）：8 种 AI 引擎 + 并行执行 + GitHub Issues 任务源 + sandbox 模式
 
 ### 🔀 Multi-Agent 编排平台
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica]] — Multica：开源多 Agent 队友平台（26k ⭐），Go+Next.js，pgvector知识积累，支持 11 种 Agent CLI 自托管
