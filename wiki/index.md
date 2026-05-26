@@ -40,7 +40,7 @@
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
 - [[tessera]] — AI 编码 Agent 可视化工作区：Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪，Electron 桌面 + npm 双模式
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
-- [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
+- [[entities/concepts-frameworks/learn-harness-engineering]] — Harness Engineering 官方课程（6.6k ⭐）：12 讲 + 6 项目 + harness-creator skill，五大子系统 + session 生命周期
 - [[github-spec-kit]] — GitHub's programmable SDD workflow engine (Python)
 - [[github-open-spec]] — Fission AI's spec + delta format SDD tool (TypeScript)
 - [[github-gsd]] — Get Shit Done: context hygiene for AI coding agents (TypeScript)
