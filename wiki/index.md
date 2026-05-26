@@ -58,6 +58,7 @@
 - [[github-hermes-lcm]] — Hermes 無損上下文管理插件：SQLite 不可變存儲 + DAG 摘要 + 3 層 escalation（L1→L2→L3）
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库，6阶段 SDLC，Claude Code/Gemini CLI/OpenCode 多平台，MIT License
+- [[entities/concepts-frameworks/andrej-karpathy-skills]] — Karpathy 对 LLM 编码陷阱的四条行为准则（155k ⭐）：先想再写、极简优先、手术式修改、目标驱动执行
 - [[entities/ruflo]] — Multi-agent AI orchestration for Claude Code：100+ agents + Swarm 协调 + AgentDB/HNSW 向量记忆 + 联邦安全协作，原名 Claude Flow，MIT License
 - [[entities/github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - [[cc-connect]] — 开源 AI Agent 桥接工具（7.9k ⭐）：将 Claude Code/Codex/Cursor 接入飞书/钉钉/微信/Telegram 等 11 个聊天平台
@@ -92,6 +93,7 @@
 - [[AiMaMi]] — OpenAI Codex 原生桌面伴侣（★506，Apache 2.0）：多账号轮换 + 会话树管理 + 第三方模型注入，Tauri 2 + React + Rust
 
 ## Summaries (by category)
+- 2026-05-26 — [[summaries/andrej-karpathy-skills]] — Karpathy 四条编码准则：先想再写、极简优先、手术式修改、目标驱动
 
 ### 🏗️ Harness Engineering
 - 2026-05-20 — [[summaries/harness-engineering/ai-coding-delivery-paradox-20260520]] — AI Coding 悖论：主观快 20% 客观慢 19%，根因是 Goldratt 瓶颈在 review 不在 coding；Spec/Rule/Skill 区分 + 验证闭环 + 并发才是破局路径
