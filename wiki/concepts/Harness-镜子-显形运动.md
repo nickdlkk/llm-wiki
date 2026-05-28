@@ -16,7 +16,7 @@ confidence: high
 
 > AI 不是工具，是镜子。它真正的价值不在于替我们做什么，而在于逼我们看见自己从未看见过的那部分。
 >
-> 作者：ethanytzhou（腾讯程序员）
+> 作者：ethanytzhou（腾讯程序员） · [原文](https://mp.weixin.qq.com/s/ooTYAzFvxC4PCQ5H82dRhQ)
 
 ## 核心命题
 
