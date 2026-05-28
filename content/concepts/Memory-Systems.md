@@ -28,6 +28,7 @@ tags:
 | [[ByteRover]] | 编程 Agent 记忆 CLI | 5k | Elastic 2.0 | Context tree + vector |
 | [[OpenViking]] | 上下文数据库 | 23k | AGPLv3 | L0/L1/L2 分层 |
 | [[Claude-Mem]] | Claude Code 插件 | 74 | Apache 2.0 | 会话压缩 |
+| [[agentmemory]] | 本地 Markdown 记忆 | ~1.4k（npm）| MIT | Markdown + qmd |
 
 ## 基准详细对比
 
@@ -60,7 +61,8 @@ tags:
 | RetainDB | ✅ | ❌ | ❌ |
 | ByteRover | 部分 | ✅ | ✅（编程）|
 | OpenViking | ✅ | ✅ | ❌ |
-| Claude-Mem | ✅ | ❌ | ✅（Claude Code）|
+| [[Claude-Mem]] | ✅ | ❌ | ✅（Claude Code）|
+| [[agentmemory]] | ✅ | ❌ | ✅（Claude Code/Codex/Cursor）|
 
 ### 2. 存储技术
 
@@ -78,6 +80,7 @@ tags:
 | ByteRover | ✅ | ✅（上下文树）| ✅ | ❌ |
 | OpenViking | ✅（多后端）| ✅（Viking URI）| ✅ | ❌ |
 | Claude-Mem | — | — | ✅ | — |
+| [[agentmemory]] | ✅（qmd）| ❌ | ✅（daily）| ❌ |
 
 ### 3. 集成生态
 
@@ -95,6 +98,7 @@ tags:
 | ByteRover | ✅ | — | — | — | — |
 | OpenViking | ✅ | — | — | ✅ | ❌ |
 | Claude-Mem | — | — | — | ✅ | — |
+| [[agentmemory]] | ❌ | ❌ | ❌ | ✅（Claude Code/Codex/Cursor/Agent）| ❌ |
 
 ### 4. 检索能力
 
@@ -108,6 +112,7 @@ tags:
 | RetainDB | ✅ | ✅ | ✅ | ✅ | — |
 | ByteRover | ✅ | — | — | — | ✅ |
 | OpenViking | ✅ | ✅ | ✅ | ✅ | ✅（L0/L1/L2）|
+| [[agentmemory]] | ✅（qmd）| ✅（qmd）| ✅（qmd hybrid）| ❌ | ❌ |
 
 ## 记忆哲学对比
 
@@ -186,6 +191,12 @@ tags:
 - 只使用 Claude Code
 - 只需要简单的会话压缩记忆
 - 不需要跨 Agent 或跨工具的互操作性
+
+### 选 [[agentmemory]] 当：
+- 只用 Claude Code / Codex / Cursor 其中一个，不需要多 Agent 共享
+- 不想部署服务器，只想要本地 Markdown 增强
+- 快速验证记忆需求，不确定要不要上完整系统
+- 能接受未公开基准测试
 
 ## 架构哲学差异
 

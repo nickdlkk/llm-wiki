@@ -113,3 +113,4 @@ codegraph init -i
 - [[ByteRover]] — 编程 Agent 记忆 CLI，LoCoMo 96.1%
 - [[OpenViking]] — 字节跳动上下文数据库
 - [[agentmemory]] — 本地 Markdown 记忆，SKILL.md 注入
+- [[code-indexing-comparison]] — 代码索引工具横向对比

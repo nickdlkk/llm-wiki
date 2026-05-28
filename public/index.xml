@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>How Claude Code works in large codebases: Best practices and where to start</title>
-    <link>https://nickdlkk.github.io/llm-wiki/summaries/claude-code-ecosystem/claude-code-large-codebases-20260520</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/summaries/claude-code-ecosystem/claude-code-large-codebases-20260520</guid>
-    <description><![CDATA[ How Claude Code works in large codebases 一句话总结： 大规模部署的关键不是选更强的模型，而是构建完整的 Harness——Claude Code 的能力由生态决定，模型只是底座。 Agentic Search vs RAG RAGAgentic Search原理embedding 整个代码库，查询时检索相关块实时遍历文件系统、grep、追踪引用致命弱点embedding pipeline 跟不上活跃工程团队；索引落后数天/数周需要足够的起始上下文才知道往哪看扩展性千人团队共享一个索引每个开发者实例独立跑 live codebase结论大规模下索引失效率... ]]></description>
-    <pubDate>Tue, 19 May 2026 16:00:00 GMT</pubDate>
+    <title>Brainstorming</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/brainstorming</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/brainstorming</guid>
+    <description><![CDATA[ Brainstorming Source: skills/brainstorming/SKILL.md 核心工作流 9步流程： Explore project context — 检查文件、文档、最近提交，了解当前项目状态 Offer visual companion (if visual questions ahead) — 单独消息询问是否需要浏览器可视化伴侣 Ask clarifying questions — 一次一问，理解目的/约束/成功标准 Propose 2-3 approaches — 提出2-3种方案，含权衡分析和推荐 Present design — 按复杂度分段展示，每段... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>AI Native 时代 —— 研发组织何去何从</title>
-    <link>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/ai-native-org-design-20260520</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/ai-native-org-design-20260520</guid>
-    <description><![CDATA[ AI Native 时代 —— 研发组织何去何从 一句话总结： AI Native 转型不是”让 AI 干活”的效率故事，而是把组织最小单元从”人+关系网”换成”任务+上下文+权限+工具”——这才是适应性速度的数量级跃迁。 核心洞察 从 Org Chart 到 Execution Graph 旧范式新范式最小单元人 + 长期关系网任务 + 上下文 + 权限 + 工具核心问题ownership（谁拥有这件事）routing + governance（意图怎么进入系统并安全执行）重组成本季度级（6-12个月）week 级信息形态人脑隐性关系机器可读 artifact 关键引用（Ken Huang）... ]]></description>
-    <pubDate>Tue, 19 May 2026 16:00:00 GMT</pubDate>
+    <title>Dispatching Parallel Agents</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/dispatching-parallel-agents</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/dispatching-parallel-agents</guid>
+    <description><![CDATA[ Dispatching Parallel Agents Source: skills/dispatching-parallel-agents/SKILL.md 核心工作流 核心原则： 每个独立问题域派发一个 Agent，并发执行。 决策树：何时用 / 何时不用 Multiple failures? ├── No → 单个 Agent 处理 └── Yes → Are they independent? ├── No → 相关问题，一起调查 └── Yes → Can they work in parallel? ├── Yes → 并行派发 └── No → 顺序派发（共享状态冲突） 适用场景... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>从零设计生产级 Multi-Agent Harness：架构、评估、记忆、成本与 MCP 工具接入全拆解</title>
-    <link>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/multi-agent-harness-design-20260520</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/multi-agent-harness-design-20260520</guid>
-    <description><![CDATA[ 从零设计生产级 Multi-Agent Harness 一句话总结： 生产级 Multi-Agent Harness 的核心竞争力不在于”拼了多少个 Agent”，而在于 Harness 本身对编排、治理、记忆、评估、成本的全局控制能力。 核心观点 1. ]]></description>
-    <pubDate>Tue, 19 May 2026 16:00:00 GMT</pubDate>
+    <title>Executing Plans</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/executing-plans</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/executing-plans</guid>
+    <description><![CDATA[ Executing Plans Source: skills/executing-plans/SKILL.md 核心工作流 3步流程： ┌────────────────────────────────────────────────────────────┐ │ Step 1: Load and Review Plan │ │ ├── Read plan file │ │ ├── Review critically (identify questions/concerns) │ │ └── If concerns → raise before starting │ │ If no conce... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://nickdlkk.github.io/llm-wiki/</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/</guid>
-    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
-    <pubDate>Sat, 16 May 2026 03:47:48 GMT</pubDate>
+    <title>Finishing a Development Branch</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/finishing-a-development-branch</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/finishing-a-development-branch</guid>
+    <description><![CDATA[ Finishing a Development Branch Source: skills/finishing-a-development-branch/SKILL.md 核心工作流 5步流程 Step 1: Verify Tests ↓ (tests must pass) Step 2: Determine Base Branch ↓ Step 3: Present Options (4 choices) ↓ Step 4: Execute Choice ↓ Step 5: Cleanup Worktree 开始时宣布： “I’m using the finishing-a-developm... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>autoplan</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/autoplan</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/autoplan</guid>
-    <description><![CDATA[ CEO+Design+Eng+DX review pipeline ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>Receiving Code Review</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/receiving-code-review</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/receiving-code-review</guid>
+    <description><![CDATA[ Receiving Code Review Source: skills/receiving-code-review/SKILL.md 核心工作流 核心原则： 技术评估，而非情感表演。验证后再实现，不清晰就提问。 6 步响应模式 ┌──────────────────────────────────────────────────────────┐ │ 收到代码审查反馈时的响应模式 │ ├──────────────────────────────────────────────────────────┤ │ │ │ 1. ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>land-and-deploy</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/land-and-deploy</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/land-and-deploy</guid>
-    <description><![CDATA[ Merges PR+waits CI+deploys+canary checks ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>Requesting Code Review</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/requesting-code-review</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/requesting-code-review</guid>
+    <description><![CDATA[ Requesting Code Review Source: skills/requesting-code-review/SKILL.md 核心工作流 核心原则： 早审查、勤审查。 发起代码审查的流程 # 1. ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>landing-report</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/landing-report</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/landing-report</guid>
-    <description><![CDATA[ Queue dashboard for workspace-aware ship ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>Subagent-Driven Development</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/subagent-driven-development</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/subagent-driven-development</guid>
+    <description><![CDATA[ Subagent-Driven Development Source: skills/subagent-driven-development/SKILL.md 核心工作流 7步主流程： ┌─────────────────────────────────────────────────────────────┐ │ 1. ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>make-pdf</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/make-pdf</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/make-pdf</guid>
-    <description><![CDATA[ Markdown to publication-quality PDF ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>Systematic Debugging</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/systematic-debugging</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/systematic-debugging</guid>
+    <description><![CDATA[ Systematic Debugging Source: skills/systematic-debugging/SKILL.md 核心工作流 4阶段根因分析流程 Phase 1: Root Cause Investigation ↓ (理解 WHAT 和 WHY) Phase 2: Pattern Analysis ↓ (找到模式和差异) Phase 3: Hypothesis &amp; Testing ↓ (形成假设，最小化测试) Phase 4: Implementation ↓ (必要时返回 Phase 1) If 3+ fixes failed → Question Archite... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>pair-agent</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/pair-agent</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/pair-agent</guid>
-    <description><![CDATA[ Pair remote AI agent with browser ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>Test-Driven Development</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/test-driven-development</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/test-driven-development</guid>
+    <description><![CDATA[ Test-Driven Development Source: skills/test-driven-development/SKILL.md 核心工作流 RED-GREEN-REFACTOR 循环 RED → Write Failing Test → Verify Fails Correctly ↓ ↓ REFACTOR ← Verify Stays Green ← GREEN → Verify Passes ↓ Next RED (repeat) RED 阶段： 写一个最小测试，展示期望行为 测试命名清晰，测试真实行为而非 mock 必须能触发失败 GREEN 阶段： 用最简代码通过测试 ... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item><item>
-    <title>plan-ceo-review</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-ceo-review</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-ceo-review</guid>
-    <description><![CDATA[ Find 10-star product (4 modes: Expansion/SelExp/Hold/Reduction) ]]></description>
-    <pubDate>Fri, 15 May 2026 16:41:54 GMT</pubDate>
+    <title>using-git-worktrees</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-git-worktrees</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-git-worktrees</guid>
+    <description><![CDATA[ using-git-worktrees Source: skills/using-git-worktrees/SKILL.md Git worktrees 创建隔离工作区（共享同一仓库），允许多分支同时工作无需切换分支。 核心流程 目录选择 → 安全验证 → 创建 worktree → 运行项目初始化 → 验证干净基线 → 报告位置 目录选择（优先级） 检查 .worktrees/ 或 worktrees/ 是否存在 检查 CLAUDE.md 中的 worktree 偏好 如无 → 询问用户 安全验证（项目内目录必须） git check-ignore -q .worktrees # 确认目录... ]]></description>
+    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

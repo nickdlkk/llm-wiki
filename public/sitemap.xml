@@ -6,7 +6,7 @@
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/Memory-Systems</loc>
-    <lastmod>2026-05-10T15:16:39.000Z</lastmod>
+    <lastmod>2026-05-20T08:01:43.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/OpenSpec</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
@@ -185,53 +185,50 @@
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/se-and-llm-harness</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/brainstorming</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/dispatching-parallel-agents</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/finishing-a-development-branch</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/planning-with-files</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/receiving-code-review</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/requesting-code-review</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/spf-exec-plan</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/spf-write-plan</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/subagent-driven-development</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/systematic-debugging</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/test-driven-development</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/using-git-worktrees</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/using-superpowers</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/verification-before-completion</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpower-with-files/writing-skills</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers-openspec-workflow</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/brainstorming</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/dispatching-parallel-agents</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/executing-plans</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/finishing-a-development-branch</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/receiving-code-review</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/requesting-code-review</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/subagent-driven-development</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/systematic-debugging</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/test-driven-development</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-git-worktrees</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-superpowers</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/verification-before-completion</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/writing-plans</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/writing-skills</loc>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/three-engineering-primitives</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
@@ -241,6 +238,15 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/AiMaMi</loc>
+    <lastmod>2026-05-18T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/DreamServer</loc>
+    <lastmod>2026-05-23T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/Local-Deep-Research</loc>
+    <lastmod>2026-05-18T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/agentdm</loc>
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
@@ -270,7 +276,7 @@
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/superpower</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+    <lastmod>2026-05-27T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/agent-collaboration/tessera</loc>
     <lastmod>2026-05-08T16:00:00.000Z</lastmod>
@@ -373,6 +379,27 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/cli-terminals/wmux</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/claude-context</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/cocoindex</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/code-indexing-comparison</loc>
+    <lastmod>2026-05-22T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/codegraph</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/gitnexus</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/semble</loc>
+    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/CodexPotter</loc>
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
@@ -515,14 +542,14 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/routa-feature-explorer</loc>
     <lastmod>2026-04-19T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/routa</loc>
+    <lastmod>2026-05-16T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/spec-first-superpowers</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/speccoding-template</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/superpower-with-files</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/superpowers-openspec-team-skills</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
@@ -614,6 +641,9 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/Claude-Mem</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/CodeGraph</loc>
+    <lastmod>2026-05-19T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/Cognee</loc>
     <lastmod>2026-05-10T16:00:00.000Z</lastmod>
   </url><url>
@@ -642,13 +672,16 @@
     <lastmod>2026-05-10T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/OpenViking</loc>
-    <lastmod>2026-05-09T16:00:00.000Z</lastmod>
+    <lastmod>2026-05-18T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/RetainDB</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/Supermemory</loc>
     <lastmod>2026-05-09T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/agentmemory</loc>
+    <lastmod>2026-05-19T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/memorizz</loc>
     <lastmod>2026-05-11T16:00:00.000Z</lastmod>
@@ -669,6 +702,9 @@
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/openclaw-ecosystem/lsbot</loc>
+    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/openhuman</loc>
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/remote-terminals/farfield</loc>
@@ -726,7 +762,10 @@
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/</loc>
-    <lastmod>2026-05-16T03:47:48.000Z</lastmod>
+    <lastmod>2026-05-24T13:26:22.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/sdd/sddw</loc>
+    <lastmod>2026-05-23T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/ai-devos-prd</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
@@ -760,6 +799,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/general-knowledge/perplexity-agent-skills-design</loc>
     <lastmod>2026-05-11T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/ai-coding-delivery-paradox-20260520</loc>
+    <lastmod>2026-03-17T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/ai-native-org-design-20260520</loc>
     <lastmod>2026-05-19T16:00:00.000Z</lastmod>
