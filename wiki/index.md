@@ -29,12 +29,7 @@
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
 ### AI与人的判断
-- [[显形运动]] — James C. Scott 显形理论：AI 把镜子转向我们自己，三次显形运动对比，黑森林隐喻
-- [[判断工程不可能三角]] — Spec 完备性 / Goodhart 抗性 / Tacit 保全 三者不可兼得
-- [[黑森林隐喻]] — 18世纪德国科学林业教训：活的东西一旦被彻底显形就死了
-- [[三块石碑]] — 验收标准即代码 / 对抗性审查网络 / 品味作为资产
-- [[判断力光谱]] — S1硬规则→S5裸直觉五档判断，显形边界与刻意留白
-- [[带疤痕的判断]] — AI 时代人类最根本的护城河："人不退守，人转身"
+- [[Harness-镜子-显形运动]] — AI是镜子不是缰绳：显形运动/Goodhart/不可能三角/三块石碑/判断力光谱/带疤痕的判断（单页全量）
 
 ### Security
 - [[Linux Kernel Privilege Escalation]] — 内核提权漏洞：CVE-2016-5195 (Dirty COW) / CVE-2022-0847 (Dirty Pipe) / io_uring 系列
