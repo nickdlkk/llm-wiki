@@ -73,6 +73,7 @@
 - [[DreamServer]] — 本地 AI 全栈平台（1.66k ⭐）：LLM推理+Chat+语音+Agent+工作流+RAG+图像生成，一行命令部署，自动识别 NVIDIA/AMD/Apple Silicon/Intel Arc
 - [[gstack]] — Garry Tan 的 Claude Code 技能包（79k ⭐）：多角色工程团队、Harness Engineering 生产级参考实现
 - [[Claude-Code-Workflow]] — JSON 驱动多 Agent 团队编排框架（⭐2034）：22 Agent + 37 Skill + 多 CLI 编排（Gemini/Qwen/Codex/Claude），Wisdom 跨会话积累，Terminal Dashboard + React 编辑器
+- [[codexmate]] — 多 Agent 控制面板（122 ⭐）：CLI+Web UI 统一管理 Codex/Claude Code/OpenClaw/Gemini CLI，Provider 切换 + 跨工具会话 + Skills 市场 + DAG 任务编排 + MCP 集成，Apache-2.0
 - [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[nyaterm]] — 现代化 SSH 客户端（Tauri+Rust+React）：106 ⭐，AI Agent/Ask 双模式 + 内嵌 SFTP + OTP + WebDAV/S3 加密同步，替代 Xshell/MobaXterm
