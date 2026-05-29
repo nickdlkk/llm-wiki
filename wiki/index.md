@@ -75,6 +75,7 @@
 - [[Claude-Code-Workflow]] — JSON 驱动多 Agent 团队编排框架（⭐2034）：22 Agent + 37 Skill + 多 CLI 编排（Gemini/Qwen/Codex/Claude），Wisdom 跨会话积累，Terminal Dashboard + React 编辑器
 - [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
+- [[nyaterm]] — 现代化 SSH 客户端（Tauri+Rust+React）：106 ⭐，AI Agent/Ask 双模式 + 内嵌 SFTP + OTP + WebDAV/S3 加密同步，替代 Xshell/MobaXterm
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[entities/vibe-kanban]] — Vibe Kanban（**已关闭**）：Rust+TypeScript monorepo，看板+AI Agent Workspace协作平台，支持10+种Agent（Claude Code/Codex/Gemini CLI等），Git Worktree隔离，MCP服务器

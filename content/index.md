@@ -28,6 +28,9 @@
 - [[Dev vs Deploy Integration]] — 开发一体化（脚手架+热重载）vs 部署一体化（一键发布）框架对比：pinme / Dioxus / create-t3-app / Tauri / Better-Fullstack / Stacks.js
 - [[SE and LLM Harness]] — 软件工程实践与 LLM Harness 的深层关联：测试→Evaluation Harness、CI/CD→Quality Gates、代码审查→Agent Review Pattern
 
+### AI与人的判断
+- [[Harness-镜子-显形运动]] — AI是镜子不是缰绳：显形运动/Goodhart/不可能三角/三块石碑/判断力光谱/带疤痕的判断（单页全量）
+
 ### Security
 - [[Linux Kernel Privilege Escalation]] — 内核提权漏洞：CVE-2016-5195 (Dirty COW) / CVE-2022-0847 (Dirty Pipe) / io_uring 系列
 
@@ -40,7 +43,7 @@
 - [[Chorus]] — 给 Agent 用的任务管理系统（v0.1→v0.6.1 演进）
 - [[tessera]] — AI 编码 Agent 可视化工作区：Claude Code/Codex/OpenCode 并行 + Git worktree 管理 + Kanban + PR 追踪，Electron 桌面 + npm 双模式
 - [[learn-claude-code]] — Bash is all you need 课程（54k ⭐）
-- [[learn-harness-engineering]] — Harness 工程实践课程（752 ⭐）
+- [[entities/concepts-frameworks/learn-harness-engineering]] — Harness Engineering 官方课程（6.6k ⭐）：12 讲 + 6 项目 + harness-creator skill，五大子系统 + session 生命周期
 - [[github-spec-kit]] — GitHub's programmable SDD workflow engine (Python)
 - [[github-open-spec]] — Fission AI's spec + delta format SDD tool (TypeScript)
 - [[github-gsd]] — Get Shit Done: context hygiene for AI coding agents (TypeScript)
@@ -58,6 +61,7 @@
 - [[github-hermes-lcm]] — Hermes 無損上下文管理插件：SQLite 不可變存儲 + DAG 摘要 + 3 層 escalation（L1→L2→L3）
 - [[github-codeflow]] — 單 HTML 文件代碼庫可視化：粘貼 GitHub URL 秒級生成依賴圖 + 安全掃描 + 熱點定位
 - [[agent-skills]] — Addy Osmani 出品：20 工程技能库，6阶段 SDLC，Claude Code/Gemini CLI/OpenCode 多平台，MIT License
+- [[entities/concepts-frameworks/andrej-karpathy-skills]] — Karpathy 对 LLM 编码陷阱的四条行为准则（155k ⭐）：先想再写、极简优先、手术式修改、目标驱动执行
 - [[entities/ruflo]] — Multi-agent AI orchestration for Claude Code：100+ agents + Swarm 协调 + AgentDB/HNSW 向量记忆 + 联邦安全协作，原名 Claude Flow，MIT License
 - [[entities/github-zcf]] — Zero-Config Code Flow（zcf）：Claude Code / Codex 环境自动化配置 CLI，10+ API 预设 + MCP + Workflow + Output Style 一键初始化
 - [[cc-connect]] — 开源 AI Agent 桥接工具（7.9k ⭐）：将 Claude Code/Codex/Cursor 接入飞书/钉钉/微信/Telegram 等 11 个聊天平台
@@ -71,6 +75,7 @@
 - [[Claude-Code-Workflow]] — JSON 驱动多 Agent 团队编排框架（⭐2034）：22 Agent + 37 Skill + 多 CLI 编排（Gemini/Qwen/Codex/Claude），Wisdom 跨会话积累，Terminal Dashboard + React 编辑器
 - [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
 - [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
+- [[nyaterm]] — 现代化 SSH 客户端（Tauri+Rust+React）：106 ⭐，AI Agent/Ask 双模式 + 内嵌 SFTP + OTP + WebDAV/S3 加密同步，替代 Xshell/MobaXterm
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
 - [[entities/vibe-kanban]] — Vibe Kanban（**已关闭**）：Rust+TypeScript monorepo，看板+AI Agent Workspace协作平台，支持10+种Agent（Claude Code/Codex/Gemini CLI等），Git Worktree隔离，MCP服务器
@@ -92,6 +97,9 @@
 - [[AiMaMi]] — OpenAI Codex 原生桌面伴侣（★506，Apache 2.0）：多账号轮换 + 会话树管理 + 第三方模型注入，Tauri 2 + React + Rust
 
 ## Summaries (by category)
+- 2026-05-26 — [[summaries/andrej-karpathy-skills]] — Karpathy 四条编码准则：先想再写、极简优先、手术式修改、目标驱动
+- 2026-05-26 — [[summaries/ralph]] — snarktank/ralph：自主 Agent 循环，每轮新上下文防污染
+- 2026-05-26 — [[summaries/ralphy]] — ralphy：增强版 CLI，8 种引擎 + 并行 + sandbox
 
 ### 🏗️ Harness Engineering
 - 2026-05-20 — [[summaries/harness-engineering/ai-coding-delivery-paradox-20260520]] — AI Coding 悖论：主观快 20% 客观慢 19%，根因是 Goldratt 瓶颈在 review 不在 coding；Spec/Rule/Skill 区分 + 验证闭环 + 并发才是破局路径
@@ -109,6 +117,8 @@
 - 2026-05-20 — [[summaries/claude-code-ecosystem/claude-code-large-codebases-20260520]] — Anthropic 官方：大代码库部署最佳实践：Agentic Search + 五大扩展点 + 三大配置模式
 - 2026-04-21 — [[summaries/claude-code-ecosystem/anthropic-agent-sdk-architecture-20260421]] — Anthropic Agent SDK 架构解析：Tools/Hooks/Subagents/MCP/Permissions/Sessions 六大组件
 - 2026-04-27 — [[summaries/claude-code-ecosystem/ralph-claude-code]] — Ralph（Bash Autonomous Loop）：Dual-condition exit gate + Circuit Breaker + 5h API limit 三层保护，566 tests 100% pass
+- [[entities/concepts-frameworks/ralph]] — snarktank/ralph，Ralph Wiggum 模式社区主流实现（19.5k stars）：每轮新 AI 实例 + 干净上下文，prd.json / progress.txt / Git 历史跨迭代持久化
+- [[entities/concepts-frameworks/ralphy]] — ralphy，增强版 CLI（2.9k stars）：8 种 AI 引擎 + 并行执行 + GitHub Issues 任务源 + sandbox 模式
 
 ### 🔀 Multi-Agent 编排平台
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica]] — Multica：开源多 Agent 队友平台（26k ⭐），Go+Next.js，pgvector知识积累，支持 11 种 Agent CLI 自托管
