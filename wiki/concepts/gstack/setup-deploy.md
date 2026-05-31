@@ -23,8 +23,8 @@ Use when: "setup deploy", "configure deployment", "set up land-and-deploy", "how
 ## See Also
 
 - [[land-and-deploy]] — Execute the deployment
-- [[review]] — Pre-deploy review
-- [[qa]] — Post-deploy verification
+- [[gstack /review]] — Pre-deploy review
+- [[gstack /qa]] — Post-deploy verification
 
 ## Category
 

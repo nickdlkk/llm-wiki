@@ -21,8 +21,8 @@ Use before QA testing authenticated pages. Use when asked to "import cookies", "
 ## See Also
 
 - [[qa-only]] — QA testing with authenticated sessions
-- [[qa]] — Full QA workflow
-- [[ship]] — Ship after testing
+- [[gstack /qa]] — Full QA workflow
+- [[gstack /ship]] — Ship after testing
 
 ## Category
 

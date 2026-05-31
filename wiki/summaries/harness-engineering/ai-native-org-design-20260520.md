@@ -177,7 +177,7 @@ AI 和人形成**镜像反面**：
 - [[harness-core-concept-20260421]] — Harness Engineering 核心概念
 - [[claude-code-agentic-harness-20260421]] — Claude Code 的 Agentic Harness 架构
 - [[harness-engineering-java-brownfield-20260507]] — Harness Engineering 实战：Java 工程 AI Coding 率从 25% 提升至 90%
-- [[AI-DevOS]] — 面向软件工程长期自治的操作系统
+- [[AI DevOS]] — 面向软件工程长期自治的操作系统
 - [[luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉访谈：AI 范式从 Chat 时代转向 Agent 时代
 
 ## 参考文献

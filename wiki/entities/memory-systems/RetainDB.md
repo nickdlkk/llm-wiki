@@ -82,5 +82,5 @@ OPENAI_API_KEY=*** docker compose up
 ## 相关项目
 
 - [[Memory Systems]] — 记忆系统总体对比
-- [[Supermemory]] — 云优先记忆系统
+- [[Supermemory (mem0)]] — 云优先记忆系统
 - [[OpenViking]] — 上下文数据库，字节跳动出品

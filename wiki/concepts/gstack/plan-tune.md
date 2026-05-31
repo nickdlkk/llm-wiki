@@ -20,9 +20,9 @@ Proactively suggest when the user says the same gstack question has come up befo
 
 ## See Also
 
-- [[learn]] — Understanding gstack preferences
-- [[office-hours]] — Configuration help
-- [[investigate]] — Debug question routing
+- [[gstack /learn]] — Understanding gstack preferences
+- [[gstack /office-hours]] — Configuration help
+- [[gstack /investigate]] — Debug question routing
 
 ## Category
 

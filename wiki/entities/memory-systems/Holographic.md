@@ -52,5 +52,5 @@ Holographic 理念在以下系统中被部分采用：
 ## 相关概念
 
 - [[Memory Systems]] — 记忆系统总体对比
-- [[Supermemory]] — #1 记忆基准系统
+- [[Supermemory (mem0)]] — #1 记忆基准系统
 - [[Honcho]] — Neuromancer 专用推理模型

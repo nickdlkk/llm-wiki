@@ -118,4 +118,4 @@ qmd embed
 - [[ByteRover]] — 编程 Agent 记忆 CLI，LoCoMo 96.1%，Git 式版本控制
 - [[OpenViking]] — 字节跳动上下文数据库，L0/L1/L2 三层抽象
 - [[Claude-Mem]] — Claude Code 专用插件，会话压缩
-- [[Supermemory]] — 基准 SOTA，但为云端平台
+- [[Supermemory (mem0)]] — 基准 SOTA，但为云端平台

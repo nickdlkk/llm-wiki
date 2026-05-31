@@ -69,6 +69,6 @@ Mem0's research paper reports **26% improvement over OpenAI's memory** baseline 
 
 ## See Also
 
-- [[Supermemory]] — evolved from same memory research, TypeScript-first, #1 on LoCoMo
+- [[Supermemory (mem0)]] — evolved from same memory research, TypeScript-first, #1 on LoCoMo
 - [[Letta]] — LLM-as-OS approach, model manages own memory
 - [[Graphiti]] — Zep's temporal knowledge graph

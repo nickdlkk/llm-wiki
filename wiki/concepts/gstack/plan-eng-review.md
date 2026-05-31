@@ -22,11 +22,11 @@ Proactively suggest when the user has a plan or design doc and is about to start
 
 ## See Also
 
-- [[review]] — Other review modes
+- [[gstack /review]] — Other review modes
 - [[plan-ceo-review]] — CEO/founder review
 - [[plan-design-review]] — Design review
 - [[plan-devex-review]] — Developer experience review
-- [[ship]] — Implementation after review
+- [[gstack /ship]] — Implementation after review
 
 ## Category
 

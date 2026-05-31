@@ -23,8 +23,8 @@ Use when asked to "pair agent", "connect agent", "share browser", "remote browse
 
 ## See Also
 
-- [[investigate]] — Remote investigation workflows
-- [[office-hours]] — Get help with agent setup
+- [[gstack /investigate]] — Remote investigation workflows
+- [[gstack /office-hours]] — Get help with agent setup
 
 ## Category
 

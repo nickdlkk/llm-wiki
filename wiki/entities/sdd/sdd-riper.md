@@ -119,7 +119,7 @@ SDD-RIPER keeps the useful part of traditional spec-driven development but chang
 
 - [[spec-driven-development]]
 - [[agentic-coding]]
-- [[harness-engineering]]
+- [[Harness Engineering]]
 - [spec-kitty](./spec-kitty.md) — Related spec-driven development CLI
 - [huisezhiyin/sdd-riper](https://github.com/huisezhiyin/sdd-riper) — Official repository
 

@@ -75,7 +75,7 @@
 - [[Claude-Code-Workflow]] — JSON 驱动多 Agent 团队编排框架（⭐2034）：22 Agent + 37 Skill + 多 CLI 编排（Gemini/Qwen/Codex/Claude），Wisdom 跨会话积累，Terminal Dashboard + React 编辑器
 - [[codexmate]] — 多 Agent 控制面板（122 ⭐）：CLI+Web UI 统一管理 Codex/Claude Code/OpenClaw/Gemini CLI，Provider 切换 + 跨工具会话 + Skills 市场 + DAG 任务编排 + MCP 集成，Apache-2.0
 - [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
-- [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
+- [[Coder Studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[nyaterm]] — 现代化 SSH 客户端（Tauri+Rust+React）：106 ⭐，AI Agent/Ask 双模式 + 内嵌 SFTP + OTP + WebDAV/S3 加密同步，替代 Xshell/MobaXterm
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
@@ -93,7 +93,7 @@
 - [[github-mattpocock-skills-grill-me]] — Socratic 面试式 skill：递归追问设计决策树，直至达成共识
 - [[Mattpocock Skills 对比分析]] — 16 个 skills 横向对比：复杂度光谱、设计模式、grill-me 定位
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
-- [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
+- [[AI DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
 - [[Local Deep Research]] — 本地深度研究 Agent（★7.8k）：单卡 3090 + Qwen3.6-27B 达 95% SimpleQA，LangGraph Agent 自主决策，AES-256 加密知识库
 - [[AiMaMi]] — OpenAI Codex 原生桌面伴侣（★506，Apache 2.0）：多账号轮换 + 会话树管理 + 第三方模型注入，Tauri 2 + React + Rust
 

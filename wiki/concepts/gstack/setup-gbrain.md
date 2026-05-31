@@ -25,8 +25,8 @@ Use when: "setup gbrain", "connect gbrain", "start gbrain", "install gbrain", "c
 ## See Also
 
 - [[sync-gbrain]] — Keep gbrain current
-- [[learn]] — Understanding gbrain
-- [[office-hours]] — Setup help
+- [[gstack /learn]] — Understanding gbrain
+- [[gstack /office-hours]] — Setup help
 
 ## Category
 

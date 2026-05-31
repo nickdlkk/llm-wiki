@@ -26,8 +26,8 @@ Use when asked to "skillify", "codify", "save this scrape", or "make this perman
 ## See Also
 
 - [[scrape]] — Initial prototype scrape
-- [[investigate]] — Investigate codified skills
-- [[learn]] — Learn about skill development
+- [[gstack /investigate]] — Investigate codified skills
+- [[gstack /learn]] — Learn about skill development
 
 ## Category
 

@@ -31,11 +31,11 @@ Proactively suggest when the user has a plan for developer-facing products (APIs
 
 ## See Also
 
-- [[review]] — Other review modes
+- [[gstack /review]] — Other review modes
 - [[plan-ceo-review]] — CEO/founder review
 - [[plan-design-review]] — Design review
 - [[plan-eng-review]] — Engineering review
-- [[office-hours]] — DX discussions
+- [[gstack /office-hours]] — DX discussions
 
 ## Category
 

@@ -12,7 +12,7 @@ Land and deploy workflow. Merges the PR, waits for CI and deploy, verifies produ
 
 Use when: "merge", "land", "deploy", "merge and verify", "land it", "ship it to production".
 
-Takes over after [[ship]] creates the PR.
+Takes over after [[gstack /ship]] creates the PR.
 
 ## Triggers
 
@@ -22,9 +22,9 @@ Takes over after [[ship]] creates the PR.
 
 ## See Also
 
-- [[ship]] — Creates the PR that land-and-deploy lands
-- [[review]] — Quality assurance before deployment
-- [[qa]] — Testing and verification
+- [[gstack /ship]] — Creates the PR that land-and-deploy lands
+- [[gstack /review]] — Quality assurance before deployment
+- [[gstack /qa]] — Testing and verification
 
 ## Category
 

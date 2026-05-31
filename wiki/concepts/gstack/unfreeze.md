@@ -20,9 +20,9 @@ Use when you want to widen edit scope without ending the session. Use when asked
 
 ## See Also
 
-- [[investigate]] — Investigate frozen scope issues
-- [[learn]] — Understanding freeze mechanism
-- [[office-hours]] — Get help with edit restrictions
+- [[gstack /investigate]] — Investigate frozen scope issues
+- [[gstack /learn]] — Understanding freeze mechanism
+- [[gstack /office-hours]] — Get help with edit restrictions
 
 ## Category
 

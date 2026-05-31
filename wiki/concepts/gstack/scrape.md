@@ -25,8 +25,8 @@ Use when asked to "scrape", "get data from", "pull", "extract from", or "what's 
 ## See Also
 
 - [[skillify]] — Codify scrape flow into permanent skill
-- [[investigate]] — Investigate scraped data
-- [[qa]] — Verify scraped data quality
+- [[gstack /investigate]] — Investigate scraped data
+- [[gstack /qa]] — Verify scraped data quality
 
 ## Category
 

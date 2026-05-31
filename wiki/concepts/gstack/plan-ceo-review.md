@@ -23,8 +23,8 @@ Proactively suggest when the user is questioning scope or ambition of a plan, or
 
 ## See Also
 
-- [[review]] — Other review modes
-- [[office-hours]] — Strategic discussions
+- [[gstack /review]] — Other review modes
+- [[gstack /office-hours]] — Strategic discussions
 - [[plan-design-review]] — Design review
 - [[plan-eng-review]] — Engineering review
 - [[plan-devex-review]] — Developer experience review

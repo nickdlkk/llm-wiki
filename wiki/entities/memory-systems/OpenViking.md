@@ -198,7 +198,7 @@ Honcho（Neuromancer XR）：用专用 8B 微调模型（Qwen3-8B → Neuromance
 
 ## 相关项目
 
-- [[Supermemory]] — 基准三冠王，TypeScript-first
+- [[Supermemory (mem0)]] — 基准三冠王，TypeScript-first
 - [[Mem0]] — 记忆层定义者，开源门槛最低
 - [[Letta]] — LLM-as-OS 激进范式
 - [[Honcho]] — Hermes L4 内置，专用推理模型

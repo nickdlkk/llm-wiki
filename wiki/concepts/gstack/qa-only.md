@@ -23,9 +23,9 @@ Proactively suggest when the user wants a bug report without any code changes.
 
 ## See Also
 
-- [[qa]] — Full QA workflow with fixes
-- [[review]] — Code quality review
-- [[investigate]] — Deep dive into issues
+- [[gstack /qa]] — Full QA workflow with fixes
+- [[gstack /review]] — Code quality review
+- [[gstack /investigate]] — Deep dive into issues
 
 ## Category
 

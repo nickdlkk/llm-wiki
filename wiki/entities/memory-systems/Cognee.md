@@ -95,4 +95,4 @@ Self-hosted or use cognee Cloud (managed).
 
 - [[Graphiti]] — temporal knowledge graphs, time-aware retrieval
 - [[Mem0]] — simpler memory layer, managed platform
-- [[Supermemory]] — hybrid memory + RAG, benchmark leader
+- [[Supermemory (mem0)]] — hybrid memory + RAG, benchmark leader

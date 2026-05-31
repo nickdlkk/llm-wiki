@@ -25,8 +25,8 @@ Use when asked to "make a PDF", "export to PDF", "turn this markdown into a PDF"
 
 ## See Also
 
-- [[learn]] — Document creation workflows
-- [[office-hours]] — Get help with document formatting
+- [[gstack /learn]] — Document creation workflows
+- [[gstack /office-hours]] — Get help with document formatting
 
 ## Category
 

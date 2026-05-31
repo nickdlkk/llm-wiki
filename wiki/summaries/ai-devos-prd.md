@@ -44,4 +44,4 @@ Goal Layer → Planning Layer → Governance Layer → Scheduler Layer → Codin
 
 **可行（长远战略项目）**，核心技术组件有成熟实现。主要风险：4-8 小时 context 压缩稳定性 + verification 误判率。建议 Phase 0（1-2周）先验证核心假设，再全面投入。
 
-详细评估：[[AI-DevOS]]（entity 页面）
+详细评估：[[AI DevOS]]（entity 页面）

@@ -22,9 +22,9 @@ Use when asked to "landing report", "what's in the queue", "show me open PRs", o
 
 ## See Also
 
-- [[ship]] — Ship workflow that claims version slots
-- [[investigate]] — Investigate open issues
-- [[learn]] — Learn about workspace patterns
+- [[gstack /ship]] — Ship workflow that claims version slots
+- [[gstack /investigate]] — Investigate open issues
+- [[gstack /learn]] — Learn about workspace patterns
 
 ## Category
 

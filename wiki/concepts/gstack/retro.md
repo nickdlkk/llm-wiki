@@ -26,9 +26,9 @@ Proactively suggest at the end of a work week or sprint.
 
 ## See Also
 
-- [[learn]] — Understanding team patterns
-- [[investigate]] — Investigate specific issues from retro
-- [[ship]] — Ship items discovered in retro
+- [[gstack /learn]] — Understanding team patterns
+- [[gstack /investigate]] — Investigate specific issues from retro
+- [[gstack /ship]] — Ship items discovered in retro
 
 ## Category
 

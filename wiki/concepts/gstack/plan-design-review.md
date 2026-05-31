@@ -18,11 +18,11 @@ Proactively suggest when the user has a plan with UI/UX components that should b
 
 ## See Also
 
-- [[review]] — Other review modes
+- [[gstack /review]] — Other review modes
 - [[plan-ceo-review]] — CEO/founder review
 - [[plan-eng-review]] — Engineering review
 - [[plan-devex-review]] — Developer experience review
-- [[ship]] — Implementation after review
+- [[gstack /ship]] — Implementation after review
 
 ## Category
 

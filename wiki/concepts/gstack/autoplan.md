@@ -25,7 +25,7 @@ Use when you want a comprehensive plan review covering all four dimensions witho
 - [[plan-design-review]] — Design review phase
 - [[plan-eng-review]] — Engineering review phase
 - [[plan-devex-review]] — Developer experience review phase
-- [[office-hours]] — Strategic guidance
+- [[gstack /office-hours]] — Strategic guidance
 
 ## Category
 

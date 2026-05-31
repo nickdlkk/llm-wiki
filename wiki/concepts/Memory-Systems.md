@@ -14,7 +14,7 @@ tags:
 
 | 系统 | 定位 | ★Stars | 许可 | 架构 |
 |------|------|--------|------|------|
-| [[Supermemory]] | 通用记忆引擎（#1 基准）| ~22k | MIT | Vector + Semantic |
+| [[Supermemory (mem0)]] | 通用记忆引擎（#1 基准）| ~22k | MIT | Vector + Semantic |
 | [[Mem0]] | 通用记忆层（行业标杆）| 55k | Apache 2.0 | Vector + Graph (hybrid) |
 | [[Letta]] | LLM-as-OS（模型自管理记忆）| 22k | Apache 2.0 | Block-based self-editing |
 | [[Graphiti]] | 时序知识图谱 | 26k | Apache 2.0 | Temporal KG (Neo4j) |
@@ -131,7 +131,7 @@ tags:
 
 ## 选型指南
 
-### 选 [[Supermemory]] 当：
+### 选 [[Supermemory (mem0)]] 当：
 - 需要在多个基准上追求 SOTA
 - 需要多 Agent 共享记忆
 - 需要丰富的 SDK 和连接器生态（MCP、Vercel AI）
@@ -241,7 +241,7 @@ tags:
 - [[EverOS]] — 长期记忆操作系统，Benchmark 闭环（EverMemBench + EvoAgentBench）
 
 ### 原有系统
-- [[Supermemory]] — 基准第一的记忆系统
+- [[Supermemory (mem0)]] — 基准第一的记忆系统
 - [[Honcho]] — Hermes 专用记忆层
 - [[Hindsight]] — Nick 当前部署的本地记忆方案
 - [[OpenViking]] — 字节跳动上下文数据库

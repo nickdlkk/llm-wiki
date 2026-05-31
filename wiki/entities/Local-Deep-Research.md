@@ -195,4 +195,4 @@ LDR 的核心差异化：**完全本地 + 加密 + 知识库 + 自主 Agent 决�
 
 - [LangGraph](https://langchain-ai.github.io/langgraph/) — Agent 编排框架
 - [[OpenViking]] — 字节火山引擎上下文数据库（同样文件系统范式）
-- [[Supermemory]] — 云端记忆 + RAG
+- [[Supermemory (mem0)]] — 云端记忆 + RAG

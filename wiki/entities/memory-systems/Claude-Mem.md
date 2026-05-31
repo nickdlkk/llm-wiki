@@ -15,7 +15,7 @@ tags:
 
 **Claude-Mem**（GitHub: [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)）是专为 [Claude Code](https://claude.ai/claude-code) 设计的**持久记忆压缩系统**。不是独立的记忆产品，而是 Claude Code 的插件/扩展。
 
-> ⚠️ 注意：不要将 Claude-Mem 与 [[Supermemory]]（mem0）混淆——两者都是 AI 记忆工具，但定位不同：Claude-Mem 是 Claude Code 的本地插件，Supermemory 是通用多 Agent 记忆平台。
+> ⚠️ 注意：不要将 Claude-Mem 与 [[Supermemory (mem0)]]（mem0）混淆——两者都是 AI 记忆工具，但定位不同：Claude-Mem 是 Claude Code 的本地插件，Supermemory 是通用多 Agent 记忆平台。
 
 ## 核心功能
 
@@ -63,5 +63,5 @@ Claude Code 对话
 ## 相关项目
 
 - [[Memory Systems]] — 记忆系统总体对比
-- [[Supermemory]] — 更通用的多 Agent 记忆平台
+- [[Supermemory (mem0)]] — 更通用的多 Agent 记忆平台
 - [[Honcho]] — Hermes Agent 的专用记忆层

@@ -226,7 +226,7 @@ Benchmark 评的不是"代码写得好不好"，而是"**Evaluator 评得准不�
 
 - [[Harness Engineering]] — AI 工程第三次重心迁移
 - [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
-- [[gstack/benchmark]] — Garry Tan 的 Claude Code 技能包，生产级 Harness 参考
+- [[gstack /benchmark]] — Garry Tan 的 Claude Code 技能包，生产级 Harness 参考
 - [[se-and-llm-harness]] — 软件工程实践与 LLM Harness 的深层关联
 
 ## 原始来源

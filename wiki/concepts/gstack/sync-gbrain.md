@@ -24,8 +24,8 @@ Use when: "sync gbrain", "refresh gbrain", "re-index this repo", "gbrain search 
 ## See Also
 
 - [[setup-gbrain]] — Initial gbrain setup
-- [[learn]] — Understanding gbrain sync
-- [[investigate]] — Debug sync issues
+- [[gstack /learn]] — Understanding gbrain sync
+- [[gstack /investigate]] — Debug sync issues
 
 ## Category
 

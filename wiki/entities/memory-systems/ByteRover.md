@@ -99,6 +99,6 @@ ByteRover 提供 Skill Bundle 连接器市场，可以扩展：
 ## 相关项目
 
 - [[Memory Systems]] — 记忆系统总体对比
-- [[Supermemory]] — 基准排名第一
+- [[Supermemory (mem0)]] — 基准排名第一
 - [[OpenViking]] — Volcengine 出品的上下文数据库
 - [[agentmemory]] — 轻量本地 Markdown 记忆，SKILL.md 注入
