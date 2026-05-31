@@ -1,11 +1,10 @@
 ---
 title: "让 AI 自己做增长：基于OPC和Harness思想的自主增长系统探索"
 summary: "阿里高德团队用多 Agent 架构实现 SEO 增长全流程自主化：0 人为介入，4 小时完成路书应用上线，Harness Engineering 落地实践"
-source: 微信公众号
+source: "阿里妹（阿里巴巴）"
 url: https://mp.weixin.qq.com/s/sZm-KDM7NoITchuhpbJkJQ
 author: 曼行
-organization: 阿里高德
-date: 20260531
+date: 2026-05-31
 tags: [harness-engineering, multi-agent, autonomous, OPC, growth, se, evaluation]
 ingested: 2026-05-31
 ---
@@ -229,3 +228,7 @@ Benchmark 评的不是"代码写得好不好"，而是"**Evaluator 评得准不�
 - [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
 - [[gstack/benchmark]] — Garry Tan 的 Claude Code 技能包，生产级 Harness 参考
 - [[se-and-llm-harness]] — 软件工程实践与 LLM Harness 的深层关联
+
+## 原始来源
+
+^[raw/articles/gaode-autonomous-growth-20260531.md] 微信公众号原文
