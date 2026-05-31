@@ -26,8 +26,9 @@ tags:
 | [[Holographic]] | 全息记忆范式 | — | — | — |
 | [[RetainDB]] | Postgres 自托管记忆 | 13 | Apache 2.0/BSL | pgvector + KG |
 | [[ByteRover]] | 编程 Agent 记忆 CLI | 5k | Elastic 2.0 | Context tree + vector |
-| [[OpenViking]] | 上下文数据库 | 23k | AGPLv3 | L0/L1/L2 分层 |
-| [[Claude-Mem]] | Claude Code 插件 | 74 | Apache 2.0 | 会话压缩 |
+|| [[OpenViking]] | 上下文数据库 | 23k | AGPLv3 | L0/L1/L2 分层 |
+|| [[EverOS]] | 长期记忆操作系统 | 6k | — | 六层分层 + EverCore |
+|| [[Claude-Mem]] | Claude Code 插件 | 74 | Apache 2.0 | 会话压缩 |
 | [[agentmemory]] | 本地 Markdown 记忆 | ~1.4k（npm）| MIT | Markdown + qmd |
 
 ## 基准详细对比
@@ -60,9 +61,10 @@ tags:
 | Hindsight | ✅ | ❌ | ❌ |
 | RetainDB | ✅ | ❌ | ❌ |
 | ByteRover | 部分 | ✅ | ✅（编程）|
-| OpenViking | ✅ | ✅ | ❌ |
-| [[Claude-Mem]] | ✅ | ❌ | ✅（Claude Code）|
-| [[agentmemory]] | ✅ | ❌ | ✅（Claude Code/Codex/Cursor）|
+|| OpenViking | ✅ | ✅ | ❌ |
+|| [[EverOS]] | ✅ | ❌ | ❌ |
+|| [[Claude-Mem]] | ✅ | ❌ | ✅（Claude Code）|
+|| [[agentmemory]] | ✅ | ❌ | ✅（Claude Code/Codex/Cursor）|
 
 ### 2. 存储技术
 
@@ -95,9 +97,10 @@ tags:
 | MemMachine | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Honcho | — | — | — | — | ✅ |
 | RetainDB | ✅ | ✅ | ✅ | ✅ | — |
-| ByteRover | ✅ | — | — | — | — |
-| OpenViking | ✅ | — | — | ✅ | ❌ |
-| Claude-Mem | — | — | — | ✅ | — |
+|| ByteRover | ✅ | — | — | — | — |
+|| OpenViking | ✅ | — | — | ✅ | ❌ |
+|| [[EverOS]] | ✅ | ❌ | ❌ | ❌ | ❌ |
+|| Claude-Mem | — | — | — | ✅ | — |
 | [[agentmemory]] | ❌ | ❌ | ❌ | ✅（Claude Code/Codex/Cursor/Agent）| ❌ |
 
 ### 4. 检索能力
@@ -110,9 +113,10 @@ tags:
 | Graphiti | ✅ | ✅ | ✅（语义+KG）| ❌ | ❌ |
 | Cognee | ✅ | — | ✅ | ✅ | ✅ |
 | RetainDB | ✅ | ✅ | ✅ | ✅ | — |
-| ByteRover | ✅ | — | — | — | ✅ |
-| OpenViking | ✅ | ✅ | ✅ | ✅ | ✅（L0/L1/L2）|
-| [[agentmemory]] | ✅（qmd）| ✅（qmd）| ✅（qmd hybrid）| ❌ | ❌ |
+|| ByteRover | ✅ | — | — | — | ✅ |
+|| OpenViking | ✅ | ✅ | ✅ | ✅ | ✅（L0/L1/L2）|
+|| [[EverOS]] | ✅ | ✅ | ✅ | ✅ | ❌ |
+|| [[agentmemory]] | ✅（qmd）| ✅（qmd）| ✅（qmd hybrid）| ❌ | ❌ |
 
 ## 记忆哲学对比
 
@@ -187,6 +191,13 @@ tags:
 - 需要代码仓库的深层语义理解（L0/L1/L2 分层）
 - 在字节/火山引擎生态内
 
+### 选 [[EverOS]] 当：
+- 需要完整的 Benchmark 闭环（EverMemBench + EvoAgentBench）评估记忆质量
+- 需要多类型记忆分类（Episodes/Profiles/Preferences/Relationships）
+- 需要多 Agent 协作场景（Hive、MCO、Memori 等已有集成）
+- 愿意接受高部署门槛（MongoDB + Redis + ES + Milvus 4个服务）
+- 研究 Agent 自进化能力，需要系统化评估框架
+
 ### 选 [[Claude-Mem]] 当：
 - 只使用 Claude Code
 - 只需要简单的会话压缩记忆
@@ -208,7 +219,7 @@ tags:
 ### 原子派（Atomic Memory）
 记忆是最小独立的原子事实，具有明确的类型、置信度和有效期。事实之间通过显式关系图连接。
 
-代表：Supermemory、RetainDB、Honcho、Graphiti（时间维度）。
+代表：Supermemory、RetainDB、Honcho、Graphiti（时间维度）、EverOS（MemCell 原子提取）。
 
 ### LLM 自管理派
 不给 LLM 检索结果，而是让 LLM 决定自己记什么、什么时候归档、什么时候检索。像人类管理自己的笔记本。
@@ -227,6 +238,7 @@ tags:
 - [[Cognee]] — 企业级六阶段 cognitive pipeline
 - [[Memori]] — 行为记忆，SQL-native，action-based
 - [[MemMachine]] — 通用记忆适配器，client-server 架构
+- [[EverOS]] — 长期记忆操作系统，Benchmark 闭环（EverMemBench + EvoAgentBench）
 
 ### 原有系统
 - [[Supermemory]] — 基准第一的记忆系统
