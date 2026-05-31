@@ -112,6 +112,7 @@
 - 2026-02-11 — [[summaries/harness-engineering/openai-harness-engineering-codex-20260211]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
 - 2026-05-07 — [[summaries/harness-engineering/harness-engineering-java-brownfield-20260507]] — 存量 Java 工程 AI Coding 率从 25% 提升至 90%：外部化约束体系（.harness/ 四要素：Rules + Skills + Wiki + Changes）
 - 2026-05-25 — [[summaries/harness-engineering/qqmusic-harness-engineering-20260525]] — QQ音乐 Harness Engineering 实践：50+ 微服务场景下的五阶段+四门禁+三层知识+三仓联动框架，补齐 L5 工程治理层
+- 2026-05-31 — [[summaries/harness-engineering/gaode-autonomous-growth-20260531]] — 高德团队 OPC 自主增长系统：0 人为介入、4 小时完成路书应用上线，多 Agent 分工 + 状态机 + Benchmark 评审体系，三轮优化均分 64.5→83.4
 - 2026-05-25 — [[summaries/harness-engineering/java-harness-local-loop-20260525]] — Java 微服务 Harness 改造：依赖倒置+Spring Profile零侵入+H2替MySQL，让 AI 在本地自主跑"写→测→修"闭环
 
 ### 🤖 Claude Code 生态

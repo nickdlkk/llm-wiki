@@ -6,6 +6,30 @@
       <description>最近的10条笔记 on LLM Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://nickdlkk.github.io/llm-wiki/</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/</guid>
+    <description><![CDATA[ Index — LLM Wiki Knowledge Base Harness Engineering 知识库 Navigation Concepts · Entities · Summaries · Open Questions Concepts AI行业趋势 算力分配-311 — 研究:预训练:后训练 = 3:1:1 算力分配公式，行业范式从”砸预训练”转向”研究驱动” Agent框架 — 人和模型之间的厚中间层：OpenClaw vs Claude Code、框架弥补模型短板 生产力变革时代 — 2026年主旋律：从Chat时代转向Agent时代，两条路径（高价值 vs 社会普适） Ha... ]]></description>
+    <pubDate>Fri, 29 May 2026 07:45:54 GMT</pubDate>
+  </item><item>
+    <title>codexmate</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/codexmate</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/codexmate</guid>
+    <description><![CDATA[ codexmate 📄 原文：SakuraByteCore/codexmate · 122 ⭐ · Apache-2.0 Codex Mate 是本地优先的 AI 编程智能体控制面板，CLI + Web UI 双入口，统一管理 Codex、Claude Code、OpenClaw、Gemini CLI、CodeBuddy 五种智能体的配置、会话与任务编排。 核心定位 维度描述定位多 Agent 统一控制台 / 本地 Agent 桥接器语言JavaScript（Node.js）许可Apache-2.0平台Termux · Linux · macOS · Windows安装Homebrew / ... ]]></description>
+    <pubDate>Thu, 28 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>nyaterm</title>
+    <link>https://nickdlkk.github.io/llm-wiki/entities/nyaterm</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/entities/nyaterm</guid>
+    <description><![CDATA[ nyaterm 📄 原文：nyakang/nyaterm · 106 ⭐ · MIT License NyaTerm 是基于 Tauri + React + Rust 构建的现代化 SSH 桌面客户端，定位是替代 Xshell、MobaXterm 等传统终端工具，提供 AI 辅助、多会话管理、SFTP、OTP 和加密同步能力。 核心定位 维度描述定位面向开发者 / SysAdmin / DevOps 的 SSH 客户端 + 终端工作区技术栈Tauri（Rust 后端）+ React 19 + TypeScript + TailwindCSS v4平台Windows · macOS · Lin... ]]></description>
+    <pubDate>Thu, 28 May 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>AI Agent 记忆系统对比</title>
+    <link>https://nickdlkk.github.io/llm-wiki/concepts/Memory-Systems</link>
+    <guid>https://nickdlkk.github.io/llm-wiki/concepts/Memory-Systems</guid>
+    <description><![CDATA[ AI Agent 记忆系统对比 主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。 总览表 系统定位★Stars许可架构Supermemory通用记忆引擎（#1 基准）~22kMITVector + SemanticMem0通用记忆层（行业标杆）55kApache 2.0Vector + Graph (hybrid)LettaLLM-as-OS（模型自管理记忆）22kApache 2.0Block-based self-editingGraphiti时序知识图谱26kApache 2.0Temporal KG (Neo4... ]]></description>
+    <pubDate>Thu, 28 May 2026 10:08:52 GMT</pubDate>
+  </item><item>
     <title>Brainstorming</title>
     <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/brainstorming</link>
     <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/brainstorming</guid>
@@ -40,30 +64,6 @@
     <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/requesting-code-review</link>
     <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/requesting-code-review</guid>
     <description><![CDATA[ Requesting Code Review Source: skills/requesting-code-review/SKILL.md 核心工作流 核心原则： 早审查、勤审查。 发起代码审查的流程 # 1. ]]></description>
-    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Subagent-Driven Development</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/subagent-driven-development</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/subagent-driven-development</guid>
-    <description><![CDATA[ Subagent-Driven Development Source: skills/subagent-driven-development/SKILL.md 核心工作流 7步主流程： ┌─────────────────────────────────────────────────────────────┐ │ 1. ]]></description>
-    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Systematic Debugging</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/systematic-debugging</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/systematic-debugging</guid>
-    <description><![CDATA[ Systematic Debugging Source: skills/systematic-debugging/SKILL.md 核心工作流 4阶段根因分析流程 Phase 1: Root Cause Investigation ↓ (理解 WHAT 和 WHY) Phase 2: Pattern Analysis ↓ (找到模式和差异) Phase 3: Hypothesis &amp; Testing ↓ (形成假设，最小化测试) Phase 4: Implementation ↓ (必要时返回 Phase 1) If 3+ fixes failed → Question Archite... ]]></description>
-    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>Test-Driven Development</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/test-driven-development</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/test-driven-development</guid>
-    <description><![CDATA[ Test-Driven Development Source: skills/test-driven-development/SKILL.md 核心工作流 RED-GREEN-REFACTOR 循环 RED → Write Failing Test → Verify Fails Correctly ↓ ↓ REFACTOR ← Verify Stays Green ← GREEN → Verify Passes ↓ Next RED (repeat) RED 阶段： 写一个最小测试，展示期望行为 测试命名清晰，测试真实行为而非 mock 必须能触发失败 GREEN 阶段： 用最简代码通过测试 ... ]]></description>
-    <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>using-git-worktrees</title>
-    <link>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-git-worktrees</link>
-    <guid>https://nickdlkk.github.io/llm-wiki/concepts/superpowers/using-git-worktrees</guid>
-    <description><![CDATA[ using-git-worktrees Source: skills/using-git-worktrees/SKILL.md Git worktrees 创建隔离工作区（共享同一仓库），允许多分支同时工作无需切换分支。 核心流程 目录选择 → 安全验证 → 创建 worktree → 运行项目初始化 → 验证干净基线 → 报告位置 目录选择（优先级） 检查 .worktrees/ 或 worktrees/ 是否存在 检查 CLAUDE.md 中的 worktree 偏好 如无 → 询问用户 安全验证（项目内目录必须） git check-ignore -q .worktrees # 确认目录... ]]></description>
     <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
   </item>
     </channel>

@@ -1,12 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/Agent%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/Linux-Kernel-Privilege-Escalation</loc>
-    <lastmod>2026-05-14T16:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/Memory-Systems</loc>
-    <lastmod>2026-05-20T08:01:43.000Z</lastmod>
+    <lastmod>2026-05-28T10:08:52.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/OpenSpec</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
@@ -29,144 +26,6 @@
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/four-layer-feedback-loop</loc>
     <lastmod>2026-04-15T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/autoplan</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/benchmark-models</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/benchmark</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/browse</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/canary</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/careful</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/codex</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/connect-chrome</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/context-restore</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/context-save</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/cso</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/design-consultation</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/design-html</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/design-review</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/design-shotgun</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/devex-review</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/document-generate</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/document-release</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/freeze</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/gstack-upgrade</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/guard</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/health</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/investigate</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/land-and-deploy</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/landing-report</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/learn</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/make-pdf</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/office-hours</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/pair-agent</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-ceo-review</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-design-review</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-devex-review</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-eng-review</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/plan-tune</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/qa-only</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/qa</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/retro</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/review</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/scrape</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/setup-browser-cookies</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/setup-deploy</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/setup-gbrain</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/ship</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/skillify</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/sync-gbrain</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/gstack/unfreeze</loc>
-    <lastmod>2026-05-15T16:41:54.000Z</lastmod>
-  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/harness-engineering</loc>
     <lastmod>2026-04-16T16:00:00.000Z</lastmod>
   </url><url>
@@ -181,6 +40,9 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/pas-workflow-SD-OpenSpec</loc>
     <lastmod>2026-04-27T16:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/planning-with-files</loc>
+    <lastmod>2026-04-26T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/se-and-llm-harness</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
@@ -233,10 +95,10 @@
     <loc>https://nickdlkk.github.io/llm-wiki/concepts/three-engineering-primitives</loc>
     <lastmod>2026-04-21T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%8F%98%E9%9D%A9%E6%97%B6%E4%BB%A3/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311</loc>
+    <loc>https://nickdlkk.github.io/llm-wiki/concepts/%E7%AE%97%E5%8A%9B%E5%88%86%E9%85%8D-311/</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/AiMaMi</loc>
@@ -350,6 +212,9 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/ai-frameworks/openharness</loc>
     <lastmod>2026-05-15T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/claude-code-workflow</loc>
+    <lastmod>2026-05-24T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/cli-terminals/agent-deck</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
@@ -380,26 +245,8 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/cli-terminals/wmux</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/claude-context</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/cocoindex</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/code-indexing-comparison</loc>
-    <lastmod>2026-05-22T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/codegraph</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/gitnexus</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/code-indexing/semble</loc>
-    <lastmod>2026-05-21T16:00:00.000Z</lastmod>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/codexmate</loc>
+    <lastmod>2026-05-28T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/coding-agents/CodexPotter</loc>
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
@@ -532,9 +379,6 @@
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/oneclickvirt</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/perplexity-agent-skills</loc>
-    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/concepts-frameworks/ralph-claude-code</loc>
     <lastmod>2026-04-26T16:00:00.000Z</lastmod>
@@ -683,11 +527,11 @@
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/agentmemory</loc>
     <lastmod>2026-05-19T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/memorizz</loc>
-    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/memory-systems/tencentdb-agent-memory</loc>
     <lastmod>2026-05-15T16:17:53.000Z</lastmod>
+  </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/entities/nyaterm</loc>
+    <lastmod>2026-05-28T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/entities/openclaw-ecosystem/ClawWork</loc>
     <lastmod>2026-05-14T16:00:00.000Z</lastmod>
@@ -762,7 +606,7 @@
     <lastmod>2026-05-15T15:46:12.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/</loc>
-    <lastmod>2026-05-24T13:26:22.000Z</lastmod>
+    <lastmod>2026-05-29T07:45:54.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/sdd/sddw</loc>
     <lastmod>2026-05-23T16:00:00.000Z</lastmod>
@@ -791,14 +635,8 @@
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/devtools-infrastructure/github-zcf</loc>
     <lastmod>2026-05-06T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/summaries/devtools-infrastructure/gstack</loc>
-    <lastmod>2026-05-15T16:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/devtools-infrastructure/tessera</loc>
     <lastmod>2026-05-08T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/summaries/general-knowledge/perplexity-agent-skills-design</loc>
-    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/ai-coding-delivery-paradox-20260520</loc>
     <lastmod>2026-03-17T16:00:00.000Z</lastmod>
@@ -812,8 +650,8 @@
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/harness-core-concept-20260421</loc>
     <lastmod>2026-04-20T16:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/harness-engineering-java-brownfield-20260507</loc>
-    <lastmod>2026-05-10T16:00:00.000Z</lastmod>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/java-harness-local-loop-20260525</loc>
+    <lastmod>2026-05-24T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/multi-agent-harness-design-20260520</loc>
     <lastmod>2026-05-19T16:00:00.000Z</lastmod>
@@ -821,11 +659,11 @@
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/openai-harness-engineering-codex-20260211</loc>
     <lastmod>2026-02-10T16:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://nickdlkk.github.io/llm-wiki/summaries/harness-engineering/qqmusic-harness-engineering-20260525</loc>
+    <lastmod>2026-05-24T16:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/memory-state-management/luo-fuli-3h-interview-zhangxiaojun-2026</loc>
     <lastmod>2026-05-02T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://nickdlkk.github.io/llm-wiki/summaries/memory-state-management/memorizz</loc>
-    <lastmod>2026-05-11T16:00:00.000Z</lastmod>
   </url><url>
     <loc>https://nickdlkk.github.io/llm-wiki/summaries/multi-agent-platforms/multica-vs-vibepro</loc>
     <lastmod>2026-05-08T16:00:00.000Z</lastmod>
