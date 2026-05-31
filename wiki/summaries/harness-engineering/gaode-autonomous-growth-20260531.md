@@ -231,4 +231,4 @@ Benchmark 评的不是"代码写得好不好"，而是"**Evaluator 评得准不�
 
 ## 原始来源
 
-^[raw/articles/gaode-autonomous-growth-20260531.md] 微信公众号原文
+[《让 AI 自己做增长》微信公众号原文](https://mp.weixin.qq.com/s/sZm-KDM7NoITchuhpbJkJQ)
