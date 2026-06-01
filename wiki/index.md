@@ -126,7 +126,8 @@
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica]] — Multica：开源多 Agent 队友平台（26k ⭐），Go+Next.js，pgvector知识积累，支持 11 种 Agent CLI 自托管
 - 2026-05-09 — [[summaries/multi-agent-platforms/ruflo]] — ruflo：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作，MIT
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica-vs-vibepro]] — Multica vs VibeKanBan 对比：Multica 面向 Agent 调度（底层扎实，UI 残），VibeKanBan 面向人审代码
-- 2026-05-08 — [[summaries/multi-agent-platforms/slock-ai-alternatives]] — slock.ai 竞品：Multica 任务管理型 + Clawith 团队协作型 + Canopy 本地优先 + AgentDM 协议层
+- 2026-05-09 — [[summaries/multi-agent-platforms/slock-ai-alternatives]] — slock.ai 竞品：Multica 任务管理型 + Clawith 团队协作型 + Canopy 本地优先 + AgentDM 协议层
+- 2026-06-01 — [[summaries/multi-agent-platforms/jolestar-agent-roles]] — jolestar 论 Agent 角色划分：GitHub PR 工作流比文档交流更收敛（LLM 天生理解 PR 语义）
 
 ### 🧠 记忆与状态管理
 - 2026-05-03 — [[summaries/memory-state-management/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉 3.5h 访谈：AI 范式从 Chat 时代转向 Agent 时代，3:1:1 算力分配，OpenClaw 三天认知转变

@@ -75,7 +75,7 @@
 - [[Claude-Code-Workflow]] — JSON 驱动多 Agent 团队编排框架（⭐2034）：22 Agent + 37 Skill + 多 CLI 编排（Gemini/Qwen/Codex/Claude），Wisdom 跨会话积累，Terminal Dashboard + React 编辑器
 - [[codexmate]] — 多 Agent 控制面板（122 ⭐）：CLI+Web UI 统一管理 Codex/Claude Code/OpenClaw/Gemini CLI，Provider 切换 + 跨工具会话 + Skills 市场 + DAG 任务编排 + MCP 集成，Apache-2.0
 - [[openhuman]] — 开源 agentic 个人助手（Tauri+Rust+React）：118+ OAuth集成、Memory Tree + Obsidian Vault、TokenJuice 80%压缩、Auto-fetch 20分钟同步
-- [[coder-studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
+- [[Coder Studio]] — 浏览器 AI 编程工作台（20 ⭐）：Supervisor 监督循环 + 跨设备会话延续，Phase 3 将实现目标驱动的评估-注入自动化
 - [[nyaterm]] — 现代化 SSH 客户端（Tauri+Rust+React）：106 ⭐，AI Agent/Ask 双模式 + 内嵌 SFTP + OTP + WebDAV/S3 加密同步，替代 Xshell/MobaXterm
 - [[kandev]] — 多Agent并行编排平台（AGPL-3.0）：Kanban + 5种工作流模板 + ACP协议 + agentctl边车，支持16款Agent在Local/Docker/Sprites上执行
 - [[openhands]] — AI驱动开发平台（MIT，SWEBench 77.6%）：Python SDK + CLI/GUI/Cloud/Enterprise多形态，litellm模型无关，Docker容器隔离，MCP原生支持
@@ -93,7 +93,7 @@
 - [[github-mattpocock-skills-grill-me]] — Socratic 面试式 skill：递归追问设计决策树，直至达成共识
 - [[Mattpocock Skills 对比分析]] — 16 个 skills 横向对比：复杂度光谱、设计模式、grill-me 定位
 - [[memorizz]] — Python 多记忆类型（10种）× 可插拔存储（Oracle/Mongo/FS），实验性/教育用，PolyForm Noncommercial（禁止商用）
-- [[AI-DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
+- [[AI DevOS]] — 首个面向软件工程长期自治的操作系统：8层架构（Goal→Planning→Governance→Scheduler→Runtime→Workspace→Verification→Memory），解决 durability + engineering continuity + governance 断层
 - [[Local Deep Research]] — 本地深度研究 Agent（★7.8k）：单卡 3090 + Qwen3.6-27B 达 95% SimpleQA，LangGraph Agent 自主决策，AES-256 加密知识库
 - [[AiMaMi]] — OpenAI Codex 原生桌面伴侣（★506，Apache 2.0）：多账号轮换 + 会话树管理 + 第三方模型注入，Tauri 2 + React + Rust
 
@@ -112,6 +112,7 @@
 - 2026-02-11 — [[summaries/harness-engineering/openai-harness-engineering-codex-20260211]] — OpenAI 五个月实验：无人工代码、1/10 时间交付百万行代码库的 Harness Engineering 实践
 - 2026-05-07 — [[summaries/harness-engineering/harness-engineering-java-brownfield-20260507]] — 存量 Java 工程 AI Coding 率从 25% 提升至 90%：外部化约束体系（.harness/ 四要素：Rules + Skills + Wiki + Changes）
 - 2026-05-25 — [[summaries/harness-engineering/qqmusic-harness-engineering-20260525]] — QQ音乐 Harness Engineering 实践：50+ 微服务场景下的五阶段+四门禁+三层知识+三仓联动框架，补齐 L5 工程治理层
+- 2026-05-31 — [[summaries/harness-engineering/gaode-autonomous-growth-20260531]] — 高德团队 OPC 自主增长系统：0 人为介入、4 小时完成路书应用上线，多 Agent 分工 + 状态机 + Benchmark 评审体系，三轮优化均分 64.5→83.4
 - 2026-05-25 — [[summaries/harness-engineering/java-harness-local-loop-20260525]] — Java 微服务 Harness 改造：依赖倒置+Spring Profile零侵入+H2替MySQL，让 AI 在本地自主跑"写→测→修"闭环
 
 ### 🤖 Claude Code 生态
@@ -125,7 +126,8 @@
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica]] — Multica：开源多 Agent 队友平台（26k ⭐），Go+Next.js，pgvector知识积累，支持 11 种 Agent CLI 自托管
 - 2026-05-09 — [[summaries/multi-agent-platforms/ruflo]] — ruflo：Claude Code 多 agent 编排框架，100+ agents + 三层模型路由 + HNSW 记忆 + 联邦协作，MIT
 - 2026-05-09 — [[summaries/multi-agent-platforms/multica-vs-vibepro]] — Multica vs VibeKanBan 对比：Multica 面向 Agent 调度（底层扎实，UI 残），VibeKanBan 面向人审代码
-- 2026-05-08 — [[summaries/multi-agent-platforms/slock-ai-alternatives]] — slock.ai 竞品：Multica 任务管理型 + Clawith 团队协作型 + Canopy 本地优先 + AgentDM 协议层
+- 2026-05-09 — [[summaries/multi-agent-platforms/slock-ai-alternatives]] — slock.ai 竞品：Multica 任务管理型 + Clawith 团队协作型 + Canopy 本地优先 + AgentDM 协议层
+- 2026-06-01 — [[summaries/multi-agent-platforms/jolestar-agent-roles]] — jolestar 论 Agent 角色划分：GitHub PR 工作流比文档交流更收敛（LLM 天生理解 PR 语义）
 
 ### 🧠 记忆与状态管理
 - 2026-05-03 — [[summaries/memory-state-management/luo-fuli-3h-interview-zhangxiaojun-2026]] — 罗福莉 3.5h 访谈：AI 范式从 Chat 时代转向 Agent 时代，3:1:1 算力分配，OpenClaw 三天认知转变
