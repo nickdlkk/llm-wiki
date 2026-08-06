@@ -41,6 +41,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 
 ### Concepts
 - [[Harness Engineering]] — 让 Agent 可靠工作的五大子系统
+- [[Dispatcher State Machine]] — dispatcher 状态机 + 文件交接，轻量级多 Agent 编排，三条铁律落地
 - [[Agent Review Pattern]] — Agent 审 Agent 的机制（Reviewer Agent）
 - [[Four-Layer Feedback Loop]] — 编译→单测→e2e→CI 四层反馈闭环
 - [[Three Engineering Primitives]] — 隔离 / 分解 / 协调
@@ -82,6 +83,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 ### Summaries
 - [[ai-devos-prd]] — AI DevOS PRD 蒸馏：面向长任务自治的软件工程操作系统
 - [[harness-engineering-java-brownfield-20260507]] — 存量 Java 工程的 AI Coding 率从 25% 提升至 90% 的完整实战
+- [[harness-engineering-ai-discipline-20260615]] — 杜学友 Harness 工程化实践：四阶段演进 + dispatcher 状态机 + 七维评测
 
 ### Open research questions
 
