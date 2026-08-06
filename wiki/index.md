@@ -14,7 +14,10 @@
 
 ### Harness Engineering
 - [[LLM Wiki]] — AI 維護的持久知識庫：Index、Hot Cache、知識溯源
-- [[Harness Engineering]] — AI 工程領域的第三次重心遷移：Prompt Eng → Context Eng → Harness Eng
+- [[Harness Engineering]] — AI 工程領域的第三次重心遷移：Prompt Eng → Context Eng → Harness Eng；2026-08-06 補充 OpenAI 正式定義 + Anthropic Managed Agents 拆分
+- [[Agent Native Stack]] — lencx 2026 蒸馏的 11 节 Agent 框架：概率性推理核心 + 确定性执行外壳；含 3 种跨章节趋同模式
+- [[Pet Attention Mechanism]] — 长任务桌面注意力协议：peripheral awareness + interrupt routing + emotional salience
+- [[Dispatcher State Machine]] — dispatcher 状态机 + 文件交接：轻量级多 Agent 编排，三条铁律落地
 - [[SDLC Agent Skills Pattern]] — 6阶段 SDLC 封装为 AI Agent 可执行 Skill 的范式：Define→Plan→Build→Verify→Review→Ship + Anti-rationalization 机制
 - [[Cognitive Debt and LLM Use]] — 普通人用好大模型的核心框架：认知债务、认知摩擦、思考伙伴定位
 - [[Agent Review Pattern]] — Agent 审 Agent 的机制（Reviewer Agent）
@@ -103,6 +106,10 @@
 - 2026-05-26 — [[summaries/ralphy]] — ralphy：增强版 CLI，8 种引擎 + 并行 + sandbox
 
 ### 🏗️ Harness Engineering
+- 2026-08-06 — [[summaries/harness-engineering/lencx-agent-dev-guide-20260806]] — lencx 1999 行长文蒸馏：Agent 不缺代码缺可信完成；Vercel×Cloudflare 平台竞争；OpenClaw vs Hermes 路线；Electron vs Tauri 拓扑；Pet 注意力机制；提炼为 [[Agent Native Stack]]
+- 2026-08-06 — [[summaries/harness-engineering/meituan-agent-evaluation-20260806]] — 美团图灵评测：评测从答案打分走向任务系统行为评测；搭桥三层指标 + 人人/人机二元化对齐 + 数据飞轮；长程 Agent/Skill 评测七项基建
+- 2026-08-06 — [[summaries/harness-engineering/taotian-rd-workflow-20260806]] — 淘天物流 RD 流程：知识库 5 层（main/applications/candidate/personal/template）+ RD 流程文件化 + 9 个质量门禁 fail-fast；代码采纳率 75%→95% 两轮案例
+- 2026-06-15 — [[summaries/harness-engineering-ai-discipline-20260615]] — AI 不缺智商缺纪律：四阶段演进 + dispatcher 状态机 + 七维评测
 - 2026-05-20 — [[summaries/harness-engineering/ai-coding-delivery-paradox-20260520]] — AI Coding 悖论：主观快 20% 客观慢 19%，根因是 Goldratt 瓶颈在 review 不在 coding；Spec/Rule/Skill 区分 + 验证闭环 + 并发才是破局路径
 - 2026-05-20 — [[summaries/harness-engineering/eval-harness-production-agents-20260520]] — 生产级 AI Agent 12 指标评估框架（检索/生成/Agent/生产健康），100+ 企业部署验证
 - 2026-05-20 — [[summaries/harness-engineering/multi-agent-harness-design-20260520]] — 从零设计生产级 Multi-Agent Harness：五大核心模块（架构编排/工具治理/状态记忆/评估体系/成本控制）+ MCP 接入

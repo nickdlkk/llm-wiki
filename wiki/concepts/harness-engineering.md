@@ -2,14 +2,18 @@
 title: Harness Engineering
 type: concept
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-08-06
 sources:
   - https://www.youtube.com/watch?v=3DlXq9nsQOE
+  - https://openai.com/index/harness-engineering/
+  - https://www.anthropic.com/engineering/managed-agents
+  - https://mp.weixin.qq.com/s/Mx1pclSLzkRFXKEME24TYA
 tags:
   - engineering
   - llm-ops
   - coding-agents
   - paradigm-shift
+  - deterministic-shell
 ---
 
 # Harness Engineering
@@ -60,8 +64,30 @@ Harness Engineering 和 SDD 共享同一個目標：讓 AI Agent 的行為更可
 
 兩者是互補的：SDD 產出 spec，Harness Engineering 構建執行 spec 的基礎設施。
 
+## OpenAI 正式定義（2026）
+
+[OpenAI Harness Engineering](https://openai.com/index/harness-engineering/) 不再只優化模型「看到什麼」，而是讓工程師**設計環境、表達意圖、建設反饋環路**，使 Agent 能可靠工作 ^[lencx 2026](https://mp.weixin.qq.com/s/Mx1pclSLzkRFXKEME24TYA)。
+
+## Anthropic Managed Agents 拆分
+
+[Anthropic Managed Agents](https://www.anthropic.com/engineering/managed-agents) 給出更接近系統實現的拆分 ^[lencx 2026^]：
+
+- **Session** = 追加寫的事件日誌
+- **Harness** = 調用模型並路由工具的循環
+- **Sandbox** = 執行代碼與文件動作的環境
+
+## 與上下文/Loop/Graph/Skill 的關係
+
+> Context 是每次採樣的視野，Loop 是時間軸，Graph 是任務拓撲，Skill 是可加載的程序性模組；**Harness 持有目標**，並把它們組織成一次可恢復執行。 ^[lencx 2026](https://mp.weixin.qq.com/s/Mx1pclSLzkRFXKEME24TYA)
+
+## 刪減型 Harness（Claude 5 復盤）
+
+[Claude 5 context engineering 復盤](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models) 披露：Claude Code 為 Opus 5 / Fable 5 刪掉 **>80%** system prompt，coding eval 無可測量損失。每條長期指令都應有退出條件；**模型升級時 Harness 應刪除過時腳手架** ^[lencx 2026^]。
+
 ## 延伸閱讀
 
 - [[LLM Wiki]] — 持久化知識庫，Harness Engineering 的記憶層
 - [[Spec-Driven Development]] — 另一種讓 AI Agent 靠譜工作的方法論
 - [[Coding Agents]] — 這個概念的主要應用場景
+- [[Agent Native Stack]] — lencx 2026 蒸馏的 11 节框架，含本文相关的完整推理
+- [lencx 蒸馏全文](summaries/harness-engineering/lencx-agent-dev-guide-20260806.md)
