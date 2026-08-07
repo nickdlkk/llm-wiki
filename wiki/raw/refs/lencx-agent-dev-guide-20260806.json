@@ -1,0 +1,1056 @@
+{
+  "total": 174,
+  "refs": [
+    {
+      "n": 1,
+      "title": "awesome-agents",
+      "url": "https://github.com/kyrolabs/awesome-agents"
+    },
+    {
+      "n": 2,
+      "title": "awesome-ai-agents",
+      "url": "https://github.com/e2b-dev/awesome-ai-agents"
+    },
+    {
+      "n": 3,
+      "title": "Anthropic 对 Context Engineering 的定义",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI 所说的 Harness Engineering",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "n": 5,
+      "title": "Managed Agents 架构",
+      "url": "https://www.anthropic.com/engineering/managed-agents"
+    },
+    {
+      "n": 6,
+      "title": "Anthropic 的 Claude 5 context engineering 复盘",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+    },
+    {
+      "n": 7,
+      "title": "Codex Goal",
+      "url": "https://learn.chatgpt.com/docs/long-running-work"
+    },
+    {
+      "n": 8,
+      "title": "Codex Subagents 文档",
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents"
+    },
+    {
+      "n": 9,
+      "title": "OpenAI Agents SDK 的编排模型",
+      "url": "https://openai.github.io/openai-agents-js/guides/multi-agent/"
+    },
+    {
+      "n": 10,
+      "title": "Claude Code Dynamic Workflows",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"
+    },
+    {
+      "n": 11,
+      "title": "后续迁移复盘",
+      "url": "https://claude.com/blog/ai-code-migration"
+    },
+    {
+      "n": 12,
+      "title": "AI SDK",
+      "url": "https://github.com/vercel/ai/tree/c1100c45af58ebac9935d2b81354a651100b6e12"
+    },
+    {
+      "n": 13,
+      "title": "AI SDK 7",
+      "url": "https://vercel.com/blog/ai-sdk-7"
+    },
+    {
+      "n": 14,
+      "title": "Chat SDK",
+      "url": "https://github.com/vercel/chat/tree/257a32d01c41d51f3ecabb3d25944482c37ad6bc"
+    },
+    {
+      "n": 15,
+      "title": "Streamdown",
+      "url": "https://github.com/vercel/streamdown/tree/e5deed330aa4231751a106445d93d62e4716a22f"
+    },
+    {
+      "n": 16,
+      "title": "json-render",
+      "url": "https://github.com/vercel-labs/json-render/tree/9d3dfc8917c1c6aa5568acbe0969523f3307376c"
+    },
+    {
+      "n": 17,
+      "title": "Vercel Sandbox",
+      "url": "https://github.com/vercel/sandbox/tree/80d9421b4ef3b933b0811d1fa8f54ea67c48db5d"
+    },
+    {
+      "n": 18,
+      "title": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser/tree/3cc7022271235694b5b5ce8aaea8bbfaa66e8cd5"
+    },
+    {
+      "n": 19,
+      "title": "portless",
+      "url": "https://github.com/vercel-labs/portless/tree/15ef06434c81523b1b24db2d52a17caf31edecf1"
+    },
+    {
+      "n": 20,
+      "title": "ai-cli",
+      "url": "https://github.com/vercel-labs/ai-cli/tree/77996062324a3f971192d99681b6e5fa047a2119"
+    },
+    {
+      "n": 21,
+      "title": "scriptc:20c3a6c",
+      "url": "https://github.com/vercel-labs/scriptc/blob/20c3a6c27da4807f607ebe496663842b67e87f0e/README.md"
+    },
+    {
+      "n": 22,
+      "title": "QuickJS-ng",
+      "url": "https://github.com/quickjs-ng/quickjs"
+    },
+    {
+      "n": 23,
+      "title": "Native SDK",
+      "url": "https://github.com/vercel-labs/native/tree/a7509a7fa6c467eaed021250538b482886f1c6bf"
+    },
+    {
+      "n": 24,
+      "title": "vgpu",
+      "url": "https://github.com/vercel-labs/vgpu/tree/23b83d27c1a5d5aec6d04a6cf33f0de043d6ae3f"
+    },
+    {
+      "n": 25,
+      "title": "Turborepo",
+      "url": "https://github.com/vercel/turborepo/tree/ac6c28ff6fe82aaad2ae7f1cae32a6c4d4f094f3"
+    },
+    {
+      "n": 26,
+      "title": "Vercel 在 2021 年正式收购 Turborepo",
+      "url": "https://vercel.com/blog/vercel-acquires-turborepo"
+    },
+    {
+      "n": 27,
+      "title": "Turborepo 的 AI 指南",
+      "url": "https://turborepo.dev/docs/guides/ai"
+    },
+    {
+      "n": 28,
+      "title": "turborepo-ai-agents",
+      "url": "https://github.com/vercel/turborepo/blob/ac6c28ff6fe82aaad2ae7f1cae32a6c4d4f094f3/crates/turborepo-ai-agents/src/lib.rs"
+    },
+    {
+      "n": 29,
+      "title": "Go→Rust 迁移",
+      "url": "https://vercel.com/blog/turborepo-migration-go-rust"
+    },
+    {
+      "n": 30,
+      "title": "原文",
+      "url": "https://vercel.com/blog/making-turborepo-ninety-six-percent-faster-with-agents-sandboxes-and-humans"
+    },
+    {
+      "n": 31,
+      "title": "SWC",
+      "url": "https://github.com/swc-project/swc/tree/b83078644a7f0f1bbb56d6b45754ca9ed1bafc4b"
+    },
+    {
+      "n": 32,
+      "title": "Next.js 11.1 公告",
+      "url": "https://nextjs.org/blog/next-11-1"
+    },
+    {
+      "n": 33,
+      "title": "Next.js Compiler",
+      "url": "https://nextjs.org/docs/architecture/nextjs-compiler"
+    },
+    {
+      "n": 34,
+      "title": "Grep",
+      "url": "https://vercel.com/blog/vercel-acquires-grep"
+    },
+    {
+      "n": 35,
+      "title": "Tremor",
+      "url": "https://vercel.com/blog/vercel-acquires-tremor"
+    },
+    {
+      "n": 36,
+      "title": "v0",
+      "url": "https://v0.app"
+    },
+    {
+      "n": 37,
+      "title": "NuxtLabs 团队加入 Vercel",
+      "url": "https://vercel.com/blog/nuxtlabs-joins-vercel"
+    },
+    {
+      "n": 38,
+      "title": "Vercel 宣布收购 Better Auth",
+      "url": "https://vercel.com/blog/vercel-acquires-better-auth"
+    },
+    {
+      "n": 39,
+      "title": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills/tree/e173b8c88f2581cfdaa1b6767c6519a08155790e"
+    },
+    {
+      "n": 40,
+      "title": "skills.sh",
+      "url": "https://skills.sh/"
+    },
+    {
+      "n": 41,
+      "title": "skills-lock.json",
+      "url": "https://github.com/vercel-labs/skills/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/src/local-lock.ts"
+    },
+    {
+      "n": 42,
+      "title": "well-known provider",
+      "url": "https://github.com/vercel-labs/skills/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/src/providers/wellknown.ts"
+    },
+    {
+      "n": 43,
+      "title": "partner audit",
+      "url": "https://github.com/vercel-labs/skills/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/src/telemetry.ts"
+    },
+    {
+      "n": 44,
+      "title": "Skills Night 原文",
+      "url": "https://vercel.com/blog/skills-night-69000-ways-agents-are-getting-smarter"
+    },
+    {
+      "n": 45,
+      "title": "Cloudflare Agents",
+      "url": "https://github.com/cloudflare/agents/tree/f089c5b6a13f98ad728f9c9cb9d729469b945233"
+    },
+    {
+      "n": 46,
+      "title": "Agents + Sandbox",
+      "url": "https://developers.cloudflare.com/agents/tools/sandbox/"
+    },
+    {
+      "n": 47,
+      "title": "Agents with Workflows",
+      "url": "https://developers.cloudflare.com/agents/concepts/workflows/"
+    },
+    {
+      "n": 48,
+      "title": "Browser Run",
+      "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/"
+    },
+    {
+      "n": 49,
+      "title": "把底层重建到 Containers",
+      "url": "https://blog.cloudflare.com/browser-run-containers/"
+    },
+    {
+      "n": 50,
+      "title": "Cloudflare Puppeteer",
+      "url": "https://github.com/cloudflare/puppeteer/tree/08707e0a188f8e1ac9c038bc118be6c56c7e2973"
+    },
+    {
+      "n": 51,
+      "title": "Playwright fork",
+      "url": "https://github.com/cloudflare/playwright/tree/693f8ac6d9d5ac5a3496184807f8f14708ddde8b"
+    },
+    {
+      "n": 52,
+      "title": "Cloudflare 已弃用 Sandbox SDK 中的 desktop feature",
+      "url": "https://developers.cloudflare.com/sandbox/guides/2026-deprecation/"
+    },
+    {
+      "n": 53,
+      "title": "Nimbus",
+      "url": "https://github.com/cloudflare/nimbus/tree/d14cddd7db48277e3b36b11f06a888a9864454ad"
+    },
+    {
+      "n": 54,
+      "title": "Cloudflare Skills",
+      "url": "https://github.com/cloudflare/skills/tree/30553f89ae1ef1e3c2917cd09d72dac992bb4e9a"
+    },
+    {
+      "n": 55,
+      "title": "Agent Readiness",
+      "url": "https://blog.cloudflare.com/agent-readiness/"
+    },
+    {
+      "n": 56,
+      "title": "Code Mode",
+      "url": "https://developers.cloudflare.com/agents/model-context-protocol/codemode/"
+    },
+    {
+      "n": 57,
+      "title": "workers-rs",
+      "url": "https://github.com/cloudflare/workers-rs/commit/5f2d6c9192377451d43910098738624474196364"
+    },
+    {
+      "n": 58,
+      "title": "PartyKit",
+      "url": "https://blog.cloudflare.com/cloudflare-acquires-partykit/"
+    },
+    {
+      "n": 59,
+      "title": "Baselime",
+      "url": "https://blog.cloudflare.com/cloudflare-acquires-baselime-expands-observability-capabilities/"
+    },
+    {
+      "n": 60,
+      "title": "Outerbase",
+      "url": "https://blog.cloudflare.com/cloudflare-acquires-outerbase-database-dx/"
+    },
+    {
+      "n": 61,
+      "title": "Replicate",
+      "url": "https://blog.cloudflare.com/why-replicate-joining-cloudflare/"
+    },
+    {
+      "n": 62,
+      "title": "Human Native",
+      "url": "https://blog.cloudflare.com/human-native-joins-cloudflare/"
+    },
+    {
+      "n": 63,
+      "title": "Astro",
+      "url": "https://blog.cloudflare.com/astro-joins-cloudflare/"
+    },
+    {
+      "n": 64,
+      "title": "VoidZero",
+      "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-acquires-voidzero-to-build-the-future-of-the-ai-native-web/"
+    },
+    {
+      "n": 65,
+      "title": "Anthropic 在 2025 年 12 月收购 Bun",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
+    },
+    {
+      "n": 66,
+      "title": "Vercept 收购",
+      "url": "https://www.anthropic.com/news/acquires-vercept"
+    },
+    {
+      "n": 67,
+      "title": "宣布收购 Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
+    },
+    {
+      "n": 68,
+      "title": "Promptfoo 已加入 OpenAI",
+      "url": "https://www.promptfoo.dev/press/"
+    },
+    {
+      "n": 69,
+      "title": "宣布拟收购 Astral",
+      "url": "https://openai.com/index/openai-to-acquire-astral/"
+    },
+    {
+      "n": 70,
+      "title": "拟收购 Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona/"
+    },
+    {
+      "n": 71,
+      "title": "已经完成的 Sky 收购",
+      "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/"
+    },
+    {
+      "n": 72,
+      "title": "OpenClaw Foundation",
+      "url": "https://openclaw.ai/blog/introducing-openclaw-foundation"
+    },
+    {
+      "n": 73,
+      "title": "进入 Linux Foundation 旗下 AAIF",
+      "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+    },
+    {
+      "n": 74,
+      "title": "Claude Cowork",
+      "url": "https://claude.com/product/cowork"
+    },
+    {
+      "n": 75,
+      "title": "Claude Design",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    {
+      "n": 76,
+      "title": "Claude Design 与 Claude Code 的双向同步",
+      "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work"
+    },
+    {
+      "n": 77,
+      "title": "Cowork Web/Mobile 公告",
+      "url": "https://claude.com/blog/cowork-web-mobile"
+    },
+    {
+      "n": 78,
+      "title": "OpenAI 当前说明",
+      "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+    },
+    {
+      "n": 79,
+      "title": "内置浏览器",
+      "url": "https://help.openai.com/en/articles/20001277-using-the-built-in-browser-in-the-chatgpt-desktop-app"
+    },
+    {
+      "n": 80,
+      "title": "Claude Code",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "n": 81,
+      "title": "Codex CLI",
+      "url": "https://openai.com/index/introducing-upgrades-to-codex/"
+    },
+    {
+      "n": 82,
+      "title": "Gemini CLI",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-cli-open-source-ai-agent/"
+    },
+    {
+      "n": 83,
+      "title": "Claude Code 的 CLI 参考",
+      "url": "https://docs.anthropic.com/en/docs/claude-code/cli-usage"
+    },
+    {
+      "n": 84,
+      "title": "Codex",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "n": 85,
+      "title": "Gemini CLI",
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "n": 86,
+      "title": "官方公告",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+    },
+    {
+      "n": 87,
+      "title": "会话还可以从终端导出到 GUI 继续",
+      "url": "https://github.com/google-antigravity/antigravity-cli/blob/c6911187d1db55e4ae1d5fa4b6f40f7af5af7aee/README.md"
+    },
+    {
+      "n": 88,
+      "title": "Grok Build",
+      "url": "https://x.ai/news/grok-build-cli"
+    },
+    {
+      "n": 89,
+      "title": "交互式 TUI、headless 脚本模式与 ACP 嵌入",
+      "url": "https://docs.x.ai/build/overview"
+    },
+    {
+      "n": 90,
+      "title": "Bun",
+      "url": "https://bun.sh/docs"
+    },
+    {
+      "n": 91,
+      "title": "Codex 的打包脚本",
+      "url": "https://github.com/openai/codex/blob/fb6aad9ae34116128e537696c24e35fe6548e1c2/scripts/codex_package/README.md"
+    },
+    {
+      "n": 92,
+      "title": "ripgrep FAQ",
+      "url": "https://github.com/BurntSushi/ripgrep/blob/f9c05a949d1a0dc8e16dee28ca9605d38611faeb/FAQ.md"
+    },
+    {
+      "n": 93,
+      "title": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi/tree/c820aa26fe0907e053e881a957722693fc094c9c"
+    },
+    {
+      "n": 94,
+      "title": "packages/server",
+      "url": "https://github.com/earendil-works/pi/tree/c820aa26fe0907e053e881a957722693fc094c9c/packages/server"
+    },
+    {
+      "n": 95,
+      "title": "pi-chat",
+      "url": "https://github.com/earendil-works/pi-chat/tree/9adbd29b40ee27ff1decf0fc87cbe180b40924f5"
+    },
+    {
+      "n": 96,
+      "title": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw/tree/924004d35c23413ddc2861f1e0a10f069046e61a"
+    },
+    {
+      "n": 97,
+      "title": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent/tree/d83e858507a9bdb7f96c7a163d89c34c60909dcf"
+    },
+    {
+      "n": 98,
+      "title": "审批绑定实现",
+      "url": "https://github.com/openclaw/openclaw/blob/924004d35c23413ddc2861f1e0a10f069046e61a/src/gateway/node-invoke-system-run-approval.ts"
+    },
+    {
+      "n": 99,
+      "title": "Agent loop",
+      "url": "https://github.com/NousResearch/hermes-agent/blob/d83e858507a9bdb7f96c7a163d89c34c60909dcf/website/docs/developer-guide/agent-loop.md"
+    },
+    {
+      "n": 100,
+      "title": "重做 Claude Code Desktop",
+      "url": "https://claude.com/blog/claude-code-desktop-redesign"
+    },
+    {
+      "n": 101,
+      "title": "/app",
+      "url": "https://learn.chatgpt.com/docs/developer-commands"
+    },
+    {
+      "n": 102,
+      "title": "OpenAI 的 Pets 文档",
+      "url": "https://learn.chatgpt.com/docs/pets"
+    },
+    {
+      "n": 103,
+      "title": "通知文档",
+      "url": "https://learn.chatgpt.com/docs/notifications"
+    },
+    {
+      "n": 104,
+      "title": "Gemini in Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/"
+    },
+    {
+      "n": 105,
+      "title": "AI Mode 进入 omnibox",
+      "url": "https://blog.google/products-and-platforms/products/chrome/chrome-reimagined-with-ai/"
+    },
+    {
+      "n": 106,
+      "title": "Dia",
+      "url": "https://www.diabrowser.com/"
+    },
+    {
+      "n": 107,
+      "title": "宣布收购 The Browser Company",
+      "url": "https://www.atlassian.com/blog/announcements/atlassian-acquires-the-browser-company"
+    },
+    {
+      "n": 108,
+      "title": "Dia 已使用 Atlassian identity",
+      "url": "https://www.diabrowser.com/security"
+    },
+    {
+      "n": 109,
+      "title": "Atlassian 2026 年进一步披露",
+      "url": "https://www.atlassian.com/blog/company-news/founder-update-team-26"
+    },
+    {
+      "n": 110,
+      "title": "迁移说明",
+      "url": "https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"
+    },
+    {
+      "n": 111,
+      "title": "Chrome DevTools Protocol",
+      "url": "https://chromedevtools.github.io/devtools-protocol/"
+    },
+    {
+      "n": 112,
+      "title": "WebDriver BiDi",
+      "url": "https://www.w3.org/TR/webdriver-bidi/"
+    },
+    {
+      "n": 113,
+      "title": "Chrome WebMCP early preview",
+      "url": "https://developer.chrome.com/blog/webmcp-epp"
+    },
+    {
+      "n": 114,
+      "title": "W3C Web Machine Learning Community Group 草案",
+      "url": "https://github.com/webmachinelearning/webmcp/tree/58016782fa379c25bc9584433f29127a9855647b"
+    },
+    {
+      "n": 115,
+      "title": "Cloudflare WebMCP",
+      "url": "https://developers.cloudflare.com/browser-run/features/webmcp/"
+    },
+    {
+      "n": 116,
+      "title": "WebGPU",
+      "url": "https://www.w3.org/TR/webgpu/"
+    },
+    {
+      "n": 117,
+      "title": "Transformers.js 的 WebGPU 指南",
+      "url": "https://huggingface.co/docs/transformers.js/en/guides/webgpu"
+    },
+    {
+      "n": 118,
+      "title": "Electron",
+      "url": "https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites"
+    },
+    {
+      "n": 119,
+      "title": "官方进程模型",
+      "url": "https://www.electronjs.org/docs/latest/tutorial/process-model"
+    },
+    {
+      "n": 120,
+      "title": "WebContentsView",
+      "url": "https://www.electronjs.org/docs/latest/api/web-contents-view"
+    },
+    {
+      "n": 121,
+      "title": "contextBridge 指南",
+      "url": "https://www.electronjs.org/docs/latest/tutorial/context-isolation"
+    },
+    {
+      "n": 122,
+      "title": "Tauri",
+      "url": "https://github.com/tauri-apps/tauri/tree/7164de39574d616b762ba658f797f9657ea03b20"
+    },
+    {
+      "n": 123,
+      "title": "官方进程模型",
+      "url": "https://v2.tauri.app/concept/process-model/"
+    },
+    {
+      "n": 124,
+      "title": "Capabilities",
+      "url": "https://v2.tauri.app/security/capabilities/"
+    },
+    {
+      "n": 125,
+      "title": "外部 binary sidecar",
+      "url": "https://v2.tauri.app/develop/sidecar/"
+    },
+    {
+      "n": 126,
+      "title": "把 Node.js 应用编译为 sidecar",
+      "url": "https://v2.tauri.app/learn/sidecar-nodejs/"
+    },
+    {
+      "n": 127,
+      "title": "官方产品介绍",
+      "url": "https://openai.com/index/introducing-the-codex-app/"
+    },
+    {
+      "n": 128,
+      "title": "SSI 宣布与 NVIDIA 建立长期战略合作",
+      "url": "https://x.com/ssi/status/2081732119194394763"
+    },
+    {
+      "n": 129,
+      "title": "NVIDIA AI Infrastructure",
+      "url": "https://x.com/NVIDIAAIInfra/status/2081736062154740157"
+    },
+    {
+      "n": 130,
+      "title": "Vite 等 build tool",
+      "url": "https://react.dev/blog/2025/02/14/sunsetting-create-react-app"
+    },
+    {
+      "n": 131,
+      "title": "Vite 8",
+      "url": "https://vite.dev/blog/announcing-vite8"
+    },
+    {
+      "n": 132,
+      "title": "Tailwind CSS v4",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4"
+    },
+    {
+      "n": 133,
+      "title": "Base UI",
+      "url": "https://base-ui.com/react/overview/about"
+    },
+    {
+      "n": 134,
+      "title": "shadcn 已把 Base UI 设为新项目默认 primitive",
+      "url": "https://ui.shadcn.com/docs/changelog/2026-07-base-ui-default"
+    },
+    {
+      "n": 135,
+      "title": "React Aria 纳入一等选项",
+      "url": "https://ui.shadcn.com/docs/changelog/2026-07-react-aria"
+    },
+    {
+      "n": 136,
+      "title": "TypeScript 7.0",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+    },
+    {
+      "n": 137,
+      "title": "uv",
+      "url": "https://github.com/astral-sh/uv/tree/9ae67546b933ec34ae4893f9b4df5f8b43aefca0"
+    },
+    {
+      "n": 138,
+      "title": "Bun PR:#30412",
+      "url": "https://github.com/oven-sh/bun/pull/30412"
+    },
+    {
+      "n": 139,
+      "title": "safe Rust 下的潜在 UB/Miri 问题",
+      "url": "https://github.com/oven-sh/bun/issues/30719"
+    },
+    {
+      "n": 140,
+      "title": "Alacritty",
+      "url": "https://github.com/alacritty/alacritty/tree/852e971cddfabe222d2d5bcda466e130f53af207"
+    },
+    {
+      "n": 141,
+      "title": "kitty",
+      "url": "https://github.com/kovidgoyal/kitty/tree/7ed3477d5caad50c06ea5e78777fe82241de3d5f"
+    },
+    {
+      "n": 142,
+      "title": "JSON remote-control protocol",
+      "url": "https://sw.kovidgoyal.net/kitty/rc_protocol/"
+    },
+    {
+      "n": 143,
+      "title": "WezTerm",
+      "url": "https://github.com/wezterm/wezterm/tree/76b606ec597a3c0263fa60321548637451c0a547"
+    },
+    {
+      "n": 144,
+      "title": "wezterm cli",
+      "url": "https://wezterm.org/cli/cli/index.html"
+    },
+    {
+      "n": 145,
+      "title": "Ghostty",
+      "url": "https://github.com/ghostty-org/ghostty/tree/2dd79f3bc6af649e68422b08e21ad0300fd8b391"
+    },
+    {
+      "n": 146,
+      "title": "libghostty-vt",
+      "url": "https://github.com/ghostty-org/ghostty/blob/2dd79f3bc6af649e68422b08e21ad0300fd8b391/include/ghostty/vt.h"
+    },
+    {
+      "n": 147,
+      "title": "turborepo-ghostty",
+      "url": "https://github.com/vercel/turborepo/tree/ac6c28ff6fe82aaad2ae7f1cae32a6c4d4f094f3/crates/turborepo-ghostty"
+    },
+    {
+      "n": 148,
+      "title": "awesome-libghostty",
+      "url": "https://github.com/Uzaaft/awesome-libghostty"
+    },
+    {
+      "n": 149,
+      "title": "Warp",
+      "url": "https://github.com/warpdotdev/warp/tree/a9a31226f3a04cf315df61aa3b8754593f869bb7"
+    },
+    {
+      "n": 150,
+      "title": "block model",
+      "url": "https://www.warp.dev/blog/block-model-behind-warps-agentic-development-environment"
+    },
+    {
+      "n": 151,
+      "title": "Wave",
+      "url": "https://github.com/wavetermdev/waveterm/tree/c99022c15bd1f17273728e728a61743e690d6423"
+    },
+    {
+      "n": 152,
+      "title": "fish",
+      "url": "https://github.com/fish-shell/fish-shell/tree/790754d12adad72d542fc90886ae2f1689de6610"
+    },
+    {
+      "n": 153,
+      "title": "Starship",
+      "url": "https://github.com/starship/starship/tree/cad50cd836533f5134b3bb75d21afa39cb024e1e"
+    },
+    {
+      "n": 154,
+      "title": "rg",
+      "url": "https://github.com/BurntSushi/ripgrep/tree/f9c05a949d1a0dc8e16dee28ca9605d38611faeb"
+    },
+    {
+      "n": 155,
+      "title": "bat",
+      "url": "https://github.com/sharkdp/bat/tree/78951393e29bfd2f2a45f4326b9d2bb5e737dd2a"
+    },
+    {
+      "n": 156,
+      "title": "eza",
+      "url": "https://github.com/eza-community/eza/tree/471bfbc7b03cbac8c738e8d9050edb06ee79132a"
+    },
+    {
+      "n": 157,
+      "title": "Ratatui",
+      "url": "https://github.com/ratatui/ratatui/tree/3d8639cbb2f910200f30e680a8923ccaf99ba1bf"
+    },
+    {
+      "n": 158,
+      "title": "Zellij",
+      "url": "https://github.com/zellij-org/zellij/tree/ea07e2d5b6bbc9ea6f9c765b0838b3e91156a58d"
+    },
+    {
+      "n": 159,
+      "title": "GitUI",
+      "url": "https://github.com/gitui-org/gitui/tree/bc086cf2e5f32cc66627340f8642021c9bf1bc55"
+    },
+    {
+      "n": 160,
+      "title": "asciinema",
+      "url": "https://github.com/asciinema/asciinema/tree/3c610957c7dbbdfcb362a1cdfc39df4eb21f48ad"
+    },
+    {
+      "n": 161,
+      "title": "navi",
+      "url": "https://github.com/denisidoro/navi/tree/1ac218cb1e0e80649ef23c8a916e67efc3086833"
+    },
+    {
+      "n": 162,
+      "title": "fish 4.0 的迁移复盘",
+      "url": "https://fishshell.com/blog/rustport/"
+    },
+    {
+      "n": 163,
+      "title": "Rust 官方对 WebAssembly 的定位",
+      "url": "https://rust-lang.org/what/wasm/"
+    },
+    {
+      "n": 164,
+      "title": "插件系统",
+      "url": "https://zellij.dev/documentation/plugins.html"
+    },
+    {
+      "n": 165,
+      "title": "独立权限表",
+      "url": "https://zellij.dev/documentation/plugin-api-permissions"
+    },
+    {
+      "n": 166,
+      "title": "Wasmtime 的安全文档",
+      "url": "https://docs.wasmtime.dev/security.html"
+    },
+    {
+      "n": 167,
+      "title": "ResourceLimiter",
+      "url": "https://docs.wasmtime.dev/api/wasmtime/trait.ResourceLimiter.html"
+    },
+    {
+      "n": 168,
+      "title": "consume_fuel:或:epoch_interruption",
+      "url": "https://docs.wasmtime.dev/api/wasmtime/struct.Config.html"
+    },
+    {
+      "n": 169,
+      "title": "find-skills:本身也是一个 Skill",
+      "url": "https://github.com/vercel-labs/skills/blob/e173b8c88f2581cfdaa1b6767c6519a08155790e/skills/find-skills/SKILL.md"
+    },
+    {
+      "n": 170,
+      "title": "Agent Skills specification",
+      "url": "https://agentskills.io/specification"
+    },
+    {
+      "n": 171,
+      "title": ".well-known/agent-skills:discovery RFC",
+      "url": "https://github.com/cloudflare/agent-skills-discovery-rfc"
+    },
+    {
+      "n": 172,
+      "title": "Jensen Huang 以 Hugging Face 安全事件为例",
+      "url": "https://x.com/JensenHuang/status/2081698060330250294"
+    },
+    {
+      "n": 173,
+      "title": "NVIDIA 宣布 Open Secure AI Alliance",
+      "url": "https://x.com/nvidia/status/2081666629264449730"
+    },
+    {
+      "n": 174,
+      "title": "Anthropic 对开放权重的正式立场",
+      "url": "https://www.anthropic.com/news/position-open-weights-models"
+    }
+  ],
+  "cite_count": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "48": 1,
+    "49": 1,
+    "50": 1,
+    "51": 1,
+    "52": 1,
+    "53": 1,
+    "54": 1,
+    "55": 1,
+    "56": 1,
+    "57": 1,
+    "58": 1,
+    "59": 1,
+    "60": 1,
+    "61": 1,
+    "62": 1,
+    "63": 1,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 1,
+    "68": 1,
+    "69": 1,
+    "70": 1,
+    "71": 1,
+    "72": 1,
+    "73": 1,
+    "74": 1,
+    "75": 1,
+    "76": 1,
+    "77": 1,
+    "78": 1,
+    "79": 1,
+    "80": 1,
+    "81": 1,
+    "82": 1,
+    "83": 1,
+    "84": 1,
+    "85": 1,
+    "86": 1,
+    "87": 1,
+    "88": 1,
+    "89": 1,
+    "90": 1,
+    "91": 1,
+    "92": 1,
+    "93": 1,
+    "94": 1,
+    "95": 1,
+    "96": 1,
+    "97": 1,
+    "98": 1,
+    "99": 1,
+    "100": 1,
+    "101": 1,
+    "102": 1,
+    "103": 1,
+    "104": 1,
+    "105": 1,
+    "106": 1,
+    "107": 1,
+    "108": 1,
+    "109": 1,
+    "110": 1,
+    "111": 1,
+    "112": 1,
+    "113": 1,
+    "114": 1,
+    "115": 1,
+    "116": 1,
+    "117": 1,
+    "118": 1,
+    "119": 1,
+    "120": 1,
+    "121": 1,
+    "122": 1,
+    "123": 1,
+    "124": 1,
+    "125": 1,
+    "126": 1,
+    "127": 1,
+    "128": 1,
+    "129": 1,
+    "130": 1,
+    "131": 1,
+    "132": 1,
+    "133": 1,
+    "134": 1,
+    "135": 1,
+    "136": 1,
+    "137": 1,
+    "138": 1,
+    "139": 1,
+    "140": 1,
+    "141": 1,
+    "142": 1,
+    "143": 1,
+    "144": 1,
+    "145": 1,
+    "146": 1,
+    "147": 1,
+    "148": 1,
+    "149": 1,
+    "150": 1,
+    "151": 1,
+    "152": 1,
+    "153": 1,
+    "154": 1,
+    "155": 1,
+    "156": 1,
+    "157": 1,
+    "158": 1,
+    "159": 1,
+    "160": 1,
+    "161": 1,
+    "162": 1,
+    "163": 1,
+    "164": 1,
+    "165": 1,
+    "166": 1,
+    "167": 1,
+    "168": 1,
+    "169": 1,
+    "170": 1,
+    "171": 1,
+    "172": 1,
+    "173": 1,
+    "174": 1
+  },
+  "source": "https://mp.weixin.qq.com/s/Mx1pclSLzkRFXKEME24TYA",
+  "author": "lencx",
+  "date": "2026-07-28",
+  "ingested": "2026-08-06",
+  "summary_page": "wiki/summaries/harness-engineering/lencx-agent-dev-guide-20260806.md"
+}
