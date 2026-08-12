@@ -182,3 +182,30 @@
   3. 用户提供 URL 时必须回溯漏检原因 + 补搜同模式
   4. 「dashboard only」类单独立反向索引页,不污染主域
 
+
+
+## [2026-08-12 fourth batch, 关键纠错] ingest | TencentDB Agent Memory 重写核验
+
+- Source: Nick 直接提供 https://github.com/TencentCloud/TencentDB-Agent-Memory
+- Trigger: 用户反馈 → 暴露三个严重失误
+- 三个失误:
+  1. **关键词列表结构性盲区** — 前两轮搜了 45+ 关键词, 没搜 "agent memory llm wiki"
+     (这个 query 把腾讯云项目直接推到 #1)
+  2. **未独立核验已收录页面** — 旧 tencentdb-agent-memory.md 无 frontmatter, 
+     owner 写错 (Tencent/ 而非 TencentCloud/), lint 跳过未抓
+  3. **数据来源未验证** — 61.38% / 51.52% / 76% 等指标是腾讯自报, 未独立核验
+- 纠正:
+  - [[tencentdb-agent-memory]] 彻底重写 (基于 API 验证 + README 实际架构)
+  - raw source 文件名: tencentcloud-tencentdb-agent-memory.md (反映真实 owner)
+  - 显式记录「description vs README 架构不一致」 (L0-L3 4 层 vs Chat Memory/Skill/LLM-Wiki/Code-Graph 4 资产)
+  - 性能数据标「未独立核验」
+- Files updated:
+  - [[tencentdb-agent-memory]] (重写, +7251 bytes)
+  - raw/articles/tencentcloud-tencentdb-agent-memory.md (新规范命名)
+  - [[Session-Extraction-Pipeline]] (Step 映射表 + TencentDB 行 + 4th batch update log)
+  - index.md (条目更新含 star 数与「已核验」标注)
+- 调研方法 v2 修订 (沉淀 skill `github-research-blindspot`):
+  1. 关键词必须含「产品名直接组合」类 query
+  2. 已收录 entity 页必须至少一次 API 核验
+  3. lint 把「无 frontmatter」作为 ERROR 而非 skip
+  4. 厂商数据标「未独立核验」

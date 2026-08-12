@@ -117,6 +117,7 @@ flowchart LR
 | 5 策展（改进追踪）| [[agent-usage-analyze]] | 本地 dashboard + 实践库 |
 | 5 策展（漂移检测）| [[orbit]] | drift/gap/alignment + claim validation |
 | 4 提取（增量复盘）| [[agent-retrospective]] | Codex skill + CLI 增量式 |
+| 1-5 全栈 | [[tencentdb-agent-memory]] | **20k⭐ 腾讯云官方** OpenClaw/Hermes hook → 4 层金字塔 → Chat Memory/Skill/LLM-Wiki/Code-Graph |
 
 ## 设计权衡
 
@@ -264,3 +265,26 @@ Hermes 自有：
 4. 「dashboard only」类项目不强行塞进 [[Memory-Systems]]，单独立反向索引页
 
 **未变结论**：2 ⭐ 不等于不重要。[[agent-usage-analyze]] 的「改进可追踪」思路在我前两轮收录的 20+ 项目里**只有这一家**——说明「stars 主导搜索」会漏掉关键设计意图不同的反潮流项目。
+
+
+### 2026-08-12 (fourth batch, user-driven, 关键纠错)
+
+Nick 直接提供 https://github.com/TencentCloud/TencentDB-Agent-Memory 链接，**暴露了三个严重失误**：
+
+1. **关键词列表的结构性盲区**：前两轮搜了 45+ 关键词，**唯独没搜 "agent memory llm wiki"**——而这个 query 把腾讯云这个 20k⭐ 项目推到 #1
+2. **未独立核验已收录页面**：之前 `tencentdb-agent-memory.md` 没有 frontmatter，owner 写错（写成 `Tencent/` 而非 `TencentCloud/`），但**lint 把无 frontmatter 的页面直接 skip** 而不是 ERROR，导致错误一直存在
+3. **数据来源未验证**：旧页面里的 61.38% / 51.52% / 76% 等指标是腾讯自报数据，**未独立核验**
+
+**纠正**：
+- [[tencentdb-agent-memory]] **重写**（基于 GitHub API 验证 + README 实际架构）
+- raw source 文件名规范化：`tencentcloud-tencentdb-agent-memory.md`（反映真实 owner）
+- 显式记录「GitHub description 与 README 实际架构不一致」（description 写 4 类资产 = Chat Memory / Skill / LLM-Wiki / Code-Graph；README 实际是 L0 Conversation / L1 Atom / L2 Scenario / L3 Persona）
+- 诚实标注「性能数据未独立核验」
+
+**调研方法修订**（v2，沉淀到 `github-research-blindspot` skill）：
+1. **关键词列表必须含「产品名直接组合」类 query**（如 "agent memory llm wiki" / "agent memory skill hub"），而不只是「功能描述」类 query
+2. **对 wiki 已收录的 entity page 必须至少一次用 GitHub API 核 URL + owner + stars**——本次是最痛的教训
+3. **lint 把「无 frontmatter 的 wiki 页」作为 ERROR 而非 skip**——本次旧页面就是因为这个原因逃过检查
+4. **厂商数据（X% 提升 / Y⭐）必须标「未独立核验」**——避免传播
+
+**未变结论**：腾讯云这个项目本身就是「session-extraction → memory/skill/wiki」赛道的**最大厂商实现**——之前 wiki 列了它但没认真处理，是流程失误，不是认知失误。
