@@ -153,6 +153,101 @@
 ### ⏳ 待确认（无原文）
 - 2026-05-15 — [[summaries/ai-devos-prd]] — AI DevOS PRD：面向长任务自治的软件工程操作系统，8层架构——Nick 未提供原文，无法确认内容
 
+
+## Memory Systems（记忆系统）
+
+> 记忆系统的全谱：通用 memory runtime / session-mining 工具 / Hermes 周边。session-mining 的工程范式见 [[Session-Extraction-Pipeline]]，学术方法论见 [[Skill-Distillation-Research]]。
+
+### 通用 Memory Runtime
+
+- [[Supermemory]] — 基准第一（SOTA），#1 on LongMemEval/LoCoMo/ConvoMem，Research Lab + 多 SDK
+- [[Honcho]] — Hermes Agent 专用记忆层，Neuromancer XR 推理模型，LoCoMo 86.9%
+- [[Hindsight]] — Nick 当前本地部署方案，向量记忆存储，Docker 部署
+- [[MemOS]] — 10.7k ⭐ Memory OS 2.0（Apache-2.0）：图结构 + multi-cube + MemScheduler 异步；同团队还有 [[MemRL]]（runtime RL on episodic memory）
+- [[Holographic]] — 全息记忆范式，分布式记忆编码理念（架构范式，非单一产品）
+- [[Letta]] — Sleep-time Agent 异步处理 conversation history，MemGPT 同团队
+- [[Mem0]] — Claude Code 深度集成（9 个 MCP 工具 + 4 阶段 lifecycle hook），商业版
+- [[MemMachine]] — Long-term memory for AI agents
+- [[RetainDB]] — Postgres/pgvector 自托管，关系图记忆，MCP Server，开源 Apache 2.0/BSL
+- [[OpenViking]] — 字节跳动上下文数据库，AGPLv3，多租户，L0/L1/L2 分层架构
+- [[Cognee]] — 语义图 + ECL pipeline（Extract/Cognify/Load）
+- [[ByteRover]] — 编程 Agent CLI，LoCoMo 96.1%，Git 式版本控制，支持 22+ 编程工具
+- [[Memori]] — 轻量级 Python memory framework
+- [[EverOS]] — 跨 agent portable memory layer，本地优先，Markdown-native，self-evolving
+- [[Graphiti]] — 20k+ ⭐ 时序知识图谱（Zep 开源核心），双时序 valid_at/invalid_at
+
+### Session-Mining 工具（扫描 agent 历史会话 → memory/skill/wiki）
+
+- [[Open-Amnesia]] — 30⭐ vincentkoc，多源 ingest（Codex/Claude/iMessage）→ Event IR → Moment 聚类 → YYYY_MM_DD.md + FastAPI
+- [[claude-mem-thedotmack]] — **90k ⭐ 规模之王**（thedotmack），hook 压缩 tool output 到 FTS5 SQLite，Claude Code + OpenClaw
+- [[claude-memory-compiler]] — 1.3k ⭐ Karpathy wiki 模式套到 session transcript，每日 18:00 自动编译
+- [[cc-analyst]] — 0⭐ Claude Code/Codex JSONL → agent 分析 → patch CLAUDE.md/AGENTS.md
+- [[reflect-skill-claude]] — 10⭐ 3-phase /reflect skill，保守晋升
+- [[ccflash]] — 7⭐ session → Anki 卡片
+- [[session-extractor]] — 0⭐ Claude Code/Codex/Opencode JSONL → Markdown
+- [[prism-prosusai]] — Prosus 出品，**带 quality gate 验证 + confidence decay**
+- [[cass-memory]] — 411⭐ 跨 agent 共享 procedural memory，Bun 运行时
+- [[code-session-memory]] — 18⭐ 跨 6 个 harness 的统一向量记忆
+- [[obelisk]] — 314⭐ 覆盖 subagent + workflow，AGPL-3.0
+- [[obsidian-second-brain]] — 4k⭐ Claude Code + 6 个 CLI agent 的 Obsidian 记忆
+- [[open-second-brain]] — **Hermes Agent primary integration**，dream pass 确定性晋升
+- [[total-recall-davegoldblatt]] — 200⭐ 写入门控（write gate），人类决定晋升
+- [[claude-code-trace]] — 345⭐ session JSONL viewer（GUI/Web/TUI 三形态）
+- [[Agentic-Context-Engine-ACE]] — 2.5k⭐ kayba-ai，Reflector+SkillManager 闭环
+- [[ace-agent-ace]] — 1.3k⭐ ACE 论文官方复现
+- [[agent-memory-engine]] — 123⭐ MCP memory server
+- [[Meterless]] — 218⭐ local-first 上下文栈 H-MEM
+
+### Hermes 生态专项
+
+- [[hermes-agent-self-evolution]] — **4.9k ⭐ 官方**：DSPy + GEPA（ICLR 2026 Oral）演化 Hermes 的 prompt/skill/tool/代码
+- [[SkillClaw]] — 2.4k⭐ AMAP-ML 出品，post-task evolution loop 改 ~/.hermes/skills/，带 doctor/restore
+- [[hermes-skill-factory]] — 511⭐ meta-skill 自动产出新 skill
+- [[open-second-brain]] — 见上（Hugo dream pass）
+- [[Letta]] — 同上（Hermes 记忆层候选）
+
+### Session-Mining 学术方法论
+
+- [[Skill-Distillation-Research]] — GEPA / ACE / Voyager / AWM / Reflexion / MemRL 学术谱系 + 评测基准 + 安全研究
+- [[agent-workflow-memory]] — 456⭐ AWM 论文官方实现（ICML 2025），轨迹 → list-of-steps workflow
+- [[MemRL]] — 164⭐ MemOS 团队的「runtime RL on episodic memory」
+- [[MemSkill]] — 560⭐ Memory Skills for Self-Evolving Agents
+- [[xskill]] — 106⭐ Self-evolving skills lib（Voyager 谱系轻量实现）
+
+### 跨 harness 检索/迁移
+
+- [[llmwiki-lucasastorian]] — 1.5k⭐ Karpathy wiki 的 MCP server 实现（Slack/Granola/Notion 连接器）
+- [[obelisk]] — 见上
+- [[code-session-memory]] — 见上
+
+### Wiki 索引与策展工具
+
+- [[llmwiki-lucasastorian]] — 见上
+- [[llm-wiki]] — 本 wiki 使用的 skill
+
+### 重名/易混
+
+- [[Claude-Mem]] — 之前收录的同名项目（**与 thedotmack/claude-mem 不同**），勿混淆
+
+## Knowledge Compounding（这一批新增的对照章节）
+
+> 把新项目按"对应哪一步 session-extraction"重排一遍，看清缺口。
+
+| Step | 主流实现 | 关键差异 |
+|------|----------|----------|
+| 1 采集（多 harness）| [[code-session-memory]]（6 个）| vs 仅 Claude：claude-mem、cc-analyst、reflect-skill |
+| 1 采集（多源）| [[Open-Amnesia]]（3 个含 iMessage）| vs [[obelisk]]（含 subagent）|
+| 2 标准化 | [[Open-Amnesia]] Event IR | — |
+| 3 聚类 | [[Open-Amnesia]] Moment 聚类 | — |
+| 4 提取（保守）| [[reflect-skill-claude]] / [[total-recall-davegoldblatt]] | 后者把晋升权交人 |
+| 4 提取（验证）| [[prism-prosusai]] quality gate | 唯一 |
+| 4 提取（失败信号）| [[Skill-Distillation-Research]]（GEPA / ReasoningBank）| 学术领先，工程未落地 |
+| 4 提取（GEPA 落地）| [[hermes-agent-self-evolution]] | **官方 + ICLR 2026 Oral** |
+| 5 策展（wiki）| [[claude-memory-compiler]] / [[llmwiki-lucasastorian]] | 同一 Karpathy 架构不同采集面 |
+| 5 策展（skill 库）| [[SkillClaw]] / [[hermes-skill-factory]] | 改进 vs 生成 |
+| 5 策展（visualize）| [[claude-code-trace]] / [[obelisk]] | 读侧 |
+
+
 ## Open Questions
 
 - 什么样的 `init.sh` 起步最轻量且有效？

@@ -71,3 +71,84 @@
   - raw/articles/ace-agent-ace.md (sha256:49ade80bc5d5947a)
 - Files updated (本批次):
   - [[concepts/Memory-Systems]] (总览表 + 8 行 + "相关页面"区块)
+
+
+## [2026-08-12 second batch] ingest | Agent 会话扫描/提取项目 深度调研（20 个新增）
+
+- Source: GitHub API (45+ 关键词) + 多源 web 搜索（Brave/Tavily/Grok, Exa 欠费 402 不可用）+ 2 个 delegate_task 并行执行
+- 调研目标: 在第一轮 8 个项目基础上扩展覆盖，找寻「会话 → memory/skill/wiki」赛道的工程项目 + 学术方法论 + 商业产品
+- 关键发现:
+  1. **规模之王** thedotmack/claude-mem（90k⭐）— 几乎是 session-mining 的事实标准
+  2. **官方对位** NousResearch/hermes-agent-self-evolution（4.9k⭐）— GEPA 落地 Hermes
+  3. **Karpathy wiki 多实现** lucasastorian/llmwiki + coleam00/claude-memory-compiler + 本 wiki 自身
+  4. **学术层独立页** wmmthu/awesome-llm-agent-skills-papers 是最对题目论文索引
+  5. **唯一带 quality gate** ProsusAI/prism（engram + confidence decay）
+  6. **Hermes 生态完备** SkillClaw + skill-factory + open-second-brain + self-evolution
+  7. **反例设计** davegoldblatt/total-recall 的「写入门控」
+- Files created (本批次新增 20 个 wiki page + 54 raw source):
+  - raw/articles/thedotmack-claude-mem.md
+  - raw/articles/nousresearch-hermes-agent-self-evolution.md
+  - raw/articles/coleam00-claude-memory-compiler.md
+  - raw/articles/prosusai-prism.md
+  - raw/articles/djannot-code-session-memory.md
+  - raw/articles/osu-nlp-skillweaver.md
+  - raw/articles/basicmachines-basic-memory.md
+  - raw/articles/davegoldblatt-total-recall.md
+  - raw/articles/raiyanyahya-recall.md
+  - raw/articles/vectorize-io-hindsight.md
+  - raw/articles/lucasastorian-llmwiki.md
+  - raw/articles/romanescu11-hermes-skill-factory.md
+  - raw/articles/amap-ml-skillclaw.md
+  - raw/articles/hanfang-claude-memory-skill.md
+  - raw/articles/0xnyk-awesome-hermes-agent.md
+  - raw/articles/tsinghuac3i-awesome-memory-for-agents.md
+  - raw/articles/xmudeeplit-awesome-self-evolving-agents.md
+  - raw/articles/delexw-claude-code-trace.md
+  - raw/articles/memtensor-memos.md
+  - raw/articles/codejunkie99-agentic-stack.md
+  - raw/articles/neo4j-labs-meta-knowledge-graph.md
+  - raw/articles/hung12ct-culi.md
+  - raw/articles/welshe-traceforge.md
+  - raw/articles/kaminocorp-elephantasm-core.md
+  - raw/articles/cindiekinzz-memory-rescue.md
+  - raw/articles/kiranklabs-hermes-memory-wiki.md
+  - raw/articles/internetyev-cross-agent-memory-kit.md
+  - raw/articles/luluthehungrycat-phronesis.md
+  - raw/articles/heeere-pmu-graph.md
+  - raw/articles/wmmthu-awesome-llm-agent-skills-papers.md
+  - raw/articles/dicklesworthstone-cass-memory-system.md
+  - raw/articles/itechmeat-open-second-brain.md
+  - raw/articles/tommy0103-obelisk.md
+  - raw/articles/eugeniughelbur-obsidian-second-brain.md
+  - raw/articles/rohitg00-pro-workflow.md
+  - raw/articles/viktoraxelsen-memskill.md
+  - raw/articles/skillnerds-xskill.md
+  - raw/articles/voidcraft-memory-forge-rs.md
+  - raw/articles/zorazrw-agent-workflow-memory.md
+  - raw/articles/memtensor-memrl.md
+  - raw/articles/mattdevy-pi-extensions.md
+  - raw/articles/radimsem-remindb.md
+  - [[entities/memory-systems/claude-mem-thedotmack]] (90k⭐)
+  - [[entities/memory-systems/claude-memory-compiler]] (1.3k⭐, Karpathy wiki 套 session)
+  - [[entities/memory-systems/hermes-agent-self-evolution]] (4.9k⭐, 官方 GEPA)
+  - [[entities/memory-systems/open-second-brain]] (153⭐, Hermes-primary)
+  - [[entities/memory-systems/total-recall-davegoldblatt]] (200⭐, write-gate)
+  - [[entities/memory-systems/prism-prosusai]] (19⭐, quality gate)
+  - [[entities/memory-systems/cass-memory]] (411⭐, 跨 agent)
+  - [[entities/memory-systems/code-session-memory]] (18⭐, 6 harness)
+  - [[entities/memory-systems/SkillClaw]] (2.4k⭐, AMAP-ML)
+  - [[entities/memory-systems/hermes-skill-factory]] (511⭐)
+  - [[entities/memory-systems/llmwiki-lucasastorian]] (1.5k⭐)
+  - [[entities/memory-systems/obelisk]] (314⭐, AGPL-3.0)
+  - [[entities/memory-systems/obsidian-second-brain]] (4k⭐)
+  - [[entities/memory-systems/MemOS]] (10.7k⭐, 图 + cube)
+  - [[entities/memory-systems/MemRL]] (164⭐, runtime RL on episodic memory)
+  - [[entities/memory-systems/MemSkill]] (560⭐)
+  - [[entities/memory-systems/agent-workflow-memory]] (456⭐, AWM 官方)
+  - [[entities/memory-systems/xskill]] (106⭐)
+  - [[entities/memory-systems/claude-code-trace]] (345⭐, session viewer)
+  - [[concepts/Skill-Distillation-Research]] (学术层总览)
+- Files updated:
+  - [[concepts/Session-Extraction-Pipeline]] (Step 映射表扩展 + Update Log + 第二批清单)
+  - index.md (新增 Memory Systems 顶级章节 + Knowledge Compounding 对照表)
+

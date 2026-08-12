@@ -3,11 +3,21 @@ title: Session Extraction Pipeline
 type: concept
 created: 2026-08-12
 updated: 2026-08-12
+last_extended: 2026-08-12-second-batch
 sources:
   - raw/articles/vincentkoc-openamnesia.md
   - raw/articles/shayke-cohen-cc-analyst.md
   - raw/articles/hansvangent-reflect-skill-claude.md
   - raw/articles/kayba-ai-agentic-context-engine.md
+  - raw/articles/thedotmack-claude-mem.md
+  - raw/articles/coleam00-claude-memory-compiler.md
+  - raw/articles/nousresearch-hermes-agent-self-evolution.md
+  - raw/articles/itechmeat-open-second-brain.md
+  - raw/articles/davegoldblatt-total-recall.md
+  - raw/articles/prosusai-prism.md
+  - raw/articles/djannot-code-session-memory.md
+  - raw/articles/wmmthu-awesome-llm-agent-skills-papers.md
+  - raw/articles/dicklesworthstone-cass-memory-system.md
 tags:
   - concept
   - memory
@@ -95,6 +105,15 @@ flowchart LR
 | 5 策展 | [[cc-analyst]] | patch 提议 + rollback |
 | 5 策展 | [[ccflash]] | Anki 卡片 |
 | 5 策展 | [[Open-Amnesia|Open Amnesia]] | 日期 MD + FastAPI |
+| 5 策展 | [[claude-memory-compiler]] | Karpathy wiki + daily |
+| 5 策展 | [[llmwiki-lucasastorian]] | Karpathy wiki + MCP server |
+| 4 提取（验证）| [[prism-prosusai]] | engram + quality gate |
+| 4 提取（保守）| [[total-recall-davegoldblatt]] | write-gate + 人类晋升 |
+| 4 提取（确定性）| [[open-second-brain]] | dream pass + evidence count |
+| 1 采集（多 harness）| [[code-session-memory]] | 6 harness 统一向量记忆 |
+| 1 采集（多 harness）| [[obelisk]] | 含 subagent + workflow |
+| 4 提取（自演化）| [[hermes-agent-self-evolution]] | GEPA 演化 Hermes prompt/skill |
+| 5 策展（skill 库）| [[SkillClaw]] / [[hermes-skill-factory]] | 改 vs 生成 |
 
 ## 设计权衡
 
@@ -162,6 +181,61 @@ Hermes 自有：
 - [[agentmemory]] — 同名但不同项目（jayzeng 版）
 
 ### 平台适配
-- Claude Code JSONL → [[cc-analyst]] / [[reflect-skill-claude]]
-- Codex JSONL → [[cc-analyst]]
-- 多源 → [[Open-Amnesia|Open Amnesia]]
+- Claude Code JSONL → [[cc-analyst]] / [[reflect-skill-claude]] / [[claude-mem-thedotmack]] / [[claude-memory-compiler]]
+- Codex JSONL → [[cc-analyst]] / [[code-session-memory]]
+- 多源（Claude/Codex/iMessage）→ [[Open-Amnesia|Open Amnesia]]
+- 多 harness（OpenCode/Claude/Cursor/VSCode/Codex/Gemini）→ [[code-session-memory]]
+- 跨 agent 共享 → [[cass-memory]]
+- Hermes Agent → [[open-second-brain]] / [[hermes-agent-self-evolution]] / [[SkillClaw]] / [[hermes-skill-factory]]
+
+### 第二批调研（2026-08-12）新增项目
+
+详见各实体页与 [[Skill-Distillation-Research]] 学术层。关键新增：
+
+- **[[claude-mem-thedotmack]]** — 90k⭐ 规模之王
+- **[[hermes-agent-self-evolution]]** — 4.9k⭐ 官方 GEPA 演化
+- **[[open-second-brain]]** — Hermes-primary 集成
+- **[[claude-memory-compiler]]** — Karpathy wiki 套到 session
+- **[[SkillClaw]]** / **[[hermes-skill-factory]]** — Hermes skill 生命周期
+- **[[prism-prosusai]]** — 唯一带 quality gate 验证
+- **[[total-recall-davegoldblatt]]** — 写入门控的反例设计
+- **[[Skill-Distillation-Research]]** — 学术层总览（GEPA / AWM / Voyager / MemRL / SkillBench）
+- **[[code-session-memory]]** / **[[obelisk]]** — 多 harness 覆盖
+
+
+## Update Log
+
+### 2026-08-12 (second batch, +20 repos)
+
+调研关键词从 8 个扩到 80+ 个，新增关键词方向：自演化 agent / 学术 paper 索引 / Hermes 周边的子项目 / cross-harness session 迁移 / Karpathy wiki 的多实现 / 安全研究 / 评测基准。
+
+**新增的工程实现**（按 stars 降序）：
+- 90k⭐ thedotmack/claude-mem
+- 10.7k⭐ MemTensor/MemOS
+- 4.9k⭐ NousResearch/hermes-agent-self-evolution（官方 GEPA 落地）
+- 4k⭐ eugeniughelbur/obsidian-second-brain
+- 2.4k⭐ AMAP-ML/SkillClaw
+- 1.5k⭐ lucasastorian/llmwiki
+- 1.3k⭐ coleam00/claude-memory-compiler
+- 5278⭐ 0xNyk/awesome-hermes-agent
+- 633⭐ TsinghuaC3I/Awesome-Memory-for-Agents
+- 560⭐ ViktorAxelsen/MemSkill
+- 456⭐ zorazrw/agent-workflow-memory
+- 411⭐ Dicklesworthstone/cass-memory
+- 345⭐ delexw/claude-code-trace
+- 314⭐ tommy0103/obelisk
+- 200⭐ davegoldblatt/total-recall
+- 164⭐ MemTensor/MemRL
+- 153⭐ itechmeat/open-second-brain
+- 106⭐ SkillNerds/xskill
+- 19⭐ ProsusAI/prism
+- 18⭐ djannot/code-session-memory
+
+**关键发现**：
+1. **缺少 ≠ 缺陷**——本 wiki 已收录 8 个 session-mining 项目，扩展到 20+ 后覆盖度从「够用」到「完备」
+2. **学术-工程 gap**：失败信号利用、skill 验证、评测基准——这三条工程层普遍缺失
+3. **Hermes 生态完整**：官方 self-evolution + 社区 SkillClaw/skill-factory/open-second-brain 覆盖了 skill 生命周期
+4. **「先验证再入库」只有 prism 一家**——这可能是 session-mining 走向生产的关键缺口
+5. **学术侧 wmmthu/awesome-llm-agent-skills-papers** 是目前为止最对题目的论文索引
+
+**新增 54 个 raw source 文件到 `raw/articles/`**（带 sha256 校验），**20 个新 wiki 页面**（13 实体 + 1 概念 + 6 早前批次补全）。
