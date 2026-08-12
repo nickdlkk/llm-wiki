@@ -114,6 +114,9 @@ flowchart LR
 | 1 采集（多 harness）| [[obelisk]] | 含 subagent + workflow |
 | 4 提取（自演化）| [[hermes-agent-self-evolution]] | GEPA 演化 Hermes prompt/skill |
 | 5 策展（skill 库）| [[SkillClaw]] / [[hermes-skill-factory]] | 改 vs 生成 |
+| 5 策展（改进追踪）| [[agent-usage-analyze]] | 本地 dashboard + 实践库 |
+| 5 策展（漂移检测）| [[orbit]] | drift/gap/alignment + claim validation |
+| 4 提取（增量复盘）| [[agent-retrospective]] | Codex skill + CLI 增量式 |
 
 ## 设计权衡
 
@@ -239,3 +242,25 @@ Hermes 自有：
 5. **学术侧 wmmthu/awesome-llm-agent-skills-papers** 是目前为止最对题目的论文索引
 
 **新增 54 个 raw source 文件到 `raw/articles/`**（带 sha256 校验），**20 个新 wiki 页面**（13 实体 + 1 概念 + 6 早前批次补全）。
+
+
+### 2026-08-12 (third batch, +3 repos, user-driven)
+
+用户（Nick）直接提供了 `zm2529/agent-usage-analyze` 链接，暴露了 sort=stars 调研的盲区：
+- 2 ⭐ + 中文 README 双重门槛下，主流搜索排序把它完全淹没
+
+补搜以中文关键词 + sort=updated 模式后，又发现 2 个对题项目（`weak-fox/agent-retrospective`、`krzemienski/orbit`），以及 12 个**不对题**的「session telemetry / cost dashboard」项目。
+
+**新增**：
+- [[agent-usage-analyze]]（2 ⭐，**改进追踪 + 实践库**，Codex 优先 + 多 CLI 导入）
+- [[agent-retrospective]]（1 ⭐，增量式复盘 + 反思报告，Codex skill + CLI）
+- [[orbit]]（0 ⭐，**drift / gap / alignment 三件套** + claim validation）
+- [[_session-telemetry-dashboards]] — 「这是 dashboard，不是 miner」的反向索引页（收录 12 个相关但不对题的项目，并标注识别特征）
+
+**调研方法修订**（沉淀为未来 procedure）：
+1. GitHub 搜索必须做**三次排序**：stars / recently updated / relevance
+2. 中文 README 关键词搜索（改进追踪 / 复盘 / 用法分析）作为独立 query 系列
+3. 用户主动提供 URL 时，**必须**回溯自己为什么漏掉 + 补搜同模式
+4. 「dashboard only」类项目不强行塞进 [[Memory-Systems]]，单独立反向索引页
+
+**未变结论**：2 ⭐ 不等于不重要。[[agent-usage-analyze]] 的「改进可追踪」思路在我前两轮收录的 20+ 项目里**只有这一家**——说明「stars 主导搜索」会漏掉关键设计意图不同的反潮流项目。

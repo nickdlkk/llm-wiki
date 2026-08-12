@@ -193,6 +193,10 @@
 - [[open-second-brain]] — **Hermes Agent primary integration**，dream pass 确定性晋升
 - [[total-recall-davegoldblatt]] — 200⭐ 写入门控（write gate），人类决定晋升
 - [[claude-code-trace]] — 345⭐ session JSONL viewer（GUI/Web/TUI 三形态）
+- [[agent-usage-analyze]] — 2⭐ 本地 dashboard + 改进追踪 + 实践库（Codex 优先 + 多 CLI 导入）
+- [[agent-retrospective]] — 1⭐ 增量式 Codex 复盘 + 反思报告
+- [[orbit]] — 0⭐ drift/gap/alignment + claim validation
+- [[_session-telemetry-dashboards]] — 区分性记录：12 个相关但不对题的 session 用量/cost dashboard
 - [[Agentic-Context-Engine-ACE]] — 2.5k⭐ kayba-ai，Reflector+SkillManager 闭环
 - [[ace-agent-ace]] — 1.3k⭐ ACE 论文官方复现
 - [[agent-memory-engine]] — 123⭐ MCP memory server

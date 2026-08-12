@@ -152,3 +152,33 @@
   - [[concepts/Session-Extraction-Pipeline]] (Step 映射表扩展 + Update Log + 第二批清单)
   - index.md (新增 Memory Systems 顶级章节 + Knowledge Compounding 对照表)
 
+
+
+## [2026-08-12 third batch, user-driven] ingest | zm2529/agent-usage-analyze + 2 同模式补搜
+
+- Source: Nick 直接提供 https://github.com/zm2529/agent-usage-analyze
+- Trigger: 用户反馈「搜索中没有找到这个库」→ 暴露调研盲区
+- 盲区诊断:
+  1. sort=stars 主导搜索 + 2 ⭐ + 中文 README 双重门槛
+  2. 未做 sort=updated 模式
+  3. 未主动搜中文关键词（改进追踪 / 复盘 / 用法分析）
+- 补搜结果:
+  - **3 个对题项目**（全部经 curl 核验后入 wiki）
+  - 12 个**不对题**的「session telemetry/cost dashboard」类项目，单独立反向索引页
+- Files created (本批次):
+  - raw/articles/zm2529-agent-usage-analyze.md
+  - raw/articles/weak-fox-agent-retrospective.md
+  - raw/articles/krzemienski-orbit.md
+  - [[entities/memory-systems/agent-usage-analyze]]
+  - [[entities/memory-systems/agent-retrospective]]
+  - [[entities/memory-systems/orbit]]
+  - [[entities/memory-systems/_session-telemetry-dashboards]] (反向索引)
+- Files updated:
+  - [[concepts/Session-Extraction-Pipeline]] (Step 映射表 + Update Log 第三批)
+  - index.md (Memory Systems 章节补 4 行)
+- 调研方法修订 (沉淀为 procedure):
+  1. GitHub 搜索必须做三次排序: stars / updated / relevance
+  2. 中文关键词独立 query 系列
+  3. 用户提供 URL 时必须回溯漏检原因 + 补搜同模式
+  4. 「dashboard only」类单独立反向索引页,不污染主域
+
