@@ -47,6 +47,7 @@ All pages require YAML frontmatter: `title`, `type`, `created`, `updated`, `sour
 - [[Three Engineering Primitives]] — 隔离 / 分解 / 协调
 - [[Cognitive Debt and LLM Use]] — 普通人用好大模型：认知债务 + 认知摩擦 + 思考伙伴定位
 - [[Hermes Skill Nudge]] — Hermes 自动建议生成 Skill 的机制：iteration-based 触发、异步投递链路、已知 bug（send() 静默失败）
+- [[Session-Extraction-Pipeline]] — **扫描 agent 历史会话→总结出 memory、skill、wiki** 范式：5 步流水线 + 8 个核心项目映射（Open Amnesia / cc-analyst / reflect-skill-claude / ccflash / Agentic Context Engine / ace-agent/ace / Meterless / agent-memory-engine）
 
 ### Entities
 - [[Cua]] — Open-source infrastructure for Computer-Use Agents（16.7k ⭐）：Cua Driver后台macOS、Cua Sandbox跨平台沙箱、CuaBot协作式计算机使用、Cua-Bench基准测试、Lume macOS虚拟化

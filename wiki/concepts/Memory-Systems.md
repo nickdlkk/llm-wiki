@@ -8,7 +8,7 @@ tags:
 
 # AI Agent 记忆系统对比
 
-主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。
+主流 AI Agent 记忆系统一览（2026-05 更新 + 2026-08 追加会话扫描赛道）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。**注意区分"记忆系统"（下游 memory layer）vs "会话扫描/提取工具"（上游 ingest layer）**——后者见 [[Session-Extraction-Pipeline]]。
 
 ## 总览表
 
@@ -30,6 +30,14 @@ tags:
 || [[EverOS]] | 长期记忆操作系统 | 6k | — | 六层分层 + EverCore |
 || [[Claude-Mem]] | Claude Code 插件 | 74 | Apache 2.0 | 会话压缩 |
 | [[agentmemory]] | 本地 Markdown 记忆 | ~1.4k（npm）| MIT | Markdown + qmd |
+| [[Open-Amnesia|Open Amnesia]] | **会话扫描→记忆**（多源）| 30 | — | local-first + Event IR + FastAPI |
+| [[cc-analyst]] | Claude Code/Codex JSONL→patch | 0 | MIT | TypeScript + rollback |
+| [[reflect-skill-claude]] | Claude Code `/reflect` skill | 10 | — | 3 阶段 retrospective |
+| [[ccflash]] | session → Anki 卡片 | 7 | — | Spaced repetition |
+| [[Agentic-Context-Engine-ACE|Agentic Context Engine (ACE)]] | 持续学习引擎（kayba）| 2,550 | — | Skillbook + Reflector |
+| [[ace-agent-ace|ace-agent/ace]] | ACE 论文官方复现 | 1,259 | — | 论文复现 |
+| [[Meterless]] | Local-first 上下文栈 | 218 | — | H-MEM + World Model |
+| [[agent-memory-engine]] | MCP memory server | 123 | — | Local-first + MCP |
 
 ## 基准详细对比
 
@@ -230,6 +238,17 @@ tags:
 现代系统往往结合两者：底层用原子事实存储，上层用分层摘要和关系图增强检索效果。
 
 ## 相关页面
+
+### 新增系统（2026-08，会话扫描赛道）
+- [[Session-Extraction-Pipeline]] — **范式总览**：扫描→记忆/Skill 提取
+- [[Open-Amnesia|Open Amnesia]] — 标杆：多源 ingest + Event IR + 日期导出
+- [[cc-analyst]] — Claude Code/Codex JSONL→CLAUDE.md/AGENTS.md patch
+- [[reflect-skill-claude]] — Claude Code `/reflect` 3 阶段 skill
+- [[ccflash]] — session → Anki 卡片（人类 SRS 路线）
+- [[Agentic-Context-Engine-ACE|Agentic Context Engine (ACE)]] — 商业级持续学习引擎（kayba-ai，2550⭐）
+- [[ace-agent-ace|ace-agent/ace]] — ACE 论文官方复现（1259⭐，社区驱动，与 [[Agentic-Context-Engine-ACE|Agentic Context Engine (ACE)]] 平行）
+- [[Meterless]] — Local-first 上下文栈（H-MEM + World Model）
+- [[agent-memory-engine]] — MCP memory server（uudam42；与 [[agentmemory]] jayzeng 版区分）
 
 ### 新增系统（2026-05）
 - [[Mem0]] — 55k stars，行业标杆，hybrid vector + graph

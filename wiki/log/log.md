@@ -44,3 +44,30 @@
   - [[summaries/harness-engineering/taotian-rd-workflow-20260806]]
 - Files updated (本批次):
   - index.md (新增 2 个 Summaries 条目)
+
+## [2026-08-12] ingest | Agent 历史会话扫描/提取工具调研（kayba-ai/agentic-context-engine 赛道）
+- Source: GitHub search + 各项目 README（已落 raw/articles/）
+- 调研目标: 类似 kayba-ai/agentic-context-engine 的"扫描 agent 历史会话→总结出 memory、skill、wiki"项目
+- 核心结论: ACE 是下游 runtime 而非上游扫描器；真正对口的扫描器是 Open Amnesia / cc-analyst / reflect-skill-claude
+- 范式: 见 [[Session-Extraction-Pipeline]]（5 步：采集→标准化→聚类→提取→策展）
+- 新建 7 个实体页 + 1 个概念页 + 更新 Memory-Systems.md 总览
+- Files created:
+  - [[entities/memory-systems/Agentic-Context-Engine-ACE]] (kayba-ai 商业引擎, 2550⭐)
+  - [[entities/memory-systems/Open-Amnesia]] (vincentkoc, 30⭐, 最完整)
+  - [[entities/memory-systems/cc-analyst]] (shayke-cohen, Claude/Codex JSONL→patch)
+  - [[entities/memory-systems/reflect-skill-claude]] (hansvangent, 10⭐, 3-phase /reflect)
+  - [[entities/memory-systems/ccflash]] (polyphilz, 7⭐, session→Anki 卡片)
+  - [[entities/memory-systems/agent-memory-engine]] (uudam42, 123⭐, MCP memory server)
+  - [[entities/memory-systems/Meterless]] (218⭐, local-first 上下文栈 H-MEM)
+  - [[entities/memory-systems/ace-agent-ace]] (1259⭐, ACE 论文官方复现)
+  - [[concepts/Session-Extraction-Pipeline]] (范式总览)
+  - raw/articles/kayba-ai-agentic-context-engine.md (sha256:348dc8fdf06b2656, body-only)
+  - raw/articles/vincentkoc-openamnesia.md (sha256:0feeec192a79431b)
+  - raw/articles/shayke-cohen-cc-analyst.md (sha256:32e2c8c1c63af480)
+  - raw/articles/hansvangent-reflect-skill-claude.md (sha256:60baa24e6063ca65)
+  - raw/articles/polyphilz-ccflash.md (sha256:c0f1a0c975fff9d1)
+  - raw/articles/uudam42-agent-memory-engine.md (sha256:e681dd5ba492db08)
+  - raw/articles/Meterless-Meterless.md (sha256:b9a22d9f116c9350)
+  - raw/articles/ace-agent-ace.md (sha256:49ade80bc5d5947a)
+- Files updated (本批次):
+  - [[concepts/Memory-Systems]] (总览表 + 8 行 + "相关页面"区块)
