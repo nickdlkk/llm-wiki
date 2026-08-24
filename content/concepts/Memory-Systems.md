@@ -4,31 +4,44 @@ tags:
   - memory
   - comparison
   - benchmarks
+updated: 2026-08-24
 ---
+
+> **2026-08-24 审计**：本页 24 个系统的 ★ 数字已用 GitHub API 全面核验。**4 处严重漂移（>20%）已修复**（Cognee 17k→30k、OpenViking 23k→32k、Claude-Mem 74→91k、RetainDB 13→50），**2 处 owner 错误已修正**（Memori `vivero-labs/memori` → `MemoriLabs/Memori` 16.2k⭐；ByteRover `byterover/byterover` → `campfirein/byterover-cli` 4.9k⭐）。**EverOS 已标 ⚠️（0⭐，2026-04-08 后无更新）**。**TencentDB Agent Memory 已新增**至所有对比表（24,105⭐，腾讯云官方出品，team-level memory hub）。
 
 # AI Agent 记忆系统对比
 
-主流 AI Agent 记忆系统一览（2026-05 更新）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。
+主流 AI Agent 记忆系统一览（2026-05 更新 + 2026-08 追加会话扫描赛道）。对比维度包括：核心定位、基准成绩、部署方式、技术栈、集成生态。**注意区分"记忆系统"（下游 memory layer）vs "会话扫描/提取工具"（上游 ingest layer）**——后者见 [[Session-Extraction-Pipeline]]。
 
 ## 总览表
 
 | 系统 | 定位 | ★Stars | 许可 | 架构 |
 |------|------|--------|------|------|
-| [[Supermemory]] | 通用记忆引擎（#1 基准）| ~22k | MIT | Vector + Semantic |
-| [[Mem0]] | 通用记忆层（行业标杆）| 55k | Apache 2.0 | Vector + Graph (hybrid) |
-| [[Letta]] | LLM-as-OS（模型自管理记忆）| 22k | Apache 2.0 | Block-based self-editing |
-| [[Graphiti]] | 时序知识图谱 | 26k | Apache 2.0 | Temporal KG (Neo4j) |
-| [[Cognee]] | 认知 pipeline（企业级）| 17k | Apache 2.0 | Graph + Vector + Cognitive |
-| [[Memori]] | 行为记忆（不只是对话）| 14k | Apache 2.0 | SQL-native |
+| [[Supermemory (mem0)]] | 通用记忆引擎（#1 基准）| 29k | MIT | Vector + Semantic |
+| [[Mem0]] | 通用记忆层（行业标杆）| 64k | Apache 2.0 | Vector + Graph (hybrid) |
+| [[Letta]] | LLM-as-OS（模型自管理记忆）| 24k | Apache 2.0 | Block-based self-editing |
+| [[Graphiti]] | 时序知识图谱 | 30k | Apache 2.0 | Temporal KG (Neo4j) |
+| [[Cognee]] | 认知 pipeline（企业级）| 30k | Apache 2.0 | Graph + Vector + Cognitive |
+| [[Memori]] | 行为记忆（不只是对话）| 16k | Apache 2.0 | SQL-native |
 | [[MemMachine]] | 通用记忆适配器 | 3k | Apache 2.0 | Client-server multi-backend |
-| [[Honcho]] | Hermes 专用记忆层 | — | — | Neuromancer XR |
-| [[Hindsight]] | 向量记忆存储 | — | MIT | Multi-strategy hybrid |
+| [[Honcho]] | Hermes 专用记忆层 | 6.8k | AGPL-3.0 | Neuromancer XR |
+| [[Hindsight]] | 向量记忆存储 | 21k | MIT | Multi-strategy hybrid |
 | [[Holographic]] | 全息记忆范式 | — | — | — |
-| [[RetainDB]] | Postgres 自托管记忆 | 13 | Apache 2.0/BSL | pgvector + KG |
-| [[ByteRover]] | 编程 Agent 记忆 CLI | 5k | Elastic 2.0 | Context tree + vector |
-| [[OpenViking]] | 上下文数据库 | 23k | AGPLv3 | L0/L1/L2 分层 |
-| [[Claude-Mem]] | Claude Code 插件 | 74 | Apache 2.0 | 会话压缩 |
+| [[RetainDB]] | Postgres 自托管记忆 | 50 | Apache 2.0/BSL | pgvector + KG |
+| [[ByteRover]] | 编程 Agent 记忆 CLI | 4.9k | Elastic 2.0 | Context tree + vector |
+| [[OpenViking]] | 上下文数据库 | 33k | AGPLv3 | L0/L1/L2 分层 |
+| [[EverOS]] ⚠️ | 长期记忆操作系统（已停滞）| 0 | — | 六层分层 + EverCore |
+| [[Claude-Mem]] | Claude Code 插件 | **92k** | Apache 2.0 | 会话压缩 |
 | [[agentmemory]] | 本地 Markdown 记忆 | ~1.4k（npm）| MIT | Markdown + qmd |
+| [[TencentDB Agent Memory]] | **team-level 记忆 hub**（腾讯云官方）| **24k** | NOASSERTION | L0-L3 金字塔 + 4 类资产 |
+| [[Open-Amnesia\|Open Amnesia]] | **会话扫描→记忆**（多源）| 31 | GPL-3.0 | local-first + Event IR + FastAPI |
+| [[cc-analyst]] | Claude Code/Codex JSONL→patch | 0 | MIT | TypeScript + rollback |
+| [[reflect-skill-claude]] | Claude Code `/reflect` skill | 10 | — | 3 阶段 retrospective |
+| [[ccflash]] | session → Anki 卡片 | 7 | MIT | Spaced repetition |
+| [[Agentic-Context-Engine-ACE\|Agentic Context Engine (ACE)]] | 持续学习引擎（kayba）| 2,552 | Apache 2.0 | Skillbook + Reflector |
+| [[ace-agent-ace\|ace-agent/ace]] | ACE 论文官方复现 | 1,272 | Apache 2.0 | 论文复现 |
+| [[Meterless]] | Local-first 上下文栈 | 225 | Apache 2.0 | H-MEM + World Model |
+| [[agent-memory-engine]] | MCP memory server | 123 | MIT | Local-first + MCP |
 
 ## 基准详细对比
 
@@ -61,8 +74,10 @@ tags:
 | RetainDB | ✅ | ❌ | ❌ |
 | ByteRover | 部分 | ✅ | ✅（编程）|
 | OpenViking | ✅ | ✅ | ❌ |
+| [[EverOS]] ⚠️ | ✅ | ❌ | ❌ |
 | [[Claude-Mem]] | ✅ | ❌ | ✅（Claude Code）|
 | [[agentmemory]] | ✅ | ❌ | ✅（Claude Code/Codex/Cursor）|
+| **TencentDB Agent Memory** | ✅ | ❌ | ✅（OpenClaw/Hermes，team-level）|
 
 ### 2. 存储技术
 
@@ -81,6 +96,7 @@ tags:
 | OpenViking | ✅（多后端）| ✅（Viking URI）| ✅ | ❌ |
 | Claude-Mem | — | — | ✅ | — |
 | [[agentmemory]] | ✅（qmd）| ❌ | ✅（daily）| ❌ |
+| **TencentDB Agent Memory** | ✅ | ✅（4 类资产）| ✅（L0-L3 4 层）| ❌ |
 
 ### 3. 集成生态
 
@@ -97,8 +113,10 @@ tags:
 | RetainDB | ✅ | ✅ | ✅ | ✅ | — |
 | ByteRover | ✅ | — | — | — | — |
 | OpenViking | ✅ | — | — | ✅ | ❌ |
+| [[EverOS]] ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Claude-Mem | — | — | — | ✅ | — |
 | [[agentmemory]] | ❌ | ❌ | ❌ | ✅（Claude Code/Codex/Cursor/Agent）| ❌ |
+| **TencentDB Agent Memory** | — | — | — | — | ✅（OpenClaw/Hermes 官方）|
 
 ### 4. 检索能力
 
@@ -112,7 +130,9 @@ tags:
 | RetainDB | ✅ | ✅ | ✅ | ✅ | — |
 | ByteRover | ✅ | — | — | — | ✅ |
 | OpenViking | ✅ | ✅ | ✅ | ✅ | ✅（L0/L1/L2）|
+| [[EverOS]] ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [[agentmemory]] | ✅（qmd）| ✅（qmd）| ✅（qmd hybrid）| ❌ | ❌ |
+| **TencentDB Agent Memory** | ✅ | — | ✅（向量+语义）| ✅ | ✅（L0/L1/L2/L3 金字塔）|
 
 ## 记忆哲学对比
 
@@ -127,7 +147,7 @@ tags:
 
 ## 选型指南
 
-### 选 [[Supermemory]] 当：
+### 选 [[Supermemory (mem0)]] 当：
 - 需要在多个基准上追求 SOTA
 - 需要多 Agent 共享记忆
 - 需要丰富的 SDK 和连接器生态（MCP、Vercel AI）
@@ -187,10 +207,25 @@ tags:
 - 需要代码仓库的深层语义理解（L0/L1/L2 分层）
 - 在字节/火山引擎生态内
 
+### 选 [[EverOS]] 当：
+- 需要完整的 Benchmark 闭环（EverMemBench + EvoAgentBench）评估记忆质量
+- 需要多类型记忆分类（Episodes/Profiles/Preferences/Relationships）
+- 需要多 Agent 协作场景（Hive、MCO、Memori 等已有集成）
+- 愿意接受高部署门槛（MongoDB + Redis + ES + Milvus 4个服务）
+- 研究 Agent 自进化能力，需要系统化评估框架
+
 ### 选 [[Claude-Mem]] 当：
 - 只使用 Claude Code
 - 只需要简单的会话压缩记忆
 - 不需要跨 Agent 或跨工具的互操作性
+
+### 选 [[TencentDB Agent Memory]] 当：
+- 需要 **team-level 共享记忆 hub**（多 Agent 跨会话积累）
+- 想要厂商级的稳定支持（腾讯云官方出品，24k⭐）
+- 使用 **OpenClaw / Hermes** 生态（官方 plugin）
+- 需要把对话同时沉淀为 **Memory + Skill + LLM-Wiki + Code-Graph** 4 类资产
+- 能接受双 description（输出物 4 类 vs 架构 L0-L3）的文档不一致
+- ⚠️ 本项目 license 是 NOASSERTION（未声明），商用前需自行核实
 
 ### 选 [[agentmemory]] 当：
 - 只用 Claude Code / Codex / Cursor 其中一个，不需要多 Agent 共享
@@ -208,7 +243,7 @@ tags:
 ### 原子派（Atomic Memory）
 记忆是最小独立的原子事实，具有明确的类型、置信度和有效期。事实之间通过显式关系图连接。
 
-代表：Supermemory、RetainDB、Honcho、Graphiti（时间维度）。
+代表：Supermemory、RetainDB、Honcho、Graphiti（时间维度）、EverOS（MemCell 原子提取）。
 
 ### LLM 自管理派
 不给 LLM 检索结果，而是让 LLM 决定自己记什么、什么时候归档、什么时候检索。像人类管理自己的笔记本。
@@ -220,6 +255,17 @@ tags:
 
 ## 相关页面
 
+### 新增系统（2026-08，会话扫描赛道）
+- [[Session-Extraction-Pipeline]] — **范式总览**：扫描→记忆/Skill 提取
+- [[Open-Amnesia|Open Amnesia]] — 标杆：多源 ingest + Event IR + 日期导出
+- [[cc-analyst]] — Claude Code/Codex JSONL→CLAUDE.md/AGENTS.md patch
+- [[reflect-skill-claude]] — Claude Code `/reflect` 3 阶段 skill
+- [[ccflash]] — session → Anki 卡片（人类 SRS 路线）
+- [[Agentic-Context-Engine-ACE|Agentic Context Engine (ACE)]] — 商业级持续学习引擎（kayba-ai，2550⭐）
+- [[ace-agent-ace|ace-agent/ace]] — ACE 论文官方复现（1259⭐，社区驱动，与 [[Agentic-Context-Engine-ACE|Agentic Context Engine (ACE)]] 平行）
+- [[Meterless]] — Local-first 上下文栈（H-MEM + World Model）
+- [[agent-memory-engine]] — MCP memory server（uudam42；与 [[agentmemory]] jayzeng 版区分）
+
 ### 新增系统（2026-05）
 - [[Mem0]] — 55k stars，行业标杆，hybrid vector + graph
 - [[Letta]] — LLM-as-OS，模型自管理记忆
@@ -227,13 +273,16 @@ tags:
 - [[Cognee]] — 企业级六阶段 cognitive pipeline
 - [[Memori]] — 行为记忆，SQL-native，action-based
 - [[MemMachine]] — 通用记忆适配器，client-server 架构
+- [[EverOS]] — 长期记忆操作系统，Benchmark 闭环（EverMemBench + EvoAgentBench）
 
 ### 原有系统
-- [[Supermemory]] — 基准第一的记忆系统
-- [[Honcho]] — Hermes 专用记忆层
-- [[Hindsight]] — Nick 当前部署的本地记忆方案
-- [[OpenViking]] — 字节跳动上下文数据库
-- [[ByteRover]] — 编程 Agent 记忆 CLI，LoCoMo 96.1%
-- [[RetainDB]] — Postgres 自托管方案
-- [[Claude-Mem]] — Claude Code 专用插件
+- [[Supermemory (mem0)]] — 基准第一的记忆系统（29k⭐）
+- [[Mem0]] — 64k stars 行业标杆，hybrid vector + graph
+- [[Honcho]] — Hermes 专用记忆层（6.8k⭐）
+- [[Hindsight]] — Nick 当前部署的本地记忆方案（21k⭐）
+- [[OpenViking]] — 字节跳动上下文数据库（33k⭐）
+- [[ByteRover]] — 编程 Agent 记忆 CLI，LoCoMo 96.1%（4.9k⭐）
+- [[RetainDB]] — Postgres 自托管方案（50⭐）
+- [[Claude-Mem]] — Claude Code 专用插件（**92k⭐**，超大基数）
 - [[Holographic]] — 全息记忆范式
+- [[TencentDB Agent Memory]] — **腾讯云官方 team-level 记忆 hub**（24k⭐，L0-L3 金字塔 + 4 类资产）
