@@ -77,7 +77,7 @@ updated: 2026-08-24
 | [[EverOS]] ⚠️ | ✅ | ❌ | ❌ |
 | [[Claude-Mem]] | ✅ | ❌ | ✅（Claude Code）|
 | [[agentmemory]] | ✅ | ❌ | ✅（Claude Code/Codex/Cursor）|
-| **TencentDB Agent Memory** | ✅ | ❌ | ✅（OpenClaw/Hermes，team-level）|
+| **[[TencentDB Agent Memory]]** | ✅ | ❌ | ✅（OpenClaw/Hermes，team-level）|
 
 ### 2. 存储技术
 
@@ -96,7 +96,7 @@ updated: 2026-08-24
 | OpenViking | ✅（多后端）| ✅（Viking URI）| ✅ | ❌ |
 | Claude-Mem | — | — | ✅ | — |
 | [[agentmemory]] | ✅（qmd）| ❌ | ✅（daily）| ❌ |
-| **TencentDB Agent Memory** | ✅ | ✅（4 类资产）| ✅（L0-L3 4 层）| ❌ |
+| **[[TencentDB Agent Memory]]** | ✅ | ✅（4 类资产）| ✅（L0-L3 4 层）| ❌ |
 
 ### 3. 集成生态
 
@@ -116,7 +116,7 @@ updated: 2026-08-24
 | [[EverOS]] ⚠️ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Claude-Mem | — | — | — | ✅ | — |
 | [[agentmemory]] | ❌ | ❌ | ❌ | ✅（Claude Code/Codex/Cursor/Agent）| ❌ |
-| **TencentDB Agent Memory** | — | — | — | — | ✅（OpenClaw/Hermes 官方）|
+| **[[TencentDB Agent Memory]]** | — | — | — | — | ✅（OpenClaw/Hermes 官方）|
 
 ### 4. 检索能力
 
@@ -132,7 +132,7 @@ updated: 2026-08-24
 | OpenViking | ✅ | ✅ | ✅ | ✅ | ✅（L0/L1/L2）|
 | [[EverOS]] ⚠️ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | [[agentmemory]] | ✅（qmd）| ✅（qmd）| ✅（qmd hybrid）| ❌ | ❌ |
-| **TencentDB Agent Memory** | ✅ | — | ✅（向量+语义）| ✅ | ✅（L0/L1/L2/L3 金字塔）|
+| **[[TencentDB Agent Memory]]** | ✅ | — | ✅（向量+语义）| ✅ | ✅（L0/L1/L2/L3 金字塔）|
 
 ## 记忆哲学对比
 
